@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49c0416c360a3ac48b6dc5c970aff202, type: 3}
+  m_Name: Stardust
+  m_EditorClassIdentifier: 
+  itemName: Stardust
+  itemNamePlural: Stardusts
+  itemDescription: Lovely red sand that flows between the fingers with a loose, silky
+    feel. It can be sold to shops for $1,500.
+  itemUseMessage: 
+  itemIcon: {fileID: 1778461528, guid: ac4a0fc02405fc5428f1be5a40aab8b8, type: 3}
+  isSellable: 1
+  price: 3000

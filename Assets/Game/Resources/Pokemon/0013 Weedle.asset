@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0013 Weedle
+  m_EditorClassIdentifier: 
+  pokemonName: Weedle
+  pokemonDescription: It eats its weight in leaves every day. It fends off attackers
+    with the needle on its head.
+  frontSprite: {fileID: 21300000, guid: 21f82f8b95a136c46aa35ee6b6dc341c, type: 3}
+  battleOffsetY: 13
+  backSprite: {fileID: 21300000, guid: dca15ce2dbf40024fab79c4987b996e6, type: 3}
+  iconSprite: {fileID: 21300000, guid: 71345d3079c1f2d40ae1846281f840b4, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 395753e0bd162c845a5216fd57dc33db, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 093120fae1e70354d8d55bd2b0ed437f, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 7
+  pokemonType2: 4
+  ability1: 56
+  ability2: 56
+  hiddenAbility: 49
+  maxHP: 40
+  attack: 35
+  defense: 30
+  spAttack: 20
+  spDefense: 20
+  speed: 50
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 1
+  expYield: 39
+  growthRate: 2
+  catchRate: 255
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: faa059aa4cc88ef47b9a9088d54fd3b7, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: ef6e04d2c450be54fac0656768fb229d, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: f47444127fa6ede4a9367dbaf9625448, type: 2}
+    level: 9
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 3d182c37eaa3972439dc759361fad7a3, type: 2}
+    requiredLevel: 7
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

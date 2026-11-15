@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0019 Rattata
+  m_EditorClassIdentifier: 
+  pokemonName: Rattata
+  pokemonDescription: It's cautious in the extreme, and its hardy vitality lets it
+    live in any kind of environment.
+  frontSprite: {fileID: 21300000, guid: 652a3a37f31437a4997587075991d680, type: 3}
+  battleOffsetY: 14
+  backSprite: {fileID: 21300000, guid: de41e8bc1579efd478744853276d2887, type: 3}
+  iconSprite: {fileID: 21300000, guid: 6ee42927ca7d0504d85858cdf69c8a8a, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: da4442cf71c99ac4d8c690e907236c48, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: b199c7de557f1ea4890a7faac70d4220, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 1
+  pokemonType2: 0
+  ability1: 49
+  ability2: 19
+  hiddenAbility: 21
+  maxHP: 30
+  attack: 56
+  defense: 35
+  spAttack: 25
+  spDefense: 35
+  speed: 72
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 1
+  expYield: 51
+  growthRate: 2
+  catchRate: 255
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 743cecf0a3490854d8f38789b440b8a6, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 0aed80ca2b175ae4eb92cdb7a15b3c98, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: d7cef81c096d2364d98837f570133b34, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: 6dcd1ae88dcf03f4db2524065399cfb3, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: 30d52840ae6547e44b70fac03c015c65, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 97a885dd37204df4b9ec8f9a87faa93c, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: 43eb4537295bb09449c147a0e7b70c62, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: 513ff650b9c854f4c8bedc35f10f521c, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 859844a70b00c9941beb47ea92bbad57, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 13769e1b352836747a6291d6b3be9024, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: 931a146a2c960fe478ff68baf8f3fe50, type: 2}
+    level: 34
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: ba5a1be426b95894f81ed2a7c0eeab43, type: 2}
+    requiredLevel: 20
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

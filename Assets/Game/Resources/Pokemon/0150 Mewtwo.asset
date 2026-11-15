@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0150 Mewtwo
+  m_EditorClassIdentifier: 
+  pokemonName: Mewtwo
+  pokemonDescription: "Mewtwo was created by recombining Mew's genes. It's said to
+    have the most savage heart among Pok\xE9mon."
+  frontSprite: {fileID: 21300000, guid: 137921134536604478b4d14eed21b4a3, type: 3}
+  battleOffsetY: 2
+  backSprite: {fileID: 21300000, guid: f0d8ce769830a2b438efdc604804e9dd, type: 3}
+  iconSprite: {fileID: 21300000, guid: c5d0e5cddea8cb04dad8f5324146ad4c, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 5d2d349e226e30e4aa231eb7e5aa02ca, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: d02b7c289bebab74fa792f28a7792882, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 14
+  pokemonType2: 0
+  ability1: 44
+  ability2: 44
+  hiddenAbility: 160
+  maxHP: 106
+  attack: 110
+  defense: 90
+  spAttack: 154
+  spDefense: 90
+  speed: 130
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 3
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 340
+  growthRate: 4
+  catchRate: 3
+  pokemonStatus: 4
+  genderRate: 0
+  baseFriendship: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 10d9f56733f4dfc4e8960f44802f0c55, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 69e5b2550809f774ab0be589cd080ead, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 8fd1eb09ad9aacf46a6161efe6babcb1, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 61aea8067e9592445892c1e71899ace4, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: a142347348c64c34693f56489900fa7c, type: 2}
+    level: 29
+  - moveBase: {fileID: 11400000, guid: 30e90e55fce413e43ae3f38945b08194, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: f839c4ff43d0fbb4eb0cfb282fc561e5, type: 2}
+    level: 43
+  - moveBase: {fileID: 11400000, guid: 004909bc0ec7abf4d84824d3976dc641, type: 2}
+    level: 50
+  - moveBase: {fileID: 11400000, guid: c4f0260ee55fe1e4c93607391a8ea468, type: 2}
+    level: 57
+  - moveBase: {fileID: 11400000, guid: eae96b657b521be4598511d5969ae235, type: 2}
+    level: 64
+  - moveBase: {fileID: 11400000, guid: 56bacf6372013714792da445eeb0cad9, type: 2}
+    level: 71
+  - moveBase: {fileID: 11400000, guid: 00453fe54305a0949af0ef6722c6f25f, type: 2}
+    level: 79
+  - moveBase: {fileID: 11400000, guid: c52a1116f79bb0f4790ac4f9e9f3d9c9, type: 2}
+    level: 86
+  - moveBase: {fileID: 11400000, guid: 1239573fbb499af45a98e02961dfdaef, type: 2}
+    level: 93
+  - moveBase: {fileID: 11400000, guid: 28314ac7dd8a94741b6a5d351aa6ea53, type: 2}
+    level: 100
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

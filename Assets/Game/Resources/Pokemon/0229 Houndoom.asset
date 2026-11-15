@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0229 Houndoom
+  m_EditorClassIdentifier: 
+  pokemonName: Houndoom
+  pokemonDescription: Long ago, people imagined its eerie howls to be the call of
+    the grim reaper.
+  frontSprite: {fileID: 21300000, guid: 1dec42fa99e0a0443baa904f2bf9425e, type: 3}
+  battleOffsetY: 1
+  backSprite: {fileID: 21300000, guid: 17299cd85595930438987e3bd8b636e9, type: 3}
+  iconSprite: {fileID: 21300000, guid: 2dbd39444b8604d4eb2066db355ed178, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 10967bccf3565764a9580bdde7350342, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 89c98bc8488246c408996c03c8f87250, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 17
+  pokemonType2: 10
+  ability1: 14
+  ability2: 17
+  hiddenAbility: 160
+  maxHP: 75
+  attack: 90
+  defense: 50
+  spAttack: 110
+  spDefense: 80
+  speed: 95
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 2
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 175
+  growthRate: 4
+  catchRate: 45
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 35
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: bd39272fd9c165247821b2074a076d4a, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e3aee3e3753080047b12fa8051d20c7b, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 7365dc93dfad88548b3097486dd51785, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 7365dc93dfad88548b3097486dd51785, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: 17323e8bfe4aa8d4d92ad20c2f2e7123, type: 2}
+    level: 14
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 1871e22a3da4d554a82a7d1d33db7c87, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: 00b5e22d50a520c4ea4e5d2dbae2c994, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 2a8c741df5c9e4d4492af9d82d1c0200, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: f0d08902af80db84ea7498ce7073e330, type: 2}
+    level: 38
+  - moveBase: {fileID: 11400000, guid: f1566467988f4f9468e217f5e9f74235, type: 2}
+    level: 44
+  - moveBase: {fileID: 11400000, guid: 76338d4301d17cb489747f4845164d9b, type: 2}
+    level: 48
+  - moveBase: {fileID: 11400000, guid: 43eb4537295bb09449c147a0e7b70c62, type: 2}
+    level: 54
+  - moveBase: {fileID: 11400000, guid: 2ec432da0596de345aaa31a2ba030362, type: 2}
+    level: 60
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

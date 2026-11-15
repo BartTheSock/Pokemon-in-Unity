@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0188 Skiploom
+  m_EditorClassIdentifier: 
+  pokemonName: Skiploom
+  pokemonDescription: It blooms when the weather warms. It floats in the sky to soak
+    up as much sunlight as possible.
+  frontSprite: {fileID: 21300000, guid: 8bc712b46b50fbe478fd260256edba80, type: 3}
+  battleOffsetY: -8
+  backSprite: {fileID: 21300000, guid: 2c17ecc8216ffbd4682798988ae515de, type: 3}
+  iconSprite: {fileID: 21300000, guid: 71d18b361b3fe89429c69d11a5b0e1ca, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 79842fecd12128e4299a0e169f2d3393, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: b4d871ece705ab945825aa725d2a9a80, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 12
+  pokemonType2: 3
+  ability1: 25
+  ability2: 109
+  hiddenAbility: 98
+  maxHP: 55
+  attack: 45
+  defense: 50
+  spAttack: 45
+  spDefense: 65
+  speed: 80
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 2
+  expYield: 119
+  growthRate: 3
+  catchRate: 120
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1fb217a95c7e98b469c850be2bff8aee, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: dfa8c6a33e3023349b0d66e6d2091c22, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 743cecf0a3490854d8f38789b440b8a6, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: dfa8c6a33e3023349b0d66e6d2091c22, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 743cecf0a3490854d8f38789b440b8a6, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: 51f39c774ed71d64c9157006cc0416e9, type: 2}
+    level: 12
+  - moveBase: {fileID: 11400000, guid: a51d01fd53f1c3f4e8e42788784c205d, type: 2}
+    level: 14
+  - moveBase: {fileID: 11400000, guid: e781d3b803a302b4d809c1bfeb5fc1ce, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 9d4bd32ede9e2f64ba3f4617c01f6ed1, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: fda4f4631bfdf38479c4f9e332fc874c, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: 3a2b607f097308648adc4ffc2b1cda9a, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 95ae7f054e547fa4eac8a755301878f3, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: f47444127fa6ede4a9367dbaf9625448, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: 955ad0358a27d2549890525e7008b890, type: 2}
+    level: 42
+  - moveBase: {fileID: 11400000, guid: c51ff5d2de99155449ae64af3c41c422, type: 2}
+    level: 47
+  - moveBase: {fileID: 11400000, guid: 2ec432da0596de345aaa31a2ba030362, type: 2}
+    level: 52
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 0790d39dd45cd1b479ad815653bc2bf0, type: 2}
+    requiredLevel: 27
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

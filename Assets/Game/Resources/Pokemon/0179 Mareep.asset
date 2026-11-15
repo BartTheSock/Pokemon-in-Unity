@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0179 Mareep
+  m_EditorClassIdentifier: 
+  pokemonName: Mareep
+  pokemonDescription: Its fluffy coat doubles in size when static electricity builds
+    up. Touching it can be shocking.
+  frontSprite: {fileID: 21300000, guid: 6b7f6a86a997d78429d1278e96fe00d0, type: 3}
+  battleOffsetY: 14
+  backSprite: {fileID: 21300000, guid: 12f3574d05c1f284395e5329c9375928, type: 3}
+  iconSprite: {fileID: 21300000, guid: c60bc15542a5f2f44a16a9b870261d8d, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 78ecd0e1f4d214f4aa4f09b8ce941065, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 5ba4c2f5b8ee85b4fabce8b026e9e365, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 13
+  pokemonType2: 0
+  ability1: 59
+  ability2: 59
+  hiddenAbility: 42
+  maxHP: 55
+  attack: 40
+  defense: 40
+  spAttack: 65
+  spDefense: 45
+  speed: 35
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 1
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 56
+  growthRate: 3
+  catchRate: 235
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: a14dbb6d7f6b9a446bf31748a1106291, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: cd2f57390ff2e4243a4a9071ff0bfba7, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: e8d146e76ca3ac041a38a0f8a885deb3, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: e2b7797935a511b409197c3774e194f4, type: 2}
+    level: 14
+  - moveBase: {fileID: 11400000, guid: 95ae7f054e547fa4eac8a755301878f3, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: c3998be70d9e4fc4f95538cc4a36a8f3, type: 2}
+    level: 23
+  - moveBase: {fileID: 11400000, guid: 7913c2e12d2f4ab4ea46bc57e7ad7fa0, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 90a576a46a69f2a43bd7034dec29caa0, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: 672ed2da24ac9c943a50b5dcb4f5adfb, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: 41e1942296083104a916ab785d49720b, type: 2}
+    level: 41
+  - moveBase: {fileID: 11400000, guid: 5a67cb5c296b54341846710274387de1, type: 2}
+    level: 46
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 2c36afc73b869de4b96a3475a33a0dac, type: 2}
+    requiredLevel: 15
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0283 Surskit
+  m_EditorClassIdentifier: Assembly-CSharp::PokemonBase
+  pokemonName: Surskit
+  pokemonDescription: It appears as if it is skating on water. It draws prey in with
+    a sweet scent released from the tip of its head.
+  frontSprite: {fileID: 21300000, guid: 2198be414db94344481fe0fbb0b7f069, type: 3}
+  battleOffsetY: 18
+  backSprite: {fileID: 21300000, guid: 8ebd73a9db6d5fc4e869ff9718f40cfe, type: 3}
+  iconSprite: {fileID: 21300000, guid: b490e541149eb144d81a64a9e4cfe089, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 45e809546cc8b994fa36d991d11424cb, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 02196a3954b614a4a8733b03c0afc64d, type: 3}
+  pokemonType1: 7
+  pokemonType2: 11
+  ability1: 65
+  ability2: 65
+  hiddenAbility: 46
+  maxHP: 40
+  attack: 30
+  defense: 32
+  spAttack: 50
+  spDefense: 52
+  speed: 65
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 1
+  expYield: 54
+  growthRate: 2
+  catchRate: 200
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves: []
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 097b3746cabc52c428ac4c2303d4e9a5, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 8268d75780ff6ff44962e92559ca1c2f, type: 2}
+    requiredLevel: 22
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

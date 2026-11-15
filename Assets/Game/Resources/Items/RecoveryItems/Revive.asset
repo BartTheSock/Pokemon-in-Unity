@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32da641e7f1c2e0408bf430207fcc7c1, type: 3}
+  m_Name: Revive
+  m_EditorClassIdentifier: 
+  itemName: Revive
+  itemNamePlural: Revives
+  itemDescription: "A medicine that can be used to revive a Pok\xE9mon that has fainted.
+    It also restores half the Pok\xE9mon's max HP."
+  itemUseMessage: ' was revived to half HP!'
+  itemIcon: {fileID: 993194199, guid: e21ed06e4dd2ab74188f6e46840029b6, type: 3}
+  isSellable: 1
+  price: 1500
+  hpAmount: 0
+  restoreMaxHP: 0
+  ppAmount: 0
+  restoreMaxPP: 0
+  restoreHalfPP: 0
+  status: 0
+  recoverAllStatus: 0
+  revive: 1
+  maxRevive: 0

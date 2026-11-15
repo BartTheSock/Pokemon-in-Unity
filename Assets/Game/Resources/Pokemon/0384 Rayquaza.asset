@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0384 Rayquaza
+  m_EditorClassIdentifier: 
+  pokemonName: Rayquaza
+  pokemonDescription: It lives in the ozone layer far above the clouds and cannot
+    be seen from the ground.
+  frontSprite: {fileID: 21300000, guid: 337301b7d6924f547b041da7fec7feec, type: 3}
+  battleOffsetY: -8
+  backSprite: {fileID: 21300000, guid: e5c042b1d73530341b46bf15120d6990, type: 3}
+  iconSprite: {fileID: 21300000, guid: fa6471e5afca60e4bb4b47fdc4569b2b, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 50e5b5463413f0b4b8e191e3fd8801a2, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: f0373b59ba5c0e64b9fef9a1be48a99c, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 16
+  pokemonType2: 3
+  ability1: 1
+  ability2: 1
+  hiddenAbility: 1
+  maxHP: 105
+  attack: 150
+  defense: 90
+  spAttack: 150
+  spDefense: 90
+  speed: 95
+  HPEVYield: 0
+  attackEVYield: 2
+  defenseEVYield: 0
+  spAttackEVYield: 1
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 306
+  growthRate: 4
+  catchRate: 3
+  pokemonStatus: 4
+  genderRate: 0
+  baseFriendship: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 8aca12d686354f74d935289ab26108b3, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 7a7cc5fe208c841459298391ced14287, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 43eb4537295bb09449c147a0e7b70c62, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 4e4579ba7cf92714aafdd36dffbe08b3, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: ec737726ffdd33b4ebe8db4bac3a84b0, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 5cbe33111b749194e9472e43d77b5140, type: 2}
+    level: 30
+  - moveBase: {fileID: 11400000, guid: a142347348c64c34693f56489900fa7c, type: 2}
+    level: 35
+  - moveBase: {fileID: 11400000, guid: cc011528cce1e0b4396247f168a761a3, type: 2}
+    level: 45
+  - moveBase: {fileID: 11400000, guid: 3fff35110f699664b8009d8779ac4f37, type: 2}
+    level: 50
+  - moveBase: {fileID: 11400000, guid: 9ba60f8c0a236c34687e2a0cf900a10d, type: 2}
+    level: 60
+  - moveBase: {fileID: 11400000, guid: 23229976a9e108640b678af201609a5a, type: 2}
+    level: 65
+  - moveBase: {fileID: 11400000, guid: 1d96e8314edf16e45983d696c4f9681c, type: 2}
+    level: 75
+  - moveBase: {fileID: 11400000, guid: 00fdd4a29b6cf5a47b9531466ab9f592, type: 2}
+    level: 85
+  - moveBase: {fileID: 11400000, guid: 589925960dc957045ab9e212eb23e168, type: 2}
+    level: 90
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 097b3746cabc52c428ac4c2303d4e9a5, type: 2}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

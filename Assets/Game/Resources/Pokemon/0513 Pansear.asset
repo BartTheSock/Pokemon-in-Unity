@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0513 Pansear
+  m_EditorClassIdentifier: 
+  pokemonName: Pansear
+  pokemonDescription: "When it is angered, the temperature of its head tuft reaches
+    600\xB0 F. It uses its tuft to roast berries."
+  frontSprite: {fileID: 21300000, guid: 2e177576c75283640adaaf8a915043f2, type: 3}
+  battleOffsetY: 13
+  backSprite: {fileID: 21300000, guid: 967e14ee93e833340ba4fb1deb535001, type: 3}
+  iconSprite: {fileID: 21300000, guid: 1ccfc9f3fdab72949923fa3f5600e0a3, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 9768503aec38c434299230760f338b48, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 01c6ac40001abf945860708c64222517, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 10
+  pokemonType2: 0
+  ability1: 88
+  ability2: 88
+  hiddenAbility: 4
+  maxHP: 50
+  attack: 53
+  defense: 48
+  spAttack: 53
+  spDefense: 48
+  speed: 64
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 1
+  expYield: 63
+  growthRate: 2
+  catchRate: 190
+  pokemonStatus: 0
+  genderRate: 2
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1cfce7ccaac906b4dab6a456c13ab842, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 1dd60b9f9f4d3c14cb047e4e43a39560, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 8b8b9ff00560f064183c6d0c4343552e, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: cb3c38d6d1e8f544192d583416700e5d, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: bdc7d453c62926241bf4895126e72499, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: 626be5993efcf514f97d20a9589dabb4, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: c4f0260ee55fe1e4c93607391a8ea468, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: f0d08902af80db84ea7498ce7073e330, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 34c6f8c667be5e148afdab9421e2ee11, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: 69b5f7f0f4a7557468f8906b89de42fd, type: 2}
+    level: 34
+  - moveBase: {fileID: 11400000, guid: 58becc9143f15ef46a7d286f8e60fb60, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: fd76d24358c475949bf4251026c6cff2, type: 2}
+    level: 40
+  - moveBase: {fileID: 11400000, guid: 43eb4537295bb09449c147a0e7b70c62, type: 2}
+    level: 43
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 48b8454b5bcfca143bf3edda045859ae, type: 2}
+    requiredLevel: 110
+    requiredItem: {fileID: 11400000, guid: 230543b12f524fe4f95256bd28afc950, type: 2}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

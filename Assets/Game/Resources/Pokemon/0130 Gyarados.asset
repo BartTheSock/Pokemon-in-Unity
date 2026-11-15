@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0130 Gyarados
+  m_EditorClassIdentifier: 
+  pokemonName: Gyarados
+  pokemonDescription: In ancient literature, there is a record of a Gyarados that
+    razed a village when violence flared.
+  frontSprite: {fileID: 21300000, guid: 6886f393e65ada0438eefc98b63f6845, type: 3}
+  battleOffsetY: 0
+  backSprite: {fileID: 21300000, guid: 3fe629114beec34479a6ff1abc3d51db, type: 3}
+  iconSprite: {fileID: 21300000, guid: e87ad7d06cfe52a47b4338d70c2446c8, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: dd9368b11c3803b4a8d69050f5cdb9e3, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 9d6e7c7ed4e014d44a049fa0cd462dff, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 11
+  pokemonType2: 3
+  ability1: 27
+  ability2: 27
+  hiddenAbility: 143
+  maxHP: 95
+  attack: 120
+  defense: 79
+  spAttack: 60
+  spDefense: 100
+  speed: 81
+  HPEVYield: 0
+  attackEVYield: 2
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 189
+  growthRate: 4
+  catchRate: 45
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 3d76a5d1684712d4cae4bae32df69d73, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: caf657f6e408cb847892c3c2b479de29, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: 3dd573f9ae42e7d409b108d64527fbfd, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 26
+  - moveBase: {fileID: 11400000, guid: 8aca12d686354f74d935289ab26108b3, type: 2}
+    level: 29
+  - moveBase: {fileID: 11400000, guid: a846082cc4169d94e86fc21f2a5c3f50, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: ee1702e6310a2fd4cbd2ef8c81304cfd, type: 2}
+    level: 35
+  - moveBase: {fileID: 11400000, guid: 51496e7d8216db945ba60ba88c3a0182, type: 2}
+    level: 38
+  - moveBase: {fileID: 11400000, guid: f792656126440ae4aa1f8703324c6dd2, type: 2}
+    level: 41
+  - moveBase: {fileID: 11400000, guid: cc011528cce1e0b4396247f168a761a3, type: 2}
+    level: 44
+  - moveBase: {fileID: 11400000, guid: 23229976a9e108640b678af201609a5a, type: 2}
+    level: 47
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 097b3746cabc52c428ac4c2303d4e9a5, type: 2}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions: []

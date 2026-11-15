@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0662 Fletchinder
+  m_EditorClassIdentifier: 
+  pokemonName: Fletchinder
+  pokemonDescription: "Fletchinder scatters embers in tall grass where bug Pok\xE9mon
+    might be hiding and then catches them as they come leaping out."
+  frontSprite: {fileID: 21300000, guid: b195a45bf67191641bc8d3cc7c77e872, type: 3}
+  battleOffsetY: 0
+  backSprite: {fileID: 21300000, guid: d901e6107844b964a8ba19726eb1cdc7, type: 3}
+  iconSprite: {fileID: 21300000, guid: f60e807afa86cae4cbfb1792490c47f3, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 263401814d0bfe74d8209a1a9c8c71a4, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: f656ad5a8c6cb7540b715abd64e9ecd0, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 10
+  pokemonType2: 3
+  ability1: 16
+  ability2: 16
+  hiddenAbility: 177
+  maxHP: 62
+  attack: 73
+  defense: 55
+  spAttack: 56
+  spDefense: 52
+  speed: 84
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 2
+  expYield: 134
+  growthRate: 3
+  catchRate: 120
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 1a7cdc8e2ace855499436ee335ff283d, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: e82c9aa6c581cd14f8a3800400547e03, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: e3aee3e3753080047b12fa8051d20c7b, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: 0aed80ca2b175ae4eb92cdb7a15b3c98, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: ecfb6921b39bb6746a421df560ed7182, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: da3cab269e9701a4181d6f5e5e793c9b, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: a6f3123091b76634ca60ff5188f0ac3b, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: d7e284b8b884bc340ae8b033ef861d47, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: ae9914eb3377bc347984d71f06757d6a, type: 2}
+    level: 38
+  - moveBase: {fileID: 11400000, guid: 34c6f8c667be5e148afdab9421e2ee11, type: 2}
+    level: 42
+  - moveBase: {fileID: 11400000, guid: 9b3f4d0ff179a2b4d8d04d91fc2bbd2f, type: 2}
+    level: 46
+  - moveBase: {fileID: 11400000, guid: b6504a80e33379f4080ddde43f416558, type: 2}
+    level: 51
+  - moveBase: {fileID: 11400000, guid: 00fdd4a29b6cf5a47b9531466ab9f592, type: 2}
+    level: 55
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 11400000, guid: d7e284b8b884bc340ae8b033ef861d47, type: 2}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 02900f4cbfac1d744b8ec66240147326, type: 2}
+    requiredLevel: 35
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

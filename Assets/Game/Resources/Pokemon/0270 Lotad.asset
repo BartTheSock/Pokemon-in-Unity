@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0270 Lotad
+  m_EditorClassIdentifier: 
+  pokemonName: Lotad
+  pokemonDescription: "It looks like an aquatic plant and serves as a ferry for Pok\xE9mon
+    that can't swim."
+  frontSprite: {fileID: 21300000, guid: c51c7db5683d0ba42b16944b925a7c4d, type: 3}
+  battleOffsetY: 18
+  backSprite: {fileID: 21300000, guid: ee21f647e44447448ba9b4600129c16d, type: 3}
+  iconSprite: {fileID: 21300000, guid: f64fca2ac64b6f448937f5c09427de7f, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: e3ba0f05b0b4df241a5cb2f9bf61bf02, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 2c3f93d80d4a5c541aeb795d03358814, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 11
+  pokemonType2: 12
+  ability1: 65
+  ability2: 46
+  hiddenAbility: 40
+  maxHP: 40
+  attack: 30
+  defense: 30
+  spAttack: 40
+  spDefense: 50
+  speed: 30
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 1
+  speedEVYield: 0
+  expYield: 44
+  growthRate: 3
+  catchRate: 255
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: afaa8be75500ef441a7a8dc94ec8ff60, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 3
+  - moveBase: {fileID: 11400000, guid: dfa8c6a33e3023349b0d66e6d2091c22, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: a51d01fd53f1c3f4e8e42788784c205d, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 05aaa98939291cc40a7427b7bee3450a, type: 2}
+    level: 11
+  - moveBase: {fileID: 11400000, guid: 8def782cce7e2c74dbfce52b62530fcd, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 3a2b607f097308648adc4ffc2b1cda9a, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: f9754b98b54142b48ad0bd185d7d741f, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 4bde7e52c6949354b8862ac339943819, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: 51496e7d8216db945ba60ba88c3a0182, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: 4c2b4df74d4370642815c77e38b10acd, type: 2}
+    level: 45
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 097b3746cabc52c428ac4c2303d4e9a5, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: e80ed951f45934d4e960ae5bd8a4585e, type: 2}
+    requiredLevel: 14
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

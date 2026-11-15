@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0186 Politoed
+  m_EditorClassIdentifier: 
+  pokemonName: Politoed
+  pokemonDescription: "A group of Poliwag and Poliwhirl will form with a Politoed
+    as the leader. Politoed's cries make the Pok\xE9mon of the group obey."
+  frontSprite: {fileID: 21300000, guid: e0ddfcc83f301954694a77a4a068108e, type: 3}
+  battleOffsetY: 0
+  backSprite: {fileID: 21300000, guid: 6ca80ef66a23ee94d9f0bd6370fb2b52, type: 3}
+  iconSprite: {fileID: 21300000, guid: de22dab11443c7c43a00b5fa6bca773e, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: cf6be8b5ab273d245963b73a656af7eb, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 2f686efd7c6970b47ba155589b809499, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 11
+  pokemonType2: 0
+  ability1: 73
+  ability2: 11
+  hiddenAbility: 12
+  maxHP: 90
+  attack: 75
+  defense: 75
+  spAttack: 90
+  spDefense: 100
+  speed: 70
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 3
+  speedEVYield: 0
+  expYield: 225
+  growthRate: 3
+  catchRate: 45
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: f9754b98b54142b48ad0bd185d7d741f, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 757cd6b987f8540439d7e0d9b42969fd, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 788b10408ac5639449945e72416e3f3f, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 4e4579ba7cf92714aafdd36dffbe08b3, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: c51ff5d2de99155449ae64af3c41c422, type: 2}
+    level: 43
+  - moveBase: {fileID: 11400000, guid: 7a9382dcf11d5a74d978feb808bec7a1, type: 2}
+    level: 53
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 097b3746cabc52c428ac4c2303d4e9a5, type: 2}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

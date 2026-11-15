@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0525 Boldore
+  m_EditorClassIdentifier: 
+  pokemonName: Boldore
+  pokemonDescription: It relies on sound in order to monitor what's in its vicinity.
+    When angered, it will attack without ever changing the direction it's facing.
+  frontSprite: {fileID: 21300000, guid: ce7f6cfbd27dbf745bc92b2a65bae923, type: 3}
+  battleOffsetY: 16
+  backSprite: {fileID: 21300000, guid: d1de6a58e35b11d4db15badbe2cb1a1a, type: 3}
+  iconSprite: {fileID: 21300000, guid: da7262614d6787c4181e05eaecf52acd, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 9908f42e58ba2d642a6f76eec812392d, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: eec644bef85f4f24ba19f8d162bc4278, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 6
+  pokemonType2: 0
+  ability1: 62
+  ability2: 162
+  hiddenAbility: 152
+  maxHP: 75
+  attack: 105
+  defense: 105
+  spAttack: 50
+  spDefense: 40
+  speed: 20
+  HPEVYield: 0
+  attackEVYield: 1
+  defenseEVYield: 1
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 137
+  growthRate: 3
+  catchRate: 120
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 41e1942296083104a916ab785d49720b, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 38965cc6552b4b948b8490cdc5008fa1, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 486133dbc88798f488f17dfbcf05ec57, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 05aaa98939291cc40a7427b7bee3450a, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 38965cc6552b4b948b8490cdc5008fa1, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 486133dbc88798f488f17dfbcf05ec57, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 05aaa98939291cc40a7427b7bee3450a, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: 8064089c3907bfa4e97d0e52238efa5d, type: 2}
+    level: 14
+  - moveBase: {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 77894fa3cad4a614c9fdc7e8d51eb441, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: 0b36e163fb5a62744932415882337a2c, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 4b10e918ee367ee46950e586058d6f03, type: 2}
+    level: 30
+  - moveBase: {fileID: 11400000, guid: e90f09fd42577364a8589ceddc6ad50a, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: aa30341a5ee68c34490489cb4560e36c, type: 2}
+    level: 42
+  - moveBase: {fileID: 11400000, guid: 1bdb5d6f50d3bca41830d108c1859ef3, type: 2}
+    level: 48
+  - moveBase: {fileID: 11400000, guid: 39cf006a0a2323c4cba89aaaa7a34e1e, type: 2}
+    level: 55
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: f37cc09f2e9f7b64f860e4dd1a43ab26, type: 2}
+    requiredLevel: 110
+    requiredItem: {fileID: 11400000, guid: 2149d9df8b38871499173d685b85bf2c, type: 2}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0
+  - evolvesInto: {fileID: 11400000, guid: f37cc09f2e9f7b64f860e4dd1a43ab26, type: 2}
+    requiredLevel: 0
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 1

@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0057 Primeape
+  m_EditorClassIdentifier: 
+  pokemonName: Primeape
+  pokemonDescription: It becomes angry if it sees an opponent's eyes and gets angrier
+    if the opponent runs. Even after it beats the opponent, it is still angry.
+  frontSprite: {fileID: 21300000, guid: f602fc3fd60f1b54ea2f476f4f1dbaa6, type: 3}
+  battleOffsetY: 7
+  backSprite: {fileID: 21300000, guid: 512b6d883fe045d4fa5aaa87799c3650, type: 3}
+  iconSprite: {fileID: 21300000, guid: 3a84588be63da4d45adf3cef41f96a5c, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 552b90dbaf237114aaa9bc941d98b452, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 09cbf5553d5225e4281277f25bf00f41, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 2
+  pokemonType2: 0
+  ability1: 71
+  ability2: 79
+  hiddenAbility: 129
+  maxHP: 65
+  attack: 105
+  defense: 60
+  spAttack: 60
+  spDefense: 70
+  speed: 95
+  HPEVYield: 0
+  attackEVYield: 2
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 159
+  growthRate: 2
+  catchRate: 75
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1cfce7ccaac906b4dab6a456c13ab842, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: ddf11ec0473b07f46993332c2b8aa294, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: d7cef81c096d2364d98837f570133b34, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: cb3c38d6d1e8f544192d583416700e5d, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: 0ac763834cf350a449b476adc28ee509, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: b10e26d280f706f49a7c96674b79cd39, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: f07e2819b4dbae548bbf711cb2d76f18, type: 2}
+    level: 21
+  - moveBase: {fileID: 11400000, guid: 058d2ea14181c284e957d6515d7ec0e8, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 513ff650b9c854f4c8bedc35f10f521c, type: 2}
+    level: 29
+  - moveBase: {fileID: 11400000, guid: 7a9382dcf11d5a74d978feb808bec7a1, type: 2}
+    level: 33
+  - moveBase: {fileID: 11400000, guid: 8517b7365a0321d46be8bd64ca229ead, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: 3d76a5d1684712d4cae4bae32df69d73, type: 2}
+    level: 41
+  - moveBase: {fileID: 11400000, guid: 7a00cc5cf95c65f418263a2f01ef1f34, type: 2}
+    level: 45
+  - moveBase: {fileID: 11400000, guid: da819a2533f664c4c995e0da6ede6dbe, type: 2}
+    level: 49
+  - moveBase: {fileID: 11400000, guid: 827775e6f7ba5fa4a99da6641865210f, type: 2}
+    level: 53
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 601247e86617620458870aaf6d7cf5a6, type: 2}
+    requiredLevel: 38
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 11400000, guid: 8517b7365a0321d46be8bd64ca229ead, type: 2}
+    friendshipRequired: 0

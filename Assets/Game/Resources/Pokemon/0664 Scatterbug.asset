@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0664 Scatterbug
+  m_EditorClassIdentifier: 
+  pokemonName: Scatterbug
+  pokemonDescription: "Any poison this Pok\xE9mon takes in is converted into a black
+    powder and secreted. That's why Scatterbug can eat poisonous leaves and roots."
+  frontSprite: {fileID: 21300000, guid: c7ccad77365e8b94ab6b5e7b936057ff, type: 3}
+  battleOffsetY: 14
+  backSprite: {fileID: 21300000, guid: 110b10cd828b4b1458e428337899713e, type: 3}
+  iconSprite: {fileID: 21300000, guid: 6d9b58f7d8bea974d8448abf01e87fa3, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: dbb59b4fc0a8c3343ada762cca2c4167, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 4633b699bb3214d4e9bee2a2911932b1, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 7
+  pokemonType2: 0
+  ability1: 56
+  ability2: 9
+  hiddenAbility: 131
+  maxHP: 38
+  attack: 35
+  defense: 40
+  spAttack: 27
+  spDefense: 25
+  speed: 35
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 1
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 40
+  growthRate: 2
+  catchRate: 255
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: ef6e04d2c450be54fac0656768fb229d, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: a51d01fd53f1c3f4e8e42788784c205d, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: f47444127fa6ede4a9367dbaf9625448, type: 2}
+    level: 15
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 31a21480098397b4484618da15c3ddc6, type: 2}
+    requiredLevel: 9
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

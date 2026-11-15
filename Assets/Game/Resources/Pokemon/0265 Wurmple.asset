@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0265 Wurmple
+  m_EditorClassIdentifier: 
+  pokemonName: Wurmple
+  pokemonDescription: It spits a white silk thread that turns sticky when coming
+    into contact with air. The silk is used to immobilize foes.
+  frontSprite: {fileID: 21300000, guid: 4bbf5e04855e63e45b754ac2362697b3, type: 3}
+  battleOffsetY: 13
+  backSprite: {fileID: 21300000, guid: f9eeb7864dc48f54bbf4ef2eaeaa3fbf, type: 3}
+  iconSprite: {fileID: 21300000, guid: 1f371b4239f937342ab25484a3e50ca6, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 2b063dd17f742f6469094b85972899d3, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: f4279a38827ca2a46a44751e9808b973, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 7
+  pokemonType2: 0
+  ability1: 56
+  ability2: 56
+  hiddenAbility: 49
+  maxHP: 45
+  attack: 45
+  defense: 35
+  spAttack: 20
+  spDefense: 30
+  speed: 20
+  HPEVYield: 1
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 56
+  growthRate: 2
+  catchRate: 255
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: ef6e04d2c450be54fac0656768fb229d, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: faa059aa4cc88ef47b9a9088d54fd3b7, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: f47444127fa6ede4a9367dbaf9625448, type: 2}
+    level: 15
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 4496d192d5b5ffa4e82329077f71353e, type: 2}
+    requiredLevel: 7
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0
+  - evolvesInto: {fileID: 11400000, guid: cfc40626367d1dc40be7db859420c41a, type: 2}
+    requiredLevel: 7
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

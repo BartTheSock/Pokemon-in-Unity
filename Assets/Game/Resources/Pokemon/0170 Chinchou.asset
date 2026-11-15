@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0170 Chinchou
+  m_EditorClassIdentifier: 
+  pokemonName: Chinchou
+  pokemonDescription: It discharges positive and negative electricity from the tips
+    of its antennae to shock its foes.
+  frontSprite: {fileID: 21300000, guid: 166310b1b04cc704faa0c118af034a31, type: 3}
+  battleOffsetY: 0
+  backSprite: {fileID: 21300000, guid: b403f02a3d38f3d4e879755548a827c4, type: 3}
+  iconSprite: {fileID: 21300000, guid: 0c435b4d2e923494996eeb795bc91f5b, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: cc4a07513f5aad24b98dd6bbd3e6f36c, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 10bcd5599ac328a4e828cc104f157f5c, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 11
+  pokemonType2: 13
+  ability1: 72
+  ability2: 23
+  hiddenAbility: 73
+  maxHP: 75
+  attack: 38
+  defense: 38
+  spAttack: 56
+  spDefense: 56
+  speed: 67
+  HPEVYield: 1
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 66
+  growthRate: 4
+  catchRate: 190
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 980059f3d8b3220448c96124b5b99ab7, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: ce1a0f1c44eb65e4584ca6a04aa1df6a, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: cd2f57390ff2e4243a4a9071ff0bfba7, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: ecfb6921b39bb6746a421df560ed7182, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: 8d3e6d6e0e5986041bddd97d8c9786f8, type: 2}
+    level: 12
+  - moveBase: {fileID: 11400000, guid: 18f9843c19944124fa0dc8b3fe0501e4, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 30e90e55fce413e43ae3f38945b08194, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: 13769e1b352836747a6291d6b3be9024, type: 2}
+    level: 23
+  - moveBase: {fileID: 11400000, guid: f9754b98b54142b48ad0bd185d7d741f, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 90a576a46a69f2a43bd7034dec29caa0, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: 7913c2e12d2f4ab4ea46bc57e7ad7fa0, type: 2}
+    level: 34
+  - moveBase: {fileID: 11400000, guid: 3d76a5d1684712d4cae4bae32df69d73, type: 2}
+    level: 39
+  - moveBase: {fileID: 11400000, guid: f792656126440ae4aa1f8703324c6dd2, type: 2}
+    level: 42
+  - moveBase: {fileID: 11400000, guid: c3998be70d9e4fc4f95538cc4a36a8f3, type: 2}
+    level: 45
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 097b3746cabc52c428ac4c2303d4e9a5, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 8b1468ea684ebf843832e47d0fbac519, type: 2}
+    requiredLevel: 27
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

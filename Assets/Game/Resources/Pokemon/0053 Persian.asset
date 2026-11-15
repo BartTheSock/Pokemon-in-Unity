@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0053 Persian
+  m_EditorClassIdentifier: 
+  pokemonName: Persian
+  pokemonDescription: "It is a very haughty Pok\xE9mon. Among fans of Persian, the
+    size of the jewel in its forehead is a topic of much talk."
+  frontSprite: {fileID: 21300000, guid: d4b293c50f60f324ab0b4b38735fe2f9, type: 3}
+  battleOffsetY: 5
+  backSprite: {fileID: 21300000, guid: 9a08a4bac01e41943b3e7b7e0f39f3d2, type: 3}
+  iconSprite: {fileID: 21300000, guid: 279676c75e6cc054a9030cf42f58cb50, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 1ec4068b5cde51e4b989ffacc9cebd31, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: b5df0530e592ffe44b9a659a9f972ef7, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 1
+  pokemonType2: 0
+  ability1: 31
+  ability2: 120
+  hiddenAbility: 160
+  maxHP: 65
+  attack: 70
+  defense: 60
+  spAttack: 65
+  spDefense: 65
+  speed: 115
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 2
+  expYield: 154
+  growthRate: 2
+  catchRate: 90
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 41e1942296083104a916ab785d49720b, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1cfce7ccaac906b4dab6a456c13ab842, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: ed735825f8fa1984cbce5f008bd18c34, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: ed735825f8fa1984cbce5f008bd18c34, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: cb3c38d6d1e8f544192d583416700e5d, type: 2}
+    level: 14
+  - moveBase: {fileID: 11400000, guid: 058d2ea14181c284e957d6515d7ec0e8, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: f0d08902af80db84ea7498ce7073e330, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: 3e9b5f41dbc897541b2bb2d592f35c94, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 1e107f2ef8dc04c439f8d93b42cf2e7e, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: 2ec432da0596de345aaa31a2ba030362, type: 2}
+    level: 44
+  - moveBase: {fileID: 11400000, guid: 513ff650b9c854f4c8bedc35f10f521c, type: 2}
+    level: 49
+  - moveBase: {fileID: 11400000, guid: 609c09962e8c6174384a2f4a90a412af, type: 2}
+    level: 56
+  - moveBase: {fileID: 11400000, guid: 72b6e4ac8e8683a4086bac1bba7cd142, type: 2}
+    level: 61
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

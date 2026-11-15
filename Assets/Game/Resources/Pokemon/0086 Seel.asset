@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0086 Seel
+  m_EditorClassIdentifier: 
+  pokemonName: Seel
+  pokemonDescription: "This Pok\xE9mon lives on icebergs. It uses the sharp point
+    on its head to break up ice as it swims in the sea."
+  frontSprite: {fileID: 21300000, guid: e521103e63605224fb81535c9cb8b027, type: 3}
+  battleOffsetY: 9
+  backSprite: {fileID: 21300000, guid: f0c497af4b7b38046864f7a6ab3775b7, type: 3}
+  iconSprite: {fileID: 21300000, guid: 9bb98c76be9724b47a275cf04de0e681, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 359bf2071ad80144d86d602910fd0472, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 75782bdb8799b2542a2daef299650eaf, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 11
+  pokemonType2: 0
+  ability1: 67
+  ability2: 91
+  hiddenAbility: 92
+  maxHP: 65
+  attack: 45
+  defense: 55
+  spAttack: 45
+  spDefense: 70
+  speed: 45
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 1
+  speedEVYield: 0
+  expYield: 65
+  growthRate: 2
+  catchRate: 190
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 05aaa98939291cc40a7427b7bee3450a, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 3
+  - moveBase: {fileID: 11400000, guid: f41423c4fe9e66f4cafebf0695328dfb, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: b43a457a5e6eb9046a7d986f996c2388, type: 2}
+    level: 11
+  - moveBase: {fileID: 11400000, guid: 8d3e6d6e0e5986041bddd97d8c9786f8, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: 5a2b86de4f1e3654e9d22dbae2359151, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 26cffb0cf9854bf488d4f7772a7ff0d1, type: 2}
+    level: 21
+  - moveBase: {fileID: 11400000, guid: 51496e7d8216db945ba60ba88c3a0182, type: 2}
+    level: 23
+  - moveBase: {fileID: 11400000, guid: 3da1ead767dfb994f8212c04273da231, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: 591ec395569b0ca489bcbd24c66309be, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: c29547de52c9e7f4bb64c06e25be9306, type: 2}
+    level: 33
+  - moveBase: {fileID: 11400000, guid: 13769e1b352836747a6291d6b3be9024, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: efacc6ce9c4216d408b6557448c43f9d, type: 2}
+    level: 41
+  - moveBase: {fileID: 11400000, guid: ee1702e6310a2fd4cbd2ef8c81304cfd, type: 2}
+    level: 43
+  - moveBase: {fileID: 11400000, guid: c19b46518720ad84d8000d14962ac374, type: 2}
+    level: 47
+  - moveBase: {fileID: 11400000, guid: ea627caaddcea5f40b64b5ad73b0e399, type: 2}
+    level: 51
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 097b3746cabc52c428ac4c2303d4e9a5, type: 2}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 1226af944ad5daa4ba28eeb963cc96f1, type: 2}
+    requiredLevel: 34
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

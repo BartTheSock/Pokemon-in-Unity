@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0476 Probopass
+  m_EditorClassIdentifier: 
+  pokemonName: Probopass
+  pokemonDescription: Its entire body exudes strong magnetism. Probopass controls
+    three small units called Mini-Noses.
+  frontSprite: {fileID: 21300000, guid: ac218d67f8a7a86469a4eb5efbf45977, type: 3}
+  battleOffsetY: -8
+  backSprite: {fileID: 21300000, guid: cc97550b47ddbb34fad9227f95ad2199, type: 3}
+  iconSprite: {fileID: 21300000, guid: 59a1dd922750e564488f01c501ef3faa, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 8d85d711ef7a6154d80b00fcbd0f4704, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: b1a10a43f3a392d4786138d00d765ab4, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 6
+  pokemonType2: 9
+  ability1: 62
+  ability2: 34
+  hiddenAbility: 152
+  maxHP: 60
+  attack: 55
+  defense: 145
+  spAttack: 75
+  spDefense: 150
+  speed: 40
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 1
+  spAttackEVYield: 0
+  spDefenseEVYield: 2
+  speedEVYield: 0
+  expYield: 184
+  growthRate: 2
+  catchRate: 60
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 7128792f0fd4b724e9fccefaef84222d, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 0b36e163fb5a62744932415882337a2c, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 335f842cf227b444bb17a2dba42109d4, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 80230698f7416d64fae7f789b5a6f548, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 0b36e163fb5a62744932415882337a2c, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 335f842cf227b444bb17a2dba42109d4, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: 80230698f7416d64fae7f789b5a6f548, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: cd2f57390ff2e4243a4a9071ff0bfba7, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: e90f09fd42577364a8589ceddc6ad50a, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: 22dbe7eaa6aab1241ba968231fd216a3, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: 18f9843c19944124fa0dc8b3fe0501e4, type: 2}
+    level: 43
+  - moveBase: {fileID: 11400000, guid: 41e1942296083104a916ab785d49720b, type: 2}
+    level: 49
+  - moveBase: {fileID: 11400000, guid: 7913c2e12d2f4ab4ea46bc57e7ad7fa0, type: 2}
+    level: 55
+  - moveBase: {fileID: 11400000, guid: 1bdb5d6f50d3bca41830d108c1859ef3, type: 2}
+    level: 61
+  - moveBase: {fileID: 11400000, guid: 6971aacca6821f947a4bc12e7d09f51c, type: 2}
+    level: 67
+  - moveBase: {fileID: 11400000, guid: 775add7e620e61548896742908a56968, type: 2}
+    level: 73
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions: []

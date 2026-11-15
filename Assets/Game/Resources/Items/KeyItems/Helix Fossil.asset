@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a2a4a7897b7b9d4aa6d2e8b4fb7cc61, type: 3}
+  m_Name: Helix Fossil
+  m_EditorClassIdentifier: 
+  itemName: Helix Fossil
+  itemNamePlural: Helix Fossils
+  itemDescription: "A fossil from a prehistoric Pok\xE9mon that once lived in the
+    sea. It might be a piece of a seashell, and can be revived into Omanyte."
+  itemUseMessage: 
+  itemIcon: {fileID: -1920817898, guid: ac4a0fc02405fc5428f1be5a40aab8b8, type: 3}

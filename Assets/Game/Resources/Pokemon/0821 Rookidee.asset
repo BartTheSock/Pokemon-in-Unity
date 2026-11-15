@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0821 Rookidee
+  m_EditorClassIdentifier: 
+  pokemonName: Rookidee
+  pokemonDescription: "It will bravely challenge any opponent, no matter how powerful.
+    This Pok\xE9mon benefits from every battle\u2014even a defeat increases its strength
+    a bit."
+  frontSprite: {fileID: 21300000, guid: ffc829448fa17b346b8ecd8393006406, type: 3}
+  battleOffsetY: 18
+  backSprite: {fileID: 21300000, guid: 25d2d640926a82746bc0ca28f63a19e0, type: 3}
+  iconSprite: {fileID: 21300000, guid: 9104bcca4b6fff842be47c75b50fd8dc, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: fef1a08a5b14890439c6cc1215435f03, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 97cee5611b4c3934eac4940b520780b7, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 3
+  pokemonType2: 0
+  ability1: 28
+  ability2: 160
+  hiddenAbility: 125
+  maxHP: 38
+  attack: 47
+  defense: 35
+  spAttack: 33
+  spDefense: 35
+  speed: 57
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 1
+  expYield: 49
+  growthRate: 3
+  catchRate: 255
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: e82c9aa6c581cd14f8a3800400547e03, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 6dcd1ae88dcf03f4db2524065399cfb3, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 5269d90dd10eb394691878afaa467536, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: bf4780e00f962f74095dce363cb7bbf5, type: 2}
+    level: 12
+  - moveBase: {fileID: 11400000, guid: 0828ee665ddbe134e99d37d115864f6b, type: 2}
+    level: 46
+  - moveBase: {fileID: 11400000, guid: 2ec432da0596de345aaa31a2ba030362, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: 7a7cc5fe208c841459298391ced14287, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: 4ea90573af4737444846e8b1ce6d5d2c, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 7a9382dcf11d5a74d978feb808bec7a1, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: 42975b430391279458494dec90208cbd, type: 2}
+    level: 36
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 11400000, guid: d7e284b8b884bc340ae8b033ef861d47, type: 2}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 842cb99e9d33f8e4f8016b28468a4479, type: 2}
+    requiredLevel: 18
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

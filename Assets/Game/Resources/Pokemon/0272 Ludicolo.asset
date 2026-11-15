@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0272 Ludicolo
+  m_EditorClassIdentifier: 
+  pokemonName: Ludicolo
+  pokemonDescription: If it hears festive music, all its muscles fill with energy.
+    It can't help breaking out into a dance.
+  frontSprite: {fileID: 21300000, guid: 33e50d89a728e1d41b8a634610152daf, type: 3}
+  battleOffsetY: 3
+  backSprite: {fileID: 21300000, guid: e141a7ff957bbb84cbb3cc1344e058fb, type: 3}
+  iconSprite: {fileID: 21300000, guid: 2e759eb07fee10c45a809f554a8357ad, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 3ae2092c5f7202d46a25f80c9f69d5bf, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 7bf21740d2544274b86e99e75335d577, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 11
+  pokemonType2: 12
+  ability1: 65
+  ability2: 46
+  hiddenAbility: 40
+  maxHP: 80
+  attack: 70
+  defense: 70
+  spAttack: 90
+  spDefense: 100
+  speed: 70
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 3
+  speedEVYield: 0
+  expYield: 216
+  growthRate: 3
+  catchRate: 45
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: afaa8be75500ef441a7a8dc94ec8ff60, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 8def782cce7e2c74dbfce52b62530fcd, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 3a2b607f097308648adc4ffc2b1cda9a, type: 2}
+    level: 1
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 097b3746cabc52c428ac4c2303d4e9a5, type: 2}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  evolutions: []

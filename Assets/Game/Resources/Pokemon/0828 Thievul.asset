@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0828 Thievul
+  m_EditorClassIdentifier: 
+  pokemonName: Thievul
+  pokemonDescription: It secretly marks potential targets with a scent. By following
+    the scent, it stalks its targets and steals from them when they least expect
+    it.
+  frontSprite: {fileID: 21300000, guid: abb4d19a15bcfcd4e8ddd1d96096b2be, type: 3}
+  battleOffsetY: 8
+  backSprite: {fileID: 21300000, guid: 6d3665eb011a8894187a558b54206702, type: 3}
+  iconSprite: {fileID: 21300000, guid: 9c06cc4e9f92eb342be99a94806ebe19, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: d5c00d4e3d45bb54e9b41c484ef92fa6, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 08e2d74ebfb18a64cb0364ae1255c427, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 17
+  pokemonType2: 0
+  ability1: 49
+  ability2: 123
+  hiddenAbility: 225
+  maxHP: 70
+  attack: 58
+  defense: 58
+  spAttack: 87
+  spDefense: 92
+  speed: 90
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 2
+  speedEVYield: 0
+  expYield: 159
+  growthRate: 1
+  catchRate: 127
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: e11663e881dae2540a3b4b839355b03e, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 0aed80ca2b175ae4eb92cdb7a15b3c98, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 743cecf0a3490854d8f38789b440b8a6, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 00b5e22d50a520c4ea4e5d2dbae2c994, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 5269d90dd10eb394691878afaa467536, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 00b5e22d50a520c4ea4e5d2dbae2c994, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 5269d90dd10eb394691878afaa467536, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: 791b79ee88b7a9a4a977681cd68831d9, type: 2}
+    level: 12
+  - moveBase: {fileID: 11400000, guid: 513ff650b9c854f4c8bedc35f10f521c, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 2ec432da0596de345aaa31a2ba030362, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: 97a885dd37204df4b9ec8f9a87faa93c, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 72b6e4ac8e8683a4086bac1bba7cd142, type: 2}
+    level: 34
+  - moveBase: {fileID: 11400000, guid: 6c0dea02bae96a042a3bc20f591e0658, type: 2}
+    level: 40
+  - moveBase: {fileID: 11400000, guid: f1566467988f4f9468e217f5e9f74235, type: 2}
+    level: 46
+  - moveBase: {fileID: 11400000, guid: e1ab5f4ac62c38d4ba5b9311e8f82169, type: 2}
+    level: 52
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0294 Loudred
+  m_EditorClassIdentifier: 
+  pokemonName: Loudred
+  pokemonDescription: The shock waves from its cries can tip over trucks. It stamps
+    its feet to power up.
+  frontSprite: {fileID: 21300000, guid: 397d560a041f38d489c80bdb5406652c, type: 3}
+  battleOffsetY: 6
+  backSprite: {fileID: 21300000, guid: 160c98d3210c90142959a1cddde5e5a0, type: 3}
+  iconSprite: {fileID: 21300000, guid: 370b3a6322091cf4696653dc289aad9d, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 021f0bed2dc7aad4d8b96ce121b7b51f, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: eeba56bf4667f314c90bc2292b73060b, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 1
+  pokemonType2: 0
+  ability1: 57
+  ability2: 57
+  hiddenAbility: 106
+  maxHP: 84
+  attack: 71
+  defense: 43
+  spAttack: 71
+  spDefense: 43
+  speed: 48
+  HPEVYield: 2
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 126
+  growthRate: 3
+  catchRate: 120
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: e04721a68196017438cc68f20cd59b23, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 7eed7dba9bf879745bd9b027ed6cabfc, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: afaa8be75500ef441a7a8dc94ec8ff60, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 7365dc93dfad88548b3097486dd51785, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 7eed7dba9bf879745bd9b027ed6cabfc, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: afaa8be75500ef441a7a8dc94ec8ff60, type: 2}
+    level: 11
+  - moveBase: {fileID: 11400000, guid: 7365dc93dfad88548b3097486dd51785, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: ce1a0f1c44eb65e4584ca6a04aa1df6a, type: 2}
+    level: 23
+  - moveBase: {fileID: 11400000, guid: c787131ff7dc466459ec98cfe21e8e30, type: 2}
+    level: 29
+  - moveBase: {fileID: 11400000, guid: 058d2ea14181c284e957d6515d7ec0e8, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: e9ca2f245ef2fcc409b477a0c3dd886f, type: 2}
+    level: 43
+  - moveBase: {fileID: 11400000, guid: cddc6d7096a2f4541b91e49e5e88447b, type: 2}
+    level: 51
+  - moveBase: {fileID: 11400000, guid: 4e4579ba7cf92714aafdd36dffbe08b3, type: 2}
+    level: 57
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 0c59ed83d7b30f4409258a0726a028d3, type: 2}
+    requiredLevel: 40
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

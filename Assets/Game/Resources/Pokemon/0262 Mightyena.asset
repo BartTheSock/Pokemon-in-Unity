@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0262 Mightyena
+  m_EditorClassIdentifier: 
+  pokemonName: Mightyena
+  pokemonDescription: It chases down prey in a pack. It will never disobey the commands
+    of a skilled Trainer.
+  frontSprite: {fileID: 21300000, guid: 55f1fa3cebbd4bd458b4be734d780119, type: 3}
+  battleOffsetY: 5
+  backSprite: {fileID: 21300000, guid: c881edd293894a1488c7b9c90739898c, type: 3}
+  iconSprite: {fileID: 21300000, guid: 3e51caf38c25b844c9ba897d004bada6, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 765fe0d6dde1e7448a5a8fbb1dcff46d, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: bf7d415e11da6d243a47ef710efff678, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 17
+  pokemonType2: 0
+  ability1: 27
+  ability2: 103
+  hiddenAbility: 143
+  maxHP: 70
+  attack: 90
+  defense: 70
+  spAttack: 60
+  spDefense: 60
+  speed: 70
+  HPEVYield: 0
+  attackEVYield: 2
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 147
+  growthRate: 2
+  catchRate: 127
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 791b79ee88b7a9a4a977681cd68831d9, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 7365dc93dfad88548b3097486dd51785, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 486133dbc88798f488f17dfbcf05ec57, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: 1871e22a3da4d554a82a7d1d33db7c87, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: 7a9382dcf11d5a74d978feb808bec7a1, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: 513ff650b9c854f4c8bedc35f10f521c, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: 7a7cc5fe208c841459298391ced14287, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: 2ec432da0596de345aaa31a2ba030362, type: 2}
+    level: 45
+  - moveBase: {fileID: 11400000, guid: 13769e1b352836747a6291d6b3be9024, type: 2}
+    level: 52
+  - moveBase: {fileID: 11400000, guid: e11663e881dae2540a3b4b839355b03e, type: 2}
+    level: 57
+  - moveBase: {fileID: 11400000, guid: 97a885dd37204df4b9ec8f9a87faa93c, type: 2}
+    level: 62
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions: []

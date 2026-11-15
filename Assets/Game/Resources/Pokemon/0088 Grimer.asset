@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0088 Grimer
+  m_EditorClassIdentifier: 
+  pokemonName: Grimer
+  pokemonDescription: It was born when sludge in a dirty stream was exposed to the
+    moon's X-rays. It appears among filth.
+  frontSprite: {fileID: 21300000, guid: 0b5a1d92b61b74e439b8297ff68e80b3, type: 3}
+  battleOffsetY: 12
+  backSprite: {fileID: 21300000, guid: b72f04e4aa666eb41844537c0c79cb9d, type: 3}
+  iconSprite: {fileID: 21300000, guid: c798b8a2624bd024caf10708879f42f1, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 18aa1d52223e2cc439af579c18b4c76c, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: ebbe76045f6f686409bf8178a6a0a811, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 4
+  pokemonType2: 0
+  ability1: 60
+  ability2: 61
+  hiddenAbility: 148
+  maxHP: 80
+  attack: 80
+  defense: 50
+  spAttack: 40
+  spDefense: 50
+  speed: 25
+  HPEVYield: 1
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 65
+  growthRate: 2
+  catchRate: 190
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 9506a9e6ed75d4942ab9c539ddd86827, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e04721a68196017438cc68f20cd59b23, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 38965cc6552b4b948b8490cdc5008fa1, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 69e5b2550809f774ab0be589cd080ead, type: 2}
+    level: 12
+  - moveBase: {fileID: 11400000, guid: 9e647726c7652d446bd83b1fff8535f8, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 7c78deb3b269051449399b33592f0eb7, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: d58d615d25258854682b80cc7d823d42, type: 2}
+    level: 23
+  - moveBase: {fileID: 11400000, guid: 77894fa3cad4a614c9fdc7e8d51eb441, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 058d2ea14181c284e957d6515d7ec0e8, type: 2}
+    level: 33
+  - moveBase: {fileID: 11400000, guid: 04141b7a936b5a64a92dd19dfe61fd44, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 917a83a238eab1b44a44b8e97ef30935, type: 2}
+    level: 39
+  - moveBase: {fileID: 11400000, guid: 05c44b1d1da9d46408c5ccb0c4d066b3, type: 2}
+    level: 44
+  - moveBase: {fileID: 11400000, guid: 39cf006a0a2323c4cba89aaaa7a34e1e, type: 2}
+    level: 49
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: bff0d44d61a37cd469035d7265af55e5, type: 2}
+    requiredLevel: 38
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

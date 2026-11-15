@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0097 Hypno
+  m_EditorClassIdentifier: 
+  pokemonName: Hypno
+  pokemonDescription: Seeing its swinging pendulum can induce sleep in three seconds,
+    even in someone who just woke up.
+  frontSprite: {fileID: 21300000, guid: 963d389d6d0e7bc48bcbf21e32d9de85, type: 3}
+  battleOffsetY: 4
+  backSprite: {fileID: 21300000, guid: 606216f4206e4894d9d7ac173eeb5698, type: 3}
+  iconSprite: {fileID: 21300000, guid: 5f850f05c11981542b2142e8a0956139, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: f29137f9240fc5d4eb76b7caf86cc935, type: 3}
+  shinyBackSprite: {fileID: 0}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 14
+  pokemonType2: 0
+  ability1: 26
+  ability2: 86
+  hiddenAbility: 25
+  maxHP: 85
+  attack: 73
+  defense: 70
+  spAttack: 73
+  spDefense: 115
+  speed: 67
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 2
+  speedEVYield: 0
+  expYield: 169
+  growthRate: 2
+  catchRate: 75
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: e04721a68196017438cc68f20cd59b23, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 788b10408ac5639449945e72416e3f3f, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 69e5b2550809f774ab0be589cd080ead, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 10d9f56733f4dfc4e8960f44802f0c55, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 69e5b2550809f774ab0be589cd080ead, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 10d9f56733f4dfc4e8960f44802f0c55, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: 05aaa98939291cc40a7427b7bee3450a, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 9506a9e6ed75d4942ab9c539ddd86827, type: 2}
+    level: 18
+  - moveBase: {fileID: 11400000, guid: ca20ddf922edcb149b674ee0c19aae2f, type: 2}
+    level: 21
+  - moveBase: {fileID: 11400000, guid: f839c4ff43d0fbb4eb0cfb282fc561e5, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 61aea8067e9592445892c1e71899ace4, type: 2}
+    level: 33
+  - moveBase: {fileID: 11400000, guid: 4bde7e52c6949354b8862ac339943819, type: 2}
+    level: 38
+  - moveBase: {fileID: 11400000, guid: 7a9382dcf11d5a74d978feb808bec7a1, type: 2}
+    level: 45
+  - moveBase: {fileID: 11400000, guid: c52a1116f79bb0f4790ac4f9e9f3d9c9, type: 2}
+    level: 50
+  - moveBase: {fileID: 11400000, guid: 2ec432da0596de345aaa31a2ba030362, type: 2}
+    level: 55
+  - moveBase: {fileID: 11400000, guid: 00453fe54305a0949af0ef6722c6f25f, type: 2}
+    level: 64
+  - moveBase: {fileID: 11400000, guid: eae96b657b521be4598511d5969ae235, type: 2}
+    level: 69
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

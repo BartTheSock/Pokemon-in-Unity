@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0440 Happiny
+  m_EditorClassIdentifier: 
+  pokemonName: Happiny
+  pokemonDescription: It loves round, white things. It carries an egg-shaped rock
+    in imitation of Chansey.
+  frontSprite: {fileID: 21300000, guid: 6da0e7bca21bf924cba13d33ef41d4fe, type: 3}
+  battleOffsetY: 12
+  backSprite: {fileID: 21300000, guid: b543c910fb7828344b4e7ae898de29bc, type: 3}
+  iconSprite: {fileID: 21300000, guid: 849eff32eb8b895428a607295cf87563, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 1107ac2e15ecf10428ef328c73a0171c, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 731a863a6c1a56d4489b1a22e7cb675b, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 1
+  pokemonType2: 0
+  ability1: 37
+  ability2: 52
+  hiddenAbility: 131
+  maxHP: 100
+  attack: 5
+  defense: 5
+  spAttack: 15
+  spDefense: 65
+  speed: 30
+  HPEVYield: 1
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 110
+  growthRate: 1
+  catchRate: 130
+  pokemonStatus: 1
+  genderRate: 7
+  baseFriendship: 140
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: e04721a68196017438cc68f20cd59b23, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: f41423c4fe9e66f4cafebf0695328dfb, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: dfa8c6a33e3023349b0d66e6d2091c22, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: 8a370228fc8dbad4b8bd80dedeb52a42, type: 2}
+    level: 12
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 19e3cd6ea3721144ba6a41e8dc6ca7c8, type: 2}
+    requiredLevel: 110
+    requiredItem: {fileID: 11400000, guid: 0c199105387b1d5448c06f8deab1d0e2, type: 2}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

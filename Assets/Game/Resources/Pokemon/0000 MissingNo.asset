@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0000 MissingNo
+  m_EditorClassIdentifier: 
+  pokemonName: MissingNo
+  pokemonDescription: Comment to be written.
+  frontSprite: {fileID: 21300000, guid: 742247d9a7e4a564c8709d6613ae0d84, type: 3}
+  battleOffsetY: 4
+  backSprite: {fileID: 21300000, guid: 2d5886c08de19c24ba1a62fdc040fd81, type: 3}
+  iconSprite: {fileID: 21300000, guid: 7e2332dd3bc0d26418d7b8765ed0d454, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: fef27bf99ea7c5d44a9f2c20b0de82c3, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 6795fc0bac1e7ba479921cbbc65a3149, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 3
+  pokemonType2: 1
+  ability1: 0
+  ability2: 0
+  hiddenAbility: 0
+  maxHP: 33
+  attack: 136
+  defense: 0
+  spAttack: 6
+  spDefense: 23
+  speed: 29
+  HPEVYield: 0
+  attackEVYield: 3
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 420
+  growthRate: 0
+  catchRate: 29
+  pokemonStatus: 5
+  genderRate: 0
+  baseFriendship: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 8afe8d181bc7b2c4a9ff1507da1cc47e, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: fb3c884f86acce043a1527451c6374e4, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 8d3e6d6e0e5986041bddd97d8c9786f8, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 8771f4ad936d2a244b6b800f3de67bf9, type: 2}
+    level: 1
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 11400000, guid: 097b3746cabc52c428ac4c2303d4e9a5, type: 2}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 11400000, guid: d7e284b8b884bc340ae8b033ef861d47, type: 2}
+  evolutions: []

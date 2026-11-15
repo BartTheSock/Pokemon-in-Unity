@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0239 Elekid
+  m_EditorClassIdentifier: 
+  pokemonName: Elekid
+  pokemonDescription: It generates electricity by whirling its arms. However, it
+    can't store the energy it makes.
+  frontSprite: {fileID: 21300000, guid: ba63f4eb25bd6c045b1ad65714c562fa, type: 3}
+  battleOffsetY: 13
+  backSprite: {fileID: 21300000, guid: 597f0a7efc5eb934da280c93dcda9c19, type: 3}
+  iconSprite: {fileID: 21300000, guid: 4aedcb8fc931c0d40bf715a91ee31c98, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 2a50c5882fdafdb4b90b9ad2a879b519, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: ba3782b9cb332144889b432aedc63997, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 13
+  pokemonType2: 0
+  ability1: 59
+  ability2: 59
+  hiddenAbility: 71
+  maxHP: 45
+  attack: 63
+  defense: 37
+  spAttack: 65
+  spDefense: 55
+  speed: 95
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 1
+  expYield: 72
+  growthRate: 2
+  catchRate: 45
+  pokemonStatus: 0
+  genderRate: 3
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 0aed80ca2b175ae4eb92cdb7a15b3c98, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: a14dbb6d7f6b9a446bf31748a1106291, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: ddf11ec0473b07f46993332c2b8aa294, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 382be057ec1821e4999a0c1b70b91d6b, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: 672ed2da24ac9c943a50b5dcb4f5adfb, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: a48282051a066824bab206d1e8e17902, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 7913c2e12d2f4ab4ea46bc57e7ad7fa0, type: 2}
+    level: 34
+  - moveBase: {fileID: 11400000, guid: 7dbd8272539ddfe4e83b3210c20b6e9f, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: 058d2ea14181c284e957d6515d7ec0e8, type: 2}
+    level: 43
+  - moveBase: {fileID: 11400000, guid: 5a67cb5c296b54341846710274387de1, type: 2}
+    level: 46
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 13974dc8cc146ec4dad3a2f0c3ba4093, type: 2}
+    requiredLevel: 30
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

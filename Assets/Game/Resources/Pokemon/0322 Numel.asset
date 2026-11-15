@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0322 Numel
+  m_EditorClassIdentifier: 
+  pokemonName: Numel
+  pokemonDescription: Its humped back stores intensely hot magma. In rain, the magma
+    cools, slowing Numel down.
+  frontSprite: {fileID: 21300000, guid: f4658679d1596f248b634fc7b47dc718, type: 3}
+  battleOffsetY: 14
+  backSprite: {fileID: 21300000, guid: 3f04c0c280076ac4590b2e176a2fa2a4, type: 3}
+  iconSprite: {fileID: 21300000, guid: 36241309fd31bdf47bb7de6ade9d045e, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 2530ae17158e3f649aaa5678c4d208c0, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 530f37014c4e64a4292a65380acbcc04, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 10
+  pokemonType2: 5
+  ability1: 38
+  ability2: 107
+  hiddenAbility: 40
+  maxHP: 60
+  attack: 60
+  defense: 40
+  spAttack: 65
+  spDefense: 45
+  speed: 35
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 1
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 61
+  growthRate: 2
+  catchRate: 255
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e3aee3e3753080047b12fa8051d20c7b, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: ef0640287dcbfef4d8a73d0e410a9c5e, type: 2}
+    level: 11
+  - moveBase: {fileID: 11400000, guid: d7cef81c096d2364d98837f570133b34, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 13769e1b352836747a6291d6b3be9024, type: 2}
+    level: 21
+  - moveBase: {fileID: 11400000, guid: c4f0260ee55fe1e4c93607391a8ea468, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: d0bc37af8d0eba342ad832d0927f70cd, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: 775add7e620e61548896742908a56968, type: 2}
+    level: 35
+  - moveBase: {fileID: 11400000, guid: adc9de983e42a3c4caed8c2b27a864ca, type: 2}
+    level: 41
+  - moveBase: {fileID: 11400000, guid: 76338d4301d17cb489747f4845164d9b, type: 2}
+    level: 45
+  - moveBase: {fileID: 11400000, guid: 931a146a2c960fe478ff68baf8f3fe50, type: 2}
+    level: 51
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: af9f99de2fc2bda45871423060ac7980, type: 2}
+    requiredLevel: 33
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

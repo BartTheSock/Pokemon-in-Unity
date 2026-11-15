@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0836 Boltund
+  m_EditorClassIdentifier: 
+  pokemonName: Boltund
+  pokemonDescription: "This Pok\xE9mon generates electricity and channels it into
+    its legs to keep them going strong. Boltund can run nonstop for three full days."
+  frontSprite: {fileID: 21300000, guid: 921a7d0434686ee4ca44ab4e78a33032, type: 3}
+  battleOffsetY: 8
+  backSprite: {fileID: 21300000, guid: 3d1469bfd224bc4479725d938c9e162a, type: 3}
+  iconSprite: {fileID: 21300000, guid: 91fd06ac19e489346b2622837ee4f604, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 6d168d70d6d297748a739ce680e89f6a, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 3f47cc24b65866a42b163f74796fef75, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 13
+  pokemonType2: 0
+  ability1: 188
+  ability2: 188
+  hiddenAbility: 170
+  maxHP: 69
+  attack: 90
+  defense: 60
+  spAttack: 90
+  spDefense: 60
+  speed: 121
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 2
+  expYield: 172
+  growthRate: 1
+  catchRate: 45
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 743cecf0a3490854d8f38789b440b8a6, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e8d146e76ca3ac041a38a0f8a885deb3, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e8d146e76ca3ac041a38a0f8a885deb3, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: 7365dc93dfad88548b3097486dd51785, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 18f9843c19944124fa0dc8b3fe0501e4, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: f41423c4fe9e66f4cafebf0695328dfb, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 43eb4537295bb09449c147a0e7b70c62, type: 2}
+    level: 34
+  - moveBase: {fileID: 11400000, guid: c3998be70d9e4fc4f95538cc4a36a8f3, type: 2}
+    level: 41
+  - moveBase: {fileID: 11400000, guid: 4034664acf70c364881b411fb03de50c, type: 2}
+    level: 48
+  - moveBase: {fileID: 11400000, guid: 62b6b620040cb4b41a41c069bbb8c0b6, type: 2}
+    level: 55
+  - moveBase: {fileID: 11400000, guid: 5a67cb5c296b54341846710274387de1, type: 2}
+    level: 62
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

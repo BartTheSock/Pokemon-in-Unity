@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0174 Igglybuff
+  m_EditorClassIdentifier: 
+  pokemonName: Igglybuff
+  pokemonDescription: It has a soft and bouncy body. Once it starts bouncing, it
+    becomes impossible to stop.
+  frontSprite: {fileID: 21300000, guid: 627169ec3a2d1234fb9d0088f4f43796, type: 3}
+  battleOffsetY: 17
+  backSprite: {fileID: 21300000, guid: 288dd868fb159bf4cbfef006583fc80f, type: 3}
+  iconSprite: {fileID: 21300000, guid: 251a7980e7986e641bc3741b89dcdb19, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: c08c73167ccd821489252a3ab2ba1a09, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 55ec53ab516295943bbb17fb7254543a, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 1
+  pokemonType2: 18
+  ability1: 10
+  ability2: 170
+  hiddenAbility: 131
+  maxHP: 90
+  attack: 30
+  defense: 15
+  spAttack: 40
+  spDefense: 20
+  speed: 15
+  HPEVYield: 1
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 42
+  growthRate: 1
+  catchRate: 170
+  pokemonStatus: 0
+  genderRate: 5
+  baseFriendship: 70
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 839f18effa8ef884bbb114b6be2880ad, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: b237bf6ded2821a478dd55d15a79ba1b, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: e04721a68196017438cc68f20cd59b23, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: 8a370228fc8dbad4b8bd80dedeb52a42, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: f41423c4fe9e66f4cafebf0695328dfb, type: 2}
+    level: 17
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 8ac0edd1739c7724cb741af72df35e44, type: 2}
+    requiredLevel: 0
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 1

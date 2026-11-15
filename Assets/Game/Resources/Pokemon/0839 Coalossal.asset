@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0839 Coalossal
+  m_EditorClassIdentifier: 
+  pokemonName: Coalossal
+  pokemonDescription: It's gentle usually but fearsome when angered. With a body
+    that burns at over 2,700 degrees Fahrenheit, it crushes foes and turns them to
+    ash.
+  frontSprite: {fileID: 21300000, guid: a50b8bcdc3fc5e549b942c5a79aeb839, type: 3}
+  battleOffsetY: 3
+  backSprite: {fileID: 21300000, guid: 202467e99a60b58419a40ef8ba27771c, type: 3}
+  iconSprite: {fileID: 21300000, guid: 06a0f32e972c13346bda87aef734ec08, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: cd11549de8649494e96746a559447cd9, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: ef83d7af89935c04781085d2526e222a, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 6
+  pokemonType2: 10
+  ability1: 263
+  ability2: 16
+  hiddenAbility: 17
+  maxHP: 110
+  attack: 80
+  defense: 120
+  spAttack: 80
+  spDefense: 90
+  speed: 30
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 3
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 255
+  growthRate: 3
+  catchRate: 45
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 36a78151963808940953bdcc734583fc, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 57ccd78ebe7edb447aadff44bebf8a02, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 59bbc3c6fe23ca240ab87f101f42e840, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 4b10e918ee367ee46950e586058d6f03, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: 6573339101488204d8605c52db090c1d, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: a142347348c64c34693f56489900fa7c, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: 8b8b9ff00560f064183c6d0c4343552e, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: aa30341a5ee68c34490489cb4560e36c, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 5f5b7ec7e1d5d614aa07f8d3aadb7318, type: 2}
+    level: 45
+  - moveBase: {fileID: 11400000, guid: 8064089c3907bfa4e97d0e52238efa5d, type: 2}
+    level: 54
+  - moveBase: {fileID: 11400000, guid: 9a1adc4d0dc40b7428123464bfc364d8, type: 2}
+    level: 63
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions: []

@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0652 Chesnaught
+  m_EditorClassIdentifier: 
+  pokemonName: Chesnaught
+  pokemonDescription: Its gentle disposition would have it avoid conflict, but it
+    gives opponents a thrashing with its thorned fists when the situation calls for
+    it.
+  frontSprite: {fileID: 21300000, guid: 34079f5fc5fa0b6429e917852776d1d5, type: 3}
+  battleOffsetY: 6
+  backSprite: {fileID: 21300000, guid: ad8b26cd0672537458ae20ba1d99b02b, type: 3}
+  iconSprite: {fileID: 21300000, guid: bffc53f5f5f4fe8428bd3173afee2f95, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: b1d995751acdcee4cb38aba6b6c72338, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 154da3a48413a9f48903f74c5b565540, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 12
+  pokemonType2: 2
+  ability1: 39
+  ability2: 39
+  hiddenAbility: 168
+  maxHP: 88
+  attack: 107
+  defense: 122
+  spAttack: 74
+  spDefense: 75
+  speed: 64
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 3
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 239
+  growthRate: 3
+  catchRate: 45
+  pokemonStatus: 2
+  genderRate: 2
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 115f64d01e6a3474ebcec312690c292c, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: e2e84a9c7637a694e9c53a16e06df1d8, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 11
+  - moveBase: {fileID: 11400000, guid: fda4f4631bfdf38479c4f9e332fc874c, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 1b1a21315cc720445be4e013f2827ca9, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: 13769e1b352836747a6291d6b3be9024, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 8def782cce7e2c74dbfce52b62530fcd, type: 2}
+    level: 35
+  - moveBase: {fileID: 11400000, guid: 699044c3bb514b341a472e2dc80d07ba, type: 2}
+    level: 41
+  - moveBase: {fileID: 11400000, guid: db6942869cae67442bdba53899915f64, type: 2}
+    level: 44
+  - moveBase: {fileID: 11400000, guid: 3d76a5d1684712d4cae4bae32df69d73, type: 2}
+    level: 48
+  - moveBase: {fileID: 11400000, guid: cbceef98cec6df04a90d7ef9ec095ffe, type: 2}
+    level: 52
+  - moveBase: {fileID: 11400000, guid: 85d802b1cfb115240bc86e63964d6db3, type: 2}
+    level: 55
+  - moveBase: {fileID: 11400000, guid: 5f9abc3165071c146b9eb5fe1a795485, type: 2}
+    level: 60
+  - moveBase: {fileID: 11400000, guid: 610eee0d8ad23b9489f53b6c4dbecdf3, type: 2}
+    level: 70
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

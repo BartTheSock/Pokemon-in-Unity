@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0297 Hariyama
+  m_EditorClassIdentifier: 
+  pokemonName: Hariyama
+  pokemonDescription: "It loves to match power with big-bodied Pok\xE9mon. It can
+    send a truck flying with its arm thrusts."
+  frontSprite: {fileID: 21300000, guid: 77b56f7e1766b8f44abf410a0c073063, type: 3}
+  battleOffsetY: 4
+  backSprite: {fileID: 21300000, guid: 93d4ea4ed67a57543ad85d42c3c497ff, type: 3}
+  iconSprite: {fileID: 21300000, guid: a8b36657db371b045a5ebd81e2689a60, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 6b477ceea1fa4604f85764345724b671, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 8032e19786d34c94bb96d9edebcd399f, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 2
+  pokemonType2: 0
+  ability1: 67
+  ability2: 19
+  hiddenAbility: 155
+  maxHP: 144
+  attack: 120
+  defense: 60
+  spAttack: 40
+  spDefense: 60
+  speed: 50
+  HPEVYield: 2
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 166
+  growthRate: 5
+  catchRate: 200
+  pokemonStatus: 0
+  genderRate: 3
+  baseFriendship: 50
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: c29547de52c9e7f4bb64c06e25be9306, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: d7cef81c096d2364d98837f570133b34, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 486133dbc88798f488f17dfbcf05ec57, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 0f67be77f78c805439eb2f8d8813c42b, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 486133dbc88798f488f17dfbcf05ec57, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 0f67be77f78c805439eb2f8d8813c42b, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: f551d12cbce04204d978918cbecf6382, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: e04721a68196017438cc68f20cd59b23, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: f4825ade32d931a42b31ccfc92c32d3b, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: ed735825f8fa1984cbce5f008bd18c34, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: d4f9a8efa3eb2a6468ff0f7f671ae932, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: 3cd65034ff8f22749b4ff0254eeea6cb, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: 7f81c0e7ce30b5c4e823147c42d63d6e, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: f07e2819b4dbae548bbf711cb2d76f18, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: 45f20a1aee866ee43bdaf181025cc67e, type: 2}
+    level: 42
+  - moveBase: {fileID: 11400000, guid: 3754847c88082ea42a182036b16e79e4, type: 2}
+    level: 47
+  - moveBase: {fileID: 11400000, guid: da819a2533f664c4c995e0da6ede6dbe, type: 2}
+    level: 52
+  - moveBase: {fileID: 11400000, guid: ecfb6921b39bb6746a421df560ed7182, type: 2}
+    level: 57
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 097b3746cabc52c428ac4c2303d4e9a5, type: 2}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0669 Flabebe
+  m_EditorClassIdentifier: 
+  pokemonName: "Flab\xE9b\xE9"
+  pokemonDescription: When it finds a flower it likes, it dwells on that flower its
+    whole life long. It floats in the wind's embrace with an untroubled heart.
+  frontSprite: {fileID: 21300000, guid: 53cc62a3b8ce294439a25977eb45d073, type: 3}
+  battleOffsetY: -8
+  backSprite: {fileID: 21300000, guid: 93c340a02eb768a4bac0ff6923f61c2d, type: 3}
+  iconSprite: {fileID: 21300000, guid: 4b24f5bfb085b5a4590808c1a22243e8, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: bd8f68877650b0f419fd8c1e2f03851d, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: a8513926d157d794a8485ec734469e58, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 18
+  pokemonType2: 0
+  ability1: 175
+  ability2: 175
+  hiddenAbility: 190
+  maxHP: 44
+  attack: 38
+  defense: 39
+  spAttack: 61
+  spDefense: 79
+  speed: 42
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 1
+  speedEVYield: 0
+  expYield: 61
+  growthRate: 2
+  catchRate: 225
+  pokemonStatus: 0
+  genderRate: 7
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 115f64d01e6a3474ebcec312690c292c, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: df7ca7499a90d654dab7c08841051d01, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: dfa8c6a33e3023349b0d66e6d2091c22, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: 56c60d0d96b22d3439f5f20671f04689, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 8778242a785390040a5ea4d60b440026, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: 711adf12e59b11a489366c11643ed6e6, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: 3a2b607f097308648adc4ffc2b1cda9a, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: d654af0df3f922c41b66765a18123c00, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 6b85aaedd84299c42bd26c607a67415b, type: 2}
+    level: 33
+  - moveBase: {fileID: 11400000, guid: beeff75e3a84f7b4f9ea323fd7bc9dd9, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: 2416d5351b6f0b24ebe7d672aeed47cf, type: 2}
+    level: 41
+  - moveBase: {fileID: 11400000, guid: 955ad0358a27d2549890525e7008b890, type: 2}
+    level: 45
+  - moveBase: {fileID: 11400000, guid: cbceef98cec6df04a90d7ef9ec095ffe, type: 2}
+    level: 48
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 1bb3a93da9e71cf49b18aa5607bd0085, type: 2}
+    requiredLevel: 19
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

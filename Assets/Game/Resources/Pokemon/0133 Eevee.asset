@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0133 Eevee
+  m_EditorClassIdentifier: 
+  pokemonName: Eevee
+  pokemonDescription: "It is a rare Pok\xE9mon that adapts to harsh environments
+    by changing its appearance and capabilities when it evolves."
+  frontSprite: {fileID: 21300000, guid: 8ae78f477e9082f409c2cf670fa8a288, type: 3}
+  battleOffsetY: 12
+  backSprite: {fileID: 21300000, guid: 316f632a86ba96b438ed9a0c5e7b4d33, type: 3}
+  iconSprite: {fileID: 21300000, guid: c951f49d739e7aa4884cda42775cae1e, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 5abb7d5449fd3904b84f0bd734e8a978, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: d97b96ea1f3fef94eb2340dfe3da4562, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 1
+  pokemonType2: 0
+  ability1: 49
+  ability2: 77
+  hiddenAbility: 80
+  maxHP: 55
+  attack: 55
+  defense: 50
+  spAttack: 45
+  spDefense: 65
+  speed: 55
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 1
+  speedEVYield: 0
+  expYield: 65
+  growthRate: 2
+  catchRate: 45
+  pokemonStatus: 1
+  genderRate: 2
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 743cecf0a3490854d8f38789b440b8a6, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 486133dbc88798f488f17dfbcf05ec57, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: a858c76d249f20b489dd8533a35b70f0, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: 0aed80ca2b175ae4eb92cdb7a15b3c98, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 30
+  - moveBase: {fileID: 11400000, guid: 0ac763834cf350a449b476adc28ee509, type: 2}
+    level: 35
+  - moveBase: {fileID: 11400000, guid: f41423c4fe9e66f4cafebf0695328dfb, type: 2}
+    level: 40
+  - moveBase: {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+    level: 45
+  - moveBase: {fileID: 11400000, guid: 13769e1b352836747a6291d6b3be9024, type: 2}
+    level: 51
+  - moveBase: {fileID: 11400000, guid: 931a146a2c960fe478ff68baf8f3fe50, type: 2}
+    level: 57
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 991e055bd83036440a557fe66c3ffb68, type: 2}
+    requiredLevel: 110
+    requiredItem: {fileID: 11400000, guid: 3106725fcce6ef7488a5b3ffafd4f048, type: 2}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0
+  - evolvesInto: {fileID: 11400000, guid: 09029232aa5955041a45aded79f7ff2f, type: 2}
+    requiredLevel: 110
+    requiredItem: {fileID: 11400000, guid: 17e673a0c56bf31499980d8044f73241, type: 2}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0
+  - evolvesInto: {fileID: 11400000, guid: 4e978f8e0d833164f9bfdc415e680025, type: 2}
+    requiredLevel: 110
+    requiredItem: {fileID: 11400000, guid: 230543b12f524fe4f95256bd28afc950, type: 2}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0
+  - evolvesInto: {fileID: 11400000, guid: 7c4e4df09677998448b3f2ed330dd95b, type: 2}
+    requiredLevel: 110
+    requiredItem: {fileID: 11400000, guid: 15357c76691189d478b136afbcb20d34, type: 2}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0
+  - evolvesInto: {fileID: 11400000, guid: 99597cf2aef8caf409fdf42c06d168ca, type: 2}
+    requiredLevel: 110
+    requiredItem: {fileID: 11400000, guid: db72b146cac1ffc41a1297c4d5dec8d6, type: 2}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0
+  - evolvesInto: {fileID: 11400000, guid: 45d4e528e6f014e4cbdee4c0ba1f0f5a, type: 2}
+    requiredLevel: 110
+    requiredItem: {fileID: 11400000, guid: 85d9e87acfb056341951fe64343b0e58, type: 2}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0
+  - evolvesInto: {fileID: 11400000, guid: 50d9eb7e58f9e2d43a2b0fe6309a5f77, type: 2}
+    requiredLevel: 110
+    requiredItem: {fileID: 11400000, guid: 9f53759bd96238e449822c2125a99cfa, type: 2}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0
+  - evolvesInto: {fileID: 11400000, guid: ff4ccc131aa479c489de2ffefb4f753b, type: 2}
+    requiredLevel: 21
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 11400000, guid: a858c76d249f20b489dd8533a35b70f0, type: 2}
+    friendshipRequired: 1
+  - evolvesInto: {fileID: 11400000, guid: ff4ccc131aa479c489de2ffefb4f753b, type: 2}
+    requiredLevel: 41
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 11400000, guid: f41423c4fe9e66f4cafebf0695328dfb, type: 2}
+    friendshipRequired: 1

@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0002 Ivysaur
+  m_EditorClassIdentifier: 
+  pokemonName: Ivysaur
+  pokemonDescription: When the bud on its back starts swelling, a sweet aroma wafts
+    to indicate the flower's coming bloom.
+  frontSprite: {fileID: 21300000, guid: 054942e97f025af44b81815c6b4449da, type: 3}
+  battleOffsetY: 8
+  backSprite: {fileID: 21300000, guid: 55da0dae94f35b445b96b279d550954e, type: 3}
+  iconSprite: {fileID: 21300000, guid: 93cd67a1fa0c42e4697120f5284cb5cb, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 92b29da6aaa90a6419303723a834a82e, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 8b8883f474f8c7c469389e445aa01954, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 12
+  pokemonType2: 4
+  ability1: 39
+  ability2: 39
+  hiddenAbility: 5
+  maxHP: 60
+  attack: 62
+  defense: 63
+  spAttack: 80
+  spDefense: 80
+  speed: 60
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 1
+  spDefenseEVYield: 1
+  speedEVYield: 0
+  expYield: 142
+  growthRate: 3
+  catchRate: 45
+  pokemonStatus: 2
+  genderRate: 2
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: fda4f4631bfdf38479c4f9e332fc874c, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 3
+  - moveBase: {fileID: 11400000, guid: fda4f4631bfdf38479c4f9e332fc874c, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: 115f64d01e6a3474ebcec312690c292c, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: 51f39c774ed71d64c9157006cc0416e9, type: 2}
+    level: 11
+  - moveBase: {fileID: 11400000, guid: e781d3b803a302b4d809c1bfeb5fc1ce, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: 13769e1b352836747a6291d6b3be9024, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 8778242a785390040a5ea4d60b440026, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: bfd997ff49b573a4cbf6c6b068cf1c14, type: 2}
+    level: 23
+  - moveBase: {fileID: 11400000, guid: 6fdff47b73e7e4243a43b7c5a4fc2a09, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 931a146a2c960fe478ff68baf8f3fe50, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: 8def782cce7e2c74dbfce52b62530fcd, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: bffcd80745159bb418c8abc3d3485ece, type: 2}
+    level: 39
+  - moveBase: {fileID: 11400000, guid: cbceef98cec6df04a90d7ef9ec095ffe, type: 2}
+    level: 44
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 7b8beb1aa57374643a1a0e2131e32597, type: 2}
+    requiredLevel: 32
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

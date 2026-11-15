@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0182 Bellossom
+  m_EditorClassIdentifier: 
+  pokemonName: Bellossom
+  pokemonDescription: When the heavy rainfall season ends, it is drawn out by warm
+    sunlight to dance in the open.
+  frontSprite: {fileID: 21300000, guid: fba291041bd69e346a2b1c0bf99f6d9c, type: 3}
+  battleOffsetY: 14
+  backSprite: {fileID: 21300000, guid: eec7d5f3ff44bc043aad53c15a9f2dc8, type: 3}
+  iconSprite: {fileID: 21300000, guid: 2fc882a2e6c0e7f479e2dc1cb999c53e, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 9926ade706426bc4ebff5571ea2fe331, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 240bdb613f9f45549a258a60b2ac2fe7, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 12
+  pokemonType2: 4
+  ability1: 5
+  ability2: 5
+  hiddenAbility: 133
+  maxHP: 75
+  attack: 80
+  defense: 95
+  spAttack: 90
+  spDefense: 100
+  speed: 50
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 3
+  speedEVYield: 0
+  expYield: 245
+  growthRate: 3
+  catchRate: 45
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: d654af0df3f922c41b66765a18123c00, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 01926d62015eece43a8c74a59a507147, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: bfd997ff49b573a4cbf6c6b068cf1c14, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: a51d01fd53f1c3f4e8e42788784c205d, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 3a2b607f097308648adc4ffc2b1cda9a, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 86bf0a4258a26fa45bd1e9eaf57ca1b3, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 711adf12e59b11a489366c11643ed6e6, type: 2}
+    level: 43
+  - moveBase: {fileID: 11400000, guid: b5b4fe7723c45ab458e76d22735a6976, type: 2}
+    level: 53
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions: []

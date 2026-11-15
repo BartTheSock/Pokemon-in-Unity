@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ed7bdd9c9b03c549b919d717aae5f2e, type: 3}
+  m_Name: Dubious Disc
+  m_EditorClassIdentifier: 
+  itemName: Dubious Disc
+  itemNamePlural: Dubious Discs
+  itemDescription: A transparent device overflowing with dubious data. It allows
+    Porygon2 to evolve into Porygon-Z.
+  itemUseMessage: 
+  itemIcon: {fileID: 1097951529, guid: ac4a0fc02405fc5428f1be5a40aab8b8, type: 3}
+  isSellable: 1
+  price: 2100

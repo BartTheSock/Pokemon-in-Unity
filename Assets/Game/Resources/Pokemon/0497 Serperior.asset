@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0497 Serperior
+  m_EditorClassIdentifier: 
+  pokemonName: Serperior
+  pokemonDescription: "An intimidating gaze and majestic appearance have caused this
+    Pok\xE9mon to be known as the Lord of the Forest."
+  frontSprite: {fileID: 21300000, guid: 5e497db375f42fb45bf1f6b2724c2f14, type: 3}
+  battleOffsetY: 7
+  backSprite: {fileID: 21300000, guid: a1cd9392e2f68cc498cb941752ce04ce, type: 3}
+  iconSprite: {fileID: 21300000, guid: a4d5f860d521c5e4fb008cd13b19e893, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 96bff07e6004fa54c80201331e62622c, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 9d2139e50badc094390041caec5fe9bc, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 12
+  pokemonType2: 0
+  ability1: 39
+  ability2: 39
+  hiddenAbility: 126
+  maxHP: 75
+  attack: 75
+  defense: 95
+  spAttack: 75
+  spDefense: 95
+  speed: 113
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 3
+  expYield: 238
+  growthRate: 3
+  catchRate: 45
+  pokemonStatus: 2
+  genderRate: 2
+  baseFriendship: 50
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 115f64d01e6a3474ebcec312690c292c, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 929f6a9693f7f674e85436e88700be71, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 115f64d01e6a3474ebcec312690c292c, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 929f6a9693f7f674e85436e88700be71, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: 6fdff47b73e7e4243a43b7c5a4fc2a09, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: 711adf12e59b11a489366c11643ed6e6, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: fda4f4631bfdf38479c4f9e332fc874c, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: fc59604d3a4265144a360ba85eacfd5d, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: 3a2b607f097308648adc4ffc2b1cda9a, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 44d316d94b7e5724f8e96ec92cd813b8, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: 01926d62015eece43a8c74a59a507147, type: 2}
+    level: 38
+  - moveBase: {fileID: 11400000, guid: 4677a56be71bb8a4e868b2829200adcb, type: 2}
+    level: 44
+  - moveBase: {fileID: 11400000, guid: 955ad0358a27d2549890525e7008b890, type: 2}
+    level: 50
+  - moveBase: {fileID: 11400000, guid: b5b4fe7723c45ab458e76d22735a6976, type: 2}
+    level: 56
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

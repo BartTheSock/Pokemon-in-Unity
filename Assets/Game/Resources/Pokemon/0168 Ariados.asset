@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0168 Ariados
+  m_EditorClassIdentifier: 
+  pokemonName: Ariados
+  pokemonDescription: It attaches silk to its prey and sets it free. Later, it tracks
+    the silk to the prey and its friends.
+  frontSprite: {fileID: 21300000, guid: 1971ffaef65faa449b755d3b480ca250, type: 3}
+  battleOffsetY: 10
+  backSprite: {fileID: 21300000, guid: 9a7149ddc88a4224b8fbfffc66dc3d20, type: 3}
+  iconSprite: {fileID: 21300000, guid: b79df54b6e944a24c82bcab10813ce2c, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: ddb4e4c35c2452e409c22ded5a134772, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 654516aed6650d844bb173154cc1930a, type: 3}
+  arachnid: 1
+  altFrontSprite: {fileID: 21300000, guid: 9a2c292762a58834a9d64fee9d697d42, type: 3}
+  altBattleOffsetY: 14
+  altBackSprite: {fileID: 21300000, guid: 6cb5cb75a5d3f3e4a9c9a4916585e838, type: 3}
+  altIconSprite: {fileID: 21300000, guid: 471846453aecb4249ab65dea618a55f3, type: 3}
+  altShinyFrontSprite: {fileID: 21300000, guid: 511313a8f5f64a3478289501bb79186a, type: 3}
+  altShinyBackSprite: {fileID: 21300000, guid: 03f4c98e1fb1b7d4fa4676ef5574c3c6, type: 3}
+  pokemonType1: 7
+  pokemonType2: 4
+  ability1: 64
+  ability2: 26
+  hiddenAbility: 110
+  maxHP: 70
+  attack: 90
+  defense: 70
+  spAttack: 60
+  spDefense: 60
+  speed: 40
+  HPEVYield: 0
+  attackEVYield: 2
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 140
+  growthRate: 1
+  catchRate: 90
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: db7b6f047370e554daffb908bbfbc576, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: faa059aa4cc88ef47b9a9088d54fd3b7, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: ef6e04d2c450be54fac0656768fb229d, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 7a7cc5fe208c841459298391ced14287, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: d944fafdc6a694047a2982c06d4e65e6, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: dfa8c6a33e3023349b0d66e6d2091c22, type: 2}
+    level: 12
+  - moveBase: {fileID: 11400000, guid: 81e21c577e069f54a9a6543b668f4ac6, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 5d7854d81d1669e458bcfef49107843d, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: cb3c38d6d1e8f544192d583416700e5d, type: 2}
+    level: 23
+  - moveBase: {fileID: 11400000, guid: 97a885dd37204df4b9ec8f9a87faa93c, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 8e3a3e0bc2710a84a84d8c0392122b2a, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: eae96b657b521be4598511d5969ae235, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: 1b1a21315cc720445be4e013f2827ca9, type: 2}
+    level: 41
+  - moveBase: {fileID: 11400000, guid: c52a1116f79bb0f4790ac4f9e9f3d9c9, type: 2}
+    level: 46
+  - moveBase: {fileID: 11400000, guid: df14e7fc578f3fa4b888abb1fb6946d3, type: 2}
+    level: 50
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions: []

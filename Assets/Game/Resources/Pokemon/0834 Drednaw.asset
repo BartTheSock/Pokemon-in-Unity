@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0834 Drednaw
+  m_EditorClassIdentifier: 
+  pokemonName: Drednaw
+  pokemonDescription: "Its massive, jagged teeth can crush a boulder in a single
+    bite. This Pok\xE9mon has an extremely vicious disposition."
+  frontSprite: {fileID: 21300000, guid: 838a6b96094147446bc0643b01c7698d, type: 3}
+  battleOffsetY: 10
+  backSprite: {fileID: 21300000, guid: 582b1c2e817fe0f4998768aa2f2fa1b8, type: 3}
+  iconSprite: {fileID: 21300000, guid: e7ed3e9f75d66d7448a913194e8d0c44, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 6b20b56e56d03c841a3528b716054d47, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: e279ee7ad16ca3641bd2154622ee764f, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 11
+  pokemonType2: 6
+  ability1: 188
+  ability2: 55
+  hiddenAbility: 65
+  maxHP: 90
+  attack: 115
+  defense: 90
+  spAttack: 48
+  spDefense: 68
+  speed: 74
+  HPEVYield: 0
+  attackEVYield: 2
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 170
+  growthRate: 2
+  catchRate: 75
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: aa30341a5ee68c34490489cb4560e36c, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 8d3e6d6e0e5986041bddd97d8c9786f8, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 16bc013fa6508d846b421e1704aab191, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 16bc013fa6508d846b421e1704aab191, type: 2}
+    level: 14
+  - moveBase: {fileID: 11400000, guid: 05aaa98939291cc40a7427b7bee3450a, type: 2}
+    level: 21
+  - moveBase: {fileID: 11400000, guid: ce841326fe0371a4396621db471c00b9, type: 2}
+    level: 30
+  - moveBase: {fileID: 11400000, guid: 6efdb23dca8beb649b63b673f0752371, type: 2}
+    level: 39
+  - moveBase: {fileID: 11400000, guid: 39d792f0b046cb34bb4f440bd4f0e639, type: 2}
+    level: 48
+  - moveBase: {fileID: 11400000, guid: 3d76a5d1684712d4cae4bae32df69d73, type: 2}
+    level: 57
+  - moveBase: {fileID: 11400000, guid: f43ed65aa7bcbd848a509846e0e1ad91, type: 2}
+    level: 66
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 097b3746cabc52c428ac4c2303d4e9a5, type: 2}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions: []

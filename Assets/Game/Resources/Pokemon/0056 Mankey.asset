@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0056 Mankey
+  m_EditorClassIdentifier: 
+  pokemonName: Mankey
+  pokemonDescription: It lives in treetop colonies. If one member of the group becomes
+    enraged, the whole colony rampages for no reason.
+  frontSprite: {fileID: 21300000, guid: f72b7831a8ac98b4fb63cac327449309, type: 3}
+  battleOffsetY: 12
+  backSprite: {fileID: 21300000, guid: 683e0876bd971fb41b0b78ae1c640924, type: 3}
+  iconSprite: {fileID: 21300000, guid: 6a1d07ccd3c37b749964036fde948d8b, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: c5bf3b94c9092aa4ab4f80bdcb82bf24, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: aa271e250990de04787bfb0721c3836c, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 2
+  pokemonType2: 0
+  ability1: 71
+  ability2: 79
+  hiddenAbility: 129
+  maxHP: 40
+  attack: 80
+  defense: 35
+  spAttack: 35
+  spDefense: 45
+  speed: 70
+  HPEVYield: 0
+  attackEVYield: 1
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 61
+  growthRate: 2
+  catchRate: 190
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1cfce7ccaac906b4dab6a456c13ab842, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: ddf11ec0473b07f46993332c2b8aa294, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: d7cef81c096d2364d98837f570133b34, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: cb3c38d6d1e8f544192d583416700e5d, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: 0ac763834cf350a449b476adc28ee509, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: b10e26d280f706f49a7c96674b79cd39, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: f07e2819b4dbae548bbf711cb2d76f18, type: 2}
+    level: 21
+  - moveBase: {fileID: 11400000, guid: 058d2ea14181c284e957d6515d7ec0e8, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 513ff650b9c854f4c8bedc35f10f521c, type: 2}
+    level: 29
+  - moveBase: {fileID: 11400000, guid: 7a9382dcf11d5a74d978feb808bec7a1, type: 2}
+    level: 33
+  - moveBase: {fileID: 11400000, guid: 8517b7365a0321d46be8bd64ca229ead, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: 3d76a5d1684712d4cae4bae32df69d73, type: 2}
+    level: 41
+  - moveBase: {fileID: 11400000, guid: 7a00cc5cf95c65f418263a2f01ef1f34, type: 2}
+    level: 45
+  - moveBase: {fileID: 11400000, guid: da819a2533f664c4c995e0da6ede6dbe, type: 2}
+    level: 49
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 17386729f332cbd4b8dc66e12e658199, type: 2}
+    requiredLevel: 28
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

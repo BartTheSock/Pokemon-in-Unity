@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0919 Nymble
+  m_EditorClassIdentifier: Assembly-CSharp::PokemonBase
+  pokemonName: Nymble
+  pokemonDescription: "It has its third set of legs folded up. When it\u2019s in
+    a tough spot, this Pok\xE9mon jumps over 30 feet (10 meters) using the strength
+    of its legs."
+  frontSprite: {fileID: 21300000, guid: af3fd04070b060c47a5c1f335aae52bf, type: 3}
+  battleOffsetY: 12
+  backSprite: {fileID: 21300000, guid: e67d546d69977594ca3628fd797220d4, type: 3}
+  iconSprite: {fileID: 21300000, guid: b865bd8f56e9afd46bcac20ca7395950, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 5ce36fa8ec983ad42acb9b7645cdfb64, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 7ab7c8d4c73a1754da63b778602cf383, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 7
+  pokemonType2: 0
+  ability1: 64
+  ability2: 64
+  hiddenAbility: 121
+  maxHP: 33
+  attack: 46
+  defense: 40
+  spAttack: 21
+  spDefense: 25
+  speed: 45
+  HPEVYield: 0
+  attackEVYield: 1
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 42
+  growthRate: 2
+  catchRate: 190
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 20
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: fa003f39688f3844a9203e730ccb8874, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: afaa8be75500ef441a7a8dc94ec8ff60, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: 513ff650b9c854f4c8bedc35f10f521c, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: 1bd732a1ff9413949b5c3eca19f367fd, type: 2}
+    level: 11
+  - moveBase: {fileID: 11400000, guid: 058d2ea14181c284e957d6515d7ec0e8, type: 2}
+    level: 14
+  - moveBase: {fileID: 11400000, guid: b237bf6ded2821a478dd55d15a79ba1b, type: 2}
+    level: 18
+  - moveBase: {fileID: 11400000, guid: f47444127fa6ede4a9367dbaf9625448, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: f26cff0d340f458498ababaa79aea615, type: 2}
+    level: 26
+  - moveBase: {fileID: 11400000, guid: eae96b657b521be4598511d5969ae235, type: 2}
+    level: 30
+  - moveBase: {fileID: 11400000, guid: 97a885dd37204df4b9ec8f9a87faa93c, type: 2}
+    level: 38
+  - moveBase: {fileID: 11400000, guid: 18b51685563539845898b7e3e83392ad, type: 2}
+    level: 41
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 45d1058176d1c734887d06041be69c33, type: 2}
+    requiredLevel: 24
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

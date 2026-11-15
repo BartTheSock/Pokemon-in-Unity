@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0329 Vibrava
+  m_EditorClassIdentifier: 
+  pokemonName: Vibrava
+  pokemonDescription: It violently shudders its wings, generating ultrasonic waves
+    to induce headaches in people.
+  frontSprite: {fileID: 21300000, guid: a0b05dda00a2e7f41be8c9cf7d573925, type: 3}
+  battleOffsetY: -8
+  backSprite: {fileID: 21300000, guid: 5d8651d2c519ecf469c32bfc8dc29a1c, type: 3}
+  iconSprite: {fileID: 21300000, guid: a3ab4e6225feec041ab02e10ba6134f3, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: daa26ddf7e239454ab177b344d5dc534, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 4160affd35fa59044ab6c20489a1aa88, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 5
+  pokemonType2: 16
+  ability1: 29
+  ability2: 29
+  hiddenAbility: 29
+  maxHP: 50
+  attack: 70
+  defense: 50
+  spAttack: 50
+  spDefense: 50
+  speed: 70
+  HPEVYield: 0
+  attackEVYield: 1
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 1
+  expYield: 119
+  growthRate: 3
+  catchRate: 120
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: baca0d8029a3e09498c24df4ea1972fa, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 9c983af833bc26142a8cb61c2600b409, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 486133dbc88798f488f17dfbcf05ec57, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: f0d08902af80db84ea7498ce7073e330, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 3278f30e7aa6e0d4d96bb33a4e86c64d, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 486133dbc88798f488f17dfbcf05ec57, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: f0d08902af80db84ea7498ce7073e330, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 3278f30e7aa6e0d4d96bb33a4e86c64d, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: ce1a0f1c44eb65e4584ca6a04aa1df6a, type: 2}
+    level: 33
+  - moveBase: {fileID: 11400000, guid: 058d2ea14181c284e957d6515d7ec0e8, type: 2}
+    level: 41
+  - moveBase: {fileID: 11400000, guid: 22dbe7eaa6aab1241ba968231fd216a3, type: 2}
+    level: 49
+  - moveBase: {fileID: 11400000, guid: 23229976a9e108640b678af201609a5a, type: 2}
+    level: 57
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 11400000, guid: d7e284b8b884bc340ae8b033ef861d47, type: 2}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 32c8038438c1aad41a2f41c9f4ce33c3, type: 2}
+    requiredLevel: 45
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

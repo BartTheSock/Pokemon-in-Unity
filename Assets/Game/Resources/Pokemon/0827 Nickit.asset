@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0827 Nickit
+  m_EditorClassIdentifier: 
+  pokemonName: Nickit
+  pokemonDescription: "Aided by the soft pads on its feet, it silently raids the
+    food stores of other Pok\xE9mon. It survives off its ill-gotten gains."
+  frontSprite: {fileID: 21300000, guid: 1af4aff9eb18fdb4aaaa9cbda73c2974, type: 3}
+  battleOffsetY: 10
+  backSprite: {fileID: 21300000, guid: 1ee8edf9bb2fb1c4ea4aa0204bd81558, type: 3}
+  iconSprite: {fileID: 21300000, guid: c807699bc6553a64fbe1e59d326e6059, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: a5d8079bbd6b23546a1ed1d0458e982b, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 4df142531f32250419c95649a36536d6, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 17
+  pokemonType2: 0
+  ability1: 49
+  ability2: 123
+  hiddenAbility: 225
+  maxHP: 40
+  attack: 28
+  defense: 28
+  spAttack: 47
+  spDefense: 52
+  speed: 50
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 1
+  speedEVYield: 0
+  expYield: 49
+  growthRate: 1
+  catchRate: 255
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 0aed80ca2b175ae4eb92cdb7a15b3c98, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 743cecf0a3490854d8f38789b440b8a6, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 00b5e22d50a520c4ea4e5d2dbae2c994, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 5269d90dd10eb394691878afaa467536, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: 791b79ee88b7a9a4a977681cd68831d9, type: 2}
+    level: 12
+  - moveBase: {fileID: 11400000, guid: 513ff650b9c854f4c8bedc35f10f521c, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 2ec432da0596de345aaa31a2ba030362, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: 97a885dd37204df4b9ec8f9a87faa93c, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: 72b6e4ac8e8683a4086bac1bba7cd142, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 6c0dea02bae96a042a3bc20f591e0658, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: f1566467988f4f9468e217f5e9f74235, type: 2}
+    level: 36
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 912efd440100a264c9ad32e73b99a62f, type: 2}
+    requiredLevel: 18
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

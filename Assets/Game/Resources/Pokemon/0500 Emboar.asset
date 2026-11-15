@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0500 Emboar
+  m_EditorClassIdentifier: 
+  pokemonName: Emboar
+  pokemonDescription: "The direr the situation, the more it seems to enjoy itself.
+    The flames around its neck intensify, too, increasing Emboar\u2019s power and
+    speed."
+  frontSprite: {fileID: 21300000, guid: 0a36d80f5a0c35b4799d7d6a98b7c30a, type: 3}
+  battleOffsetY: 5
+  backSprite: {fileID: 21300000, guid: a036f67e26a635945b5d0753cc634a76, type: 3}
+  iconSprite: {fileID: 21300000, guid: f2dcf781bda568f4a819cac526265245, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: b825ee641d7e4ab4d9fb429588938523, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: f5a86a55205a6794fb946a49eac20d6c, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 10
+  pokemonType2: 2
+  ability1: 4
+  ability2: 4
+  hiddenAbility: 104
+  maxHP: 110
+  attack: 123
+  defense: 65
+  spAttack: 100
+  spDefense: 65
+  speed: 65
+  HPEVYield: 0
+  attackEVYield: 3
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 238
+  growthRate: 3
+  catchRate: 45
+  pokemonStatus: 2
+  genderRate: 2
+  baseFriendship: 50
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 5f9abc3165071c146b9eb5fe1a795485, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 743cecf0a3490854d8f38789b440b8a6, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e3aee3e3753080047b12fa8051d20c7b, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 1871e22a3da4d554a82a7d1d33db7c87, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 743cecf0a3490854d8f38789b440b8a6, type: 2}
+    level: 3
+  - moveBase: {fileID: 11400000, guid: e3aee3e3753080047b12fa8051d20c7b, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 1871e22a3da4d554a82a7d1d33db7c87, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: b237bf6ded2821a478dd55d15a79ba1b, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: 1a7cdc8e2ace855499436ee335ff283d, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 0f67be77f78c805439eb2f8d8813c42b, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 17323e8bfe4aa8d4d92ad20c2f2e7123, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: e2e84a9c7637a694e9c53a16e06df1d8, type: 2}
+    level: 23
+  - moveBase: {fileID: 11400000, guid: 13769e1b352836747a6291d6b3be9024, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 5f5b7ec7e1d5d614aa07f8d3aadb7318, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: 513ff650b9c854f4c8bedc35f10f521c, type: 2}
+    level: 38
+  - moveBase: {fileID: 11400000, guid: 76338d4301d17cb489747f4845164d9b, type: 2}
+    level: 43
+  - moveBase: {fileID: 11400000, guid: f43ed65aa7bcbd848a509846e0e1ad91, type: 2}
+    level: 50
+  - moveBase: {fileID: 11400000, guid: 058d2ea14181c284e957d6515d7ec0e8, type: 2}
+    level: 55
+  - moveBase: {fileID: 11400000, guid: 13da203a3f5a3f54ca29e146de088130, type: 2}
+    level: 62
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions: []

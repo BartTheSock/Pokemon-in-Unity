@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0157 Typhlosion
+  m_EditorClassIdentifier: 
+  pokemonName: Typhlosion
+  pokemonDescription: It attacks using blasts of fire. It creates heat shimmers with
+    intense fire to hide itself.
+  frontSprite: {fileID: 21300000, guid: e6a58b928f9c36045b4989109ba00542, type: 3}
+  battleOffsetY: 1
+  backSprite: {fileID: 21300000, guid: 0841977fbb67b2546be30f738287ad69, type: 3}
+  iconSprite: {fileID: 21300000, guid: 5613689dd2871fc44b704d61eb8dd83e, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 2bdeb85585173154f8c4a215bbcd3463, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: c6311c923aabdad43949b80ccc402f81, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 10
+  pokemonType2: 0
+  ability1: 4
+  ability2: 4
+  hiddenAbility: 17
+  maxHP: 78
+  attack: 84
+  defense: 78
+  spAttack: 109
+  spDefense: 85
+  speed: 100
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 3
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 267
+  growthRate: 3
+  catchRate: 45
+  pokemonStatus: 2
+  genderRate: 2
+  baseFriendship: 50
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 412bddf0f9dcb7b4a9e9ea1b868c005d, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 57ccd78ebe7edb447aadff44bebf8a02, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e3aee3e3753080047b12fa8051d20c7b, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 57ccd78ebe7edb447aadff44bebf8a02, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: e3aee3e3753080047b12fa8051d20c7b, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: 0aed80ca2b175ae4eb92cdb7a15b3c98, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: 371c054b3d564a44082f76194230ec11, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: b237bf6ded2821a478dd55d15a79ba1b, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: d0bc37af8d0eba342ad832d0927f70cd, type: 2}
+    level: 35
+  - moveBase: {fileID: 11400000, guid: 76338d4301d17cb489747f4845164d9b, type: 2}
+    level: 42
+  - moveBase: {fileID: 11400000, guid: 8064089c3907bfa4e97d0e52238efa5d, type: 2}
+    level: 46
+  - moveBase: {fileID: 11400000, guid: 931a146a2c960fe478ff68baf8f3fe50, type: 2}
+    level: 53
+  - moveBase: {fileID: 11400000, guid: 69b5f7f0f4a7557468f8906b89de42fd, type: 2}
+    level: 57
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

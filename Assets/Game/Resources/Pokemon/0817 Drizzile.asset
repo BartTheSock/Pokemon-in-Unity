@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0817 Drizzile
+  m_EditorClassIdentifier: 
+  pokemonName: Drizzile
+  pokemonDescription: "A clever combatant, this Pok\xE9mon battles using water balloons
+    created with moisture secreted from its palms."
+  frontSprite: {fileID: 21300000, guid: 7ef7d498fb080c14dabd3ca358371ce1, type: 3}
+  battleOffsetY: 12
+  backSprite: {fileID: 21300000, guid: 45a4aa8b0cda59c449d9531d1a2ea278, type: 3}
+  iconSprite: {fileID: 21300000, guid: c830a54ad54b5c246b422bc65c5e1667, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: ab3445b3a1351874c9db9b4836118e6d, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 0f8d140d4f3abb04fb545d2f0a004197, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 11
+  pokemonType2: 0
+  ability1: 68
+  ability2: 68
+  hiddenAbility: 110
+  maxHP: 65
+  attack: 60
+  defense: 55
+  spAttack: 95
+  spDefense: 55
+  speed: 90
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 2
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 147
+  growthRate: 3
+  catchRate: 45
+  pokemonStatus: 2
+  genderRate: 2
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: e04721a68196017438cc68f20cd59b23, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 8d3e6d6e0e5986041bddd97d8c9786f8, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: fb3c884f86acce043a1527451c6374e4, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 8d3e6d6e0e5986041bddd97d8c9786f8, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: fb3c884f86acce043a1527451c6374e4, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: caf657f6e408cb847892c3c2b479de29, type: 2}
+    level: 12
+  - moveBase: {fileID: 11400000, guid: e1a09201554f0c2498ed8dd380d0bd2b, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: 97a885dd37204df4b9ec8f9a87faa93c, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: 39d792f0b046cb34bb4f440bd4f0e639, type: 2}
+    level: 30
+  - moveBase: {fileID: 11400000, guid: f26530c9741593c458c2a1141d49a90f, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 0c9e89644437c074d8cb47ca191a88c2, type: 2}
+    level: 42
+  - moveBase: {fileID: 11400000, guid: f792656126440ae4aa1f8703324c6dd2, type: 2}
+    level: 48
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 097b3746cabc52c428ac4c2303d4e9a5, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 6fa9b94d9faed4241b96dd326656e755, type: 2}
+    requiredLevel: 35
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

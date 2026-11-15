@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0511 Pansage
+  m_EditorClassIdentifier: 
+  pokemonName: Pansage
+  pokemonDescription: "This Pok\xE9mon dwells deep in the forest. Eating a leaf from
+    its head whisks weariness away as if by magic."
+  frontSprite: {fileID: 21300000, guid: 351445b1601b7294e9211821228de2d2, type: 3}
+  battleOffsetY: 13
+  backSprite: {fileID: 21300000, guid: d9049725bbd792a4f9124168259118bd, type: 3}
+  iconSprite: {fileID: 21300000, guid: be2ea288ebb65a54c9fca12a8f76340d, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: ec7d33d0fe6617c4ea53effd8f99b487, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 581b0fe7f1f5cc24b99902b951646b67, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 12
+  pokemonType2: 0
+  ability1: 88
+  ability2: 88
+  hiddenAbility: 39
+  maxHP: 50
+  attack: 53
+  defense: 48
+  spAttack: 53
+  spDefense: 48
+  speed: 64
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 1
+  expYield: 63
+  growthRate: 2
+  catchRate: 190
+  pokemonStatus: 0
+  genderRate: 2
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1cfce7ccaac906b4dab6a456c13ab842, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 1dd60b9f9f4d3c14cb047e4e43a39560, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 115f64d01e6a3474ebcec312690c292c, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: cb3c38d6d1e8f544192d583416700e5d, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: fda4f4631bfdf38479c4f9e332fc874c, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: 8def782cce7e2c74dbfce52b62530fcd, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: 8a4e7b1292191114886153c4eb35b5cc, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: f0d08902af80db84ea7498ce7073e330, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 34c6f8c667be5e148afdab9421e2ee11, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: ebc6c74b618f6574b8909756576814f9, type: 2}
+    level: 34
+  - moveBase: {fileID: 11400000, guid: 1fc3d7271b0ae8b4aa06aca945736b0c, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: 641c6f2546b151f46a1e25d16a0f50f0, type: 2}
+    level: 40
+  - moveBase: {fileID: 11400000, guid: 43eb4537295bb09449c147a0e7b70c62, type: 2}
+    level: 43
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: b62d2ebef10e4864dac8a49488a1acc5, type: 2}
+    requiredLevel: 110
+    requiredItem: {fileID: 11400000, guid: 85d9e87acfb056341951fe64343b0e58, type: 2}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

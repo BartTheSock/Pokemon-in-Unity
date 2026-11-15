@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0159 Croconaw
+  m_EditorClassIdentifier: 
+  pokemonName: Croconaw
+  pokemonDescription: Once it bites down, it won't let go until it loses its fangs.
+    New fangs quickly grow into place.
+  frontSprite: {fileID: 21300000, guid: 3ad93d9adddfbf243ad66992a2e2f4c1, type: 3}
+  battleOffsetY: 6
+  backSprite: {fileID: 21300000, guid: b2a0906de5b8e204a88d1acefd7a6215, type: 3}
+  iconSprite: {fileID: 21300000, guid: 13e97fda99f9a894a9cc380f72dfd9cc, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: caec5b654fba59f4d8b2c17dab42e555, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: a62153daafad3d04aa34b6b0044c17b2, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 11
+  pokemonType2: 0
+  ability1: 68
+  ability2: 68
+  hiddenAbility: 155
+  maxHP: 65
+  attack: 80
+  defense: 80
+  spAttack: 59
+  spDefense: 63
+  speed: 58
+  HPEVYield: 0
+  attackEVYield: 1
+  defenseEVYield: 1
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 142
+  growthRate: 3
+  catchRate: 45
+  pokemonStatus: 2
+  genderRate: 2
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1cfce7ccaac906b4dab6a456c13ab842, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 8d3e6d6e0e5986041bddd97d8c9786f8, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 8d3e6d6e0e5986041bddd97d8c9786f8, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: 7a7cc5fe208c841459298391ced14287, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: a846082cc4169d94e86fc21f2a5c3f50, type: 2}
+    level: 21
+  - moveBase: {fileID: 11400000, guid: ecfb6921b39bb6746a421df560ed7182, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: 43eb4537295bb09449c147a0e7b70c62, type: 2}
+    level: 30
+  - moveBase: {fileID: 11400000, guid: 1e107f2ef8dc04c439f8d93b42cf2e7e, type: 2}
+    level: 33
+  - moveBase: {fileID: 11400000, guid: 058d2ea14181c284e957d6515d7ec0e8, type: 2}
+    level: 39
+  - moveBase: {fileID: 11400000, guid: ee1702e6310a2fd4cbd2ef8c81304cfd, type: 2}
+    level: 42
+  - moveBase: {fileID: 11400000, guid: 20f25f96686cac644a3b58f7e19d7104, type: 2}
+    level: 48
+  - moveBase: {fileID: 11400000, guid: f792656126440ae4aa1f8703324c6dd2, type: 2}
+    level: 51
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 11400000, guid: 097b3746cabc52c428ac4c2303d4e9a5, type: 2}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 4f8d805dc539edd43a068faba69fe585, type: 2}
+    requiredLevel: 30
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

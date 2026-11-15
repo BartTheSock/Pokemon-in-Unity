@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0468 Togekiss
+  m_EditorClassIdentifier: 
+  pokemonName: Togekiss
+  pokemonDescription: It is said to appear in front of kindly people to scatter a
+    glowing down called joy dust.
+  frontSprite: {fileID: 21300000, guid: 8d1050b7d4300564780161b62e22bf97, type: 3}
+  battleOffsetY: -8
+  backSprite: {fileID: 21300000, guid: ac3dd10fdefa21b44a234b9895f81582, type: 3}
+  iconSprite: {fileID: 21300000, guid: a8f9eecd8083d2a4c85066eae870f558, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 248ec8cc4c6c9e345a4fca7161490da6, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: a00842654ef20c845b005c1f62ffa4c4, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 18
+  pokemonType2: 3
+  ability1: 21
+  ability2: 52
+  hiddenAbility: 118
+  maxHP: 85
+  attack: 50
+  defense: 95
+  spAttack: 120
+  spDefense: 115
+  speed: 80
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 2
+  spDefenseEVYield: 1
+  speedEVYield: 0
+  expYield: 273
+  growthRate: 1
+  catchRate: 30
+  pokemonStatus: 1
+  genderRate: 2
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 5cbe33111b749194e9472e43d77b5140, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 8771f4ad936d2a244b6b800f3de67bf9, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 9ba60f8c0a236c34687e2a0cf900a10d, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 56bacf6372013714792da445eeb0cad9, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 5cbe33111b749194e9472e43d77b5140, type: 2}
+    level: 1
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0274 Nuzleaf
+  m_EditorClassIdentifier: 
+  pokemonName: Nuzleaf
+  pokemonDescription: The sound of its grass flute makes its listeners uneasy. It
+    lives deep in the forest.
+  frontSprite: {fileID: 21300000, guid: 4b0fcce0a61e9d2439f31a826332609d, type: 3}
+  battleOffsetY: 11
+  backSprite: {fileID: 21300000, guid: d55a59277579b7f488ff7baf87cc54d1, type: 3}
+  iconSprite: {fileID: 21300000, guid: 9255635c2f4492341999bcb9a473bd6b, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 76c1f863d73b5904ea25f5d4cb0e6368, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 871a1fd60988e2c4c9032ec65dfdd6d1, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 12
+  pokemonType2: 17
+  ability1: 5
+  ability2: 14
+  hiddenAbility: 147
+  maxHP: 70
+  attack: 70
+  defense: 40
+  spAttack: 60
+  spDefense: 40
+  speed: 60
+  HPEVYield: 0
+  attackEVYield: 2
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 119
+  growthRate: 3
+  catchRate: 120
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 8778242a785390040a5ea4d60b440026, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 38965cc6552b4b948b8490cdc5008fa1, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: dfa8c6a33e3023349b0d66e6d2091c22, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: afaa8be75500ef441a7a8dc94ec8ff60, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: dfa8c6a33e3023349b0d66e6d2091c22, type: 2}
+    level: 3
+  - moveBase: {fileID: 11400000, guid: afaa8be75500ef441a7a8dc94ec8ff60, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: 6fdff47b73e7e4243a43b7c5a4fc2a09, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: e2e84a9c7637a694e9c53a16e06df1d8, type: 2}
+    level: 12
+  - moveBase: {fileID: 11400000, guid: 3a2b607f097308648adc4ffc2b1cda9a, type: 2}
+    level: 18
+  - moveBase: {fileID: 11400000, guid: 3e9b5f41dbc897541b2bb2d592f35c94, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: 955ad0358a27d2549890525e7008b890, type: 2}
+    level: 30
+  - moveBase: {fileID: 11400000, guid: 86bf0a4258a26fa45bd1e9eaf57ca1b3, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: f50da39bc1a715742a170b45d434df06, type: 2}
+    level: 43
+  - moveBase: {fileID: 11400000, guid: 97a885dd37204df4b9ec8f9a87faa93c, type: 2}
+    level: 50
+  - moveBase: {fileID: 11400000, guid: 01926d62015eece43a8c74a59a507147, type: 2}
+    level: 57
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 93ed03d2a2d12334f911d7f77336ff06, type: 2}
+    requiredLevel: 110
+    requiredItem: {fileID: 11400000, guid: 85d9e87acfb056341951fe64343b0e58, type: 2}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

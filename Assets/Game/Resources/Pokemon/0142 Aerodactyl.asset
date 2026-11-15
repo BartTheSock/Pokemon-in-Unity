@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0142 Aerodactyl
+  m_EditorClassIdentifier: 
+  pokemonName: Aerodactyl
+  pokemonDescription: "It's a Pok\xE9mon that roamed the skies in the dinosaur era.
+    Its teeth are like saw blades."
+  frontSprite: {fileID: 21300000, guid: 738f47f94d0df8249900da1354ccaee1, type: 3}
+  battleOffsetY: -8
+  backSprite: {fileID: 21300000, guid: f94a8b499e6b7804e966e0c42e90028b, type: 3}
+  iconSprite: {fileID: 21300000, guid: 9f484d5ce89674f43a73e34787ca5ae7, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 7b799b380c6ea4b41a9781bfef22e47f, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: fcb67c6d0f3d8e3418b6ed2e330dad5d, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 6
+  pokemonType2: 3
+  ability1: 47
+  ability2: 44
+  hiddenAbility: 160
+  maxHP: 80
+  attack: 105
+  defense: 65
+  spAttack: 60
+  spDefense: 75
+  speed: 130
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 2
+  expYield: 180
+  growthRate: 4
+  catchRate: 90
+  pokemonStatus: 1
+  genderRate: 2
+  baseFriendship: 50
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 7a7cc5fe208c841459298391ced14287, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: eae96b657b521be4598511d5969ae235, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: 3b5a937544b2828489f1012a1bb05dce, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: a142347348c64c34693f56489900fa7c, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 43eb4537295bb09449c147a0e7b70c62, type: 2}
+    level: 33
+  - moveBase: {fileID: 11400000, guid: 13769e1b352836747a6291d6b3be9024, type: 2}
+    level: 41
+  - moveBase: {fileID: 11400000, guid: 699edcd9210796742845fc3f316600df, type: 2}
+    level: 49
+  - moveBase: {fileID: 11400000, guid: 23229976a9e108640b678af201609a5a, type: 2}
+    level: 57
+  - moveBase: {fileID: 11400000, guid: e90f09fd42577364a8589ceddc6ad50a, type: 2}
+    level: 65
+  - moveBase: {fileID: 11400000, guid: 610eee0d8ad23b9489f53b6c4dbecdf3, type: 2}
+    level: 73
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions: []

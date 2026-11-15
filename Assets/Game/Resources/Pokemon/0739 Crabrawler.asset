@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0739 Crabrawler
+  m_EditorClassIdentifier: 
+  pokemonName: Crabrawler
+  pokemonDescription: While guarding its weak points with its pincers, it looks for
+    an opening and unleashes punches. When it loses, it foams at the mouth and faints.
+  frontSprite: {fileID: 21300000, guid: 38e52216304fd2a4ebf7dac460ba70d5, type: 3}
+  battleOffsetY: 11
+  backSprite: {fileID: 21300000, guid: e1e7d287630a37340af1ea32393ebf28, type: 3}
+  iconSprite: {fileID: 21300000, guid: c556d48967193a14babc7d96b13c1e51, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 56b41603f96d7464787a180b3a556810, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: af5aec6213693d244bf942e3f9e2c7b8, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 2
+  pokemonType2: 0
+  ability1: 22
+  ability2: 93
+  hiddenAbility: 79
+  maxHP: 47
+  attack: 82
+  defense: 57
+  spAttack: 42
+  spDefense: 47
+  speed: 63
+  HPEVYield: 0
+  attackEVYield: 1
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 68
+  growthRate: 2
+  catchRate: 225
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 980059f3d8b3220448c96124b5b99ab7, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 3d7aa09f31ba7b94cbcdeda4f7c373d7, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: 6dcd1ae88dcf03f4db2524065399cfb3, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: f9754b98b54142b48ad0bd185d7d741f, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 07ca4883d0a0f4d43b46528588679d42, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: 45f20a1aee866ee43bdaf181025cc67e, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 3e9b5f41dbc897541b2bb2d592f35c94, type: 2}
+    level: 29
+  - moveBase: {fileID: 11400000, guid: 637bc76688eb70149b9d53b7ac585ed4, type: 2}
+    level: 33
+  - moveBase: {fileID: 11400000, guid: 348fc6ec5279d2248a5cb5bf78c0c841, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: 0b36e163fb5a62744932415882337a2c, type: 2}
+    level: 42
+  - moveBase: {fileID: 11400000, guid: 741b8b4d54f69bf4eb7a5bc4ba0bb96c, type: 2}
+    level: 45
+  - moveBase: {fileID: 11400000, guid: da819a2533f664c4c995e0da6ede6dbe, type: 2}
+    level: 49
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 71f5f2c2a723e2b47903e890b919eb97, type: 2}
+    requiredLevel: 110
+    requiredItem: {fileID: 11400000, guid: 9f53759bd96238e449822c2125a99cfa, type: 2}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

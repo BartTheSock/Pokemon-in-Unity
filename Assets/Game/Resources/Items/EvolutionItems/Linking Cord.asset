@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ed7bdd9c9b03c549b919d717aae5f2e, type: 3}
+  m_Name: Linking Cord
+  m_EditorClassIdentifier: 
+  itemName: Linking Cord
+  itemNamePlural: Linking Cords
+  itemDescription: "A special cord that makes you feel a strange sense of connection.
+    It allows certain Pok\xE9mon to evolve, specifically those that usually only
+    evolve when traded."
+  itemUseMessage: 
+  itemIcon: {fileID: 26214095, guid: e21ed06e4dd2ab74188f6e46840029b6, type: 3}
+  isSellable: 1
+  price: 2100

@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0515 Panpour
+  m_EditorClassIdentifier: 
+  pokemonName: Panpour
+  pokemonDescription: It does not thrive in dry environments. It keeps itself damp
+    by shooting water stored in its head tuft from its tail.
+  frontSprite: {fileID: 21300000, guid: 378e744130d022a43b78eeee9fe1d1ba, type: 3}
+  battleOffsetY: 12
+  backSprite: {fileID: 21300000, guid: d24e36a5102148b459cae5c534b953b9, type: 3}
+  iconSprite: {fileID: 21300000, guid: 97dd93d53d7ec9d4d94da7acb7d716a8, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 92776d1785983844eac8b83d418351da, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: dad3a3d1097bffc459318cce7e2c7b74, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 11
+  pokemonType2: 0
+  ability1: 88
+  ability2: 88
+  hiddenAbility: 68
+  maxHP: 50
+  attack: 53
+  defense: 48
+  spAttack: 53
+  spDefense: 48
+  speed: 64
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 1
+  expYield: 63
+  growthRate: 2
+  catchRate: 190
+  pokemonStatus: 0
+  genderRate: 2
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1cfce7ccaac906b4dab6a456c13ab842, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 1dd60b9f9f4d3c14cb047e4e43a39560, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 8d3e6d6e0e5986041bddd97d8c9786f8, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: cb3c38d6d1e8f544192d583416700e5d, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: 26cffb0cf9854bf488d4f7772a7ff0d1, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: 0c9e89644437c074d8cb47ca191a88c2, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: 8a4e7b1292191114886153c4eb35b5cc, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: f0d08902af80db84ea7498ce7073e330, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 34c6f8c667be5e148afdab9421e2ee11, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: c29547de52c9e7f4bb64c06e25be9306, type: 2}
+    level: 34
+  - moveBase: {fileID: 11400000, guid: 607ec42cf1fbac2419562a59ac7a3cf9, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: 827764130197afa48b5fee7c477c0270, type: 2}
+    level: 40
+  - moveBase: {fileID: 11400000, guid: 43eb4537295bb09449c147a0e7b70c62, type: 2}
+    level: 43
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 11400000, guid: 097b3746cabc52c428ac4c2303d4e9a5, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 4f6210763807c6b45abd898a06c2604f, type: 2}
+    requiredLevel: 110
+    requiredItem: {fileID: 11400000, guid: 3106725fcce6ef7488a5b3ffafd4f048, type: 2}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

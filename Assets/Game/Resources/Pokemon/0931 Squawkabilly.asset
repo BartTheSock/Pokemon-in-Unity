@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0931 Squawkabilly
+  m_EditorClassIdentifier: Assembly-CSharp::PokemonBase
+  pokemonName: Squawkabilly
+  pokemonDescription: "These Pok\xE9mon prefer to live in cities. They form flocks
+    based on the color of their feathers, and they fight over territory."
+  frontSprite: {fileID: 21300000, guid: a6b44ee0640966b4880e713635cd75dd, type: 3}
+  battleOffsetY: 6
+  backSprite: {fileID: 21300000, guid: eb4809b156d1e774c8b0513f4fcb20f5, type: 3}
+  iconSprite: {fileID: 21300000, guid: 4b2531b9534953143a99e4d0c975ca10, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 29db1f5c14be8544b842a64f3a16e6b2, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: f74296a442fd972458d2a5510a4f8a25, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 1
+  pokemonType2: 3
+  ability1: 27
+  ability2: 21
+  hiddenAbility: 19
+  maxHP: 82
+  attack: 96
+  defense: 51
+  spAttack: 45
+  spDefense: 51
+  speed: 92
+  HPEVYield: 0
+  attackEVYield: 1
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 146
+  growthRate: 0
+  catchRate: 190
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e82c9aa6c581cd14f8a3800400547e03, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 0aed80ca2b175ae4eb92cdb7a15b3c98, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: c0f1b4c4ba4d6684db282a0be938c161, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: 3b5a937544b2828489f1012a1bb05dce, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: bf4780e00f962f74095dce363cb7bbf5, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: dccf755773b736f48ab64ff69b48ad32, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: 4e4579ba7cf92714aafdd36dffbe08b3, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: d7e284b8b884bc340ae8b033ef861d47, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: eae96b657b521be4598511d5969ae235, type: 2}
+    level: 30
+  - moveBase: {fileID: 11400000, guid: 3d51fbed6ae901d4caf2e43eba84bed6, type: 2}
+    level: 34
+  - moveBase: {fileID: 11400000, guid: 7a9382dcf11d5a74d978feb808bec7a1, type: 2}
+    level: 38
+  - moveBase: {fileID: 11400000, guid: 42975b430391279458494dec90208cbd, type: 2}
+    level: 42
+  - moveBase: {fileID: 11400000, guid: da3cab269e9701a4181d6f5e5e793c9b, type: 2}
+    level: 47
+  - moveBase: {fileID: 11400000, guid: 637bc76688eb70149b9d53b7ac585ed4, type: 2}
+    level: 52
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: d7e284b8b884bc340ae8b033ef861d47, type: 2}
+  evolutions: []

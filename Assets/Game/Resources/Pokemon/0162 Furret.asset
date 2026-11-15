@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0162 Furret
+  m_EditorClassIdentifier: 
+  pokemonName: Furret
+  pokemonDescription: The mother puts its offspring to sleep by curling up around
+    them. It corners foes with speed.
+  frontSprite: {fileID: 21300000, guid: fd357c41187343b45809f26f301daadd, type: 3}
+  battleOffsetY: 5
+  backSprite: {fileID: 21300000, guid: 8ac918bd0c34cc3468beff9c17d5c943, type: 3}
+  iconSprite: {fileID: 21300000, guid: 795146dcdff346e47b8e7fed92730134, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: b5a294881d17b65409363adbbf481c0d, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 9f162ab99c729914e8b14e58e7eed180, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 1
+  pokemonType2: 0
+  ability1: 49
+  ability2: 28
+  hiddenAbility: 87
+  maxHP: 85
+  attack: 76
+  defense: 64
+  spAttack: 45
+  spDefense: 55
+  speed: 90
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 2
+  expYield: 145
+  growthRate: 2
+  catchRate: 90
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: eae96b657b521be4598511d5969ae235, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1cfce7ccaac906b4dab6a456c13ab842, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: d6717924b0b1bb64ebdf01668ef772f9, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: b237bf6ded2821a478dd55d15a79ba1b, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 0aed80ca2b175ae4eb92cdb7a15b3c98, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: b237bf6ded2821a478dd55d15a79ba1b, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 0aed80ca2b175ae4eb92cdb7a15b3c98, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: cb3c38d6d1e8f544192d583416700e5d, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 7365dc93dfad88548b3097486dd51785, type: 2}
+    level: 21
+  - moveBase: {fileID: 11400000, guid: 44d316d94b7e5724f8e96ec92cd813b8, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 97a885dd37204df4b9ec8f9a87faa93c, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: c4f0260ee55fe1e4c93607391a8ea468, type: 2}
+    level: 46
+  - moveBase: {fileID: 11400000, guid: 4e4579ba7cf92714aafdd36dffbe08b3, type: 2}
+    level: 56
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 11400000, guid: 097b3746cabc52c428ac4c2303d4e9a5, type: 2}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

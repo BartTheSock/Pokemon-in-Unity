@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0544 Whirlipede
+  m_EditorClassIdentifier: 
+  pokemonName: Whirlipede
+  pokemonDescription: Whirlipede protects itself with a sturdy shell and poisonous
+    spikes while it stores up the energy it'll need for evolution.
+  frontSprite: {fileID: 21300000, guid: 68c921cbb28fc6240b7c1e08e44810b4, type: 3}
+  battleOffsetY: 13
+  backSprite: {fileID: 21300000, guid: 837b9f93253fe2942b4390656d029ebc, type: 3}
+  iconSprite: {fileID: 21300000, guid: 963c00157f4b57047a75df03b57141cb, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 4215173f7c8491741a8ab66e48036c51, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: d3a2bfa06e2150d459490526a72c60e3, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 7
+  pokemonType2: 4
+  ability1: 43
+  ability2: 64
+  hiddenAbility: 58
+  maxHP: 40
+  attack: 55
+  defense: 99
+  spAttack: 40
+  spDefense: 79
+  speed: 47
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 2
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 126
+  growthRate: 3
+  catchRate: 120
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 0b36e163fb5a62744932415882337a2c, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: b237bf6ded2821a478dd55d15a79ba1b, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e2e84a9c7637a694e9c53a16e06df1d8, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: faa059aa4cc88ef47b9a9088d54fd3b7, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 058d2ea14181c284e957d6515d7ec0e8, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: faa059aa4cc88ef47b9a9088d54fd3b7, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 058d2ea14181c284e957d6515d7ec0e8, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: 6dcd1ae88dcf03f4db2524065399cfb3, type: 2}
+    level: 12
+  - moveBase: {fileID: 11400000, guid: 38965cc6552b4b948b8490cdc5008fa1, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 796ad3f407125ac458bd5790aef5cf38, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: f47444127fa6ede4a9367dbaf9625448, type: 2}
+    level: 23
+  - moveBase: {fileID: 11400000, guid: fdef7836f88d81947a8b64b591a8b9d0, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: eae96b657b521be4598511d5969ae235, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: a135fb5165bf6d44eaefadada8683e49, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: 437c98bba533e15409f0a0bf4671ab80, type: 2}
+    level: 41
+  - moveBase: {fileID: 11400000, guid: 13769e1b352836747a6291d6b3be9024, type: 2}
+    level: 46
+  - moveBase: {fileID: 11400000, guid: 931a146a2c960fe478ff68baf8f3fe50, type: 2}
+    level: 50
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: ce1d5de9e587d5140bb78dc4118fb5fe, type: 2}
+    requiredLevel: 30
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

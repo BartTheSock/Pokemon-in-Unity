@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0344 Claydol
+  m_EditorClassIdentifier: 
+  pokemonName: Claydol
+  pokemonDescription: "An ancient clay figurine was exposed to a mysterious ray of
+    light, and it came to life as a Pok\xE9mon."
+  frontSprite: {fileID: 21300000, guid: 94b4fd6777801a4428aaf45e3a70ada7, type: 3}
+  battleOffsetY: -4
+  backSprite: {fileID: 21300000, guid: e31812da6fdf80b4cbb876a981541cb6, type: 3}
+  iconSprite: {fileID: 21300000, guid: 4a58ebcd358c34740a45d4e8d6e57f08, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: e3668c6a35ed60245aa56f5456d9f94d, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: e7da26ec3b4caa149a10f95782961472, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 5
+  pokemonType2: 14
+  ability1: 29
+  ability2: 29
+  hiddenAbility: 29
+  maxHP: 60
+  attack: 70
+  defense: 105
+  spAttack: 70
+  spDefense: 120
+  speed: 75
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 2
+  speedEVYield: 0
+  expYield: 175
+  growthRate: 2
+  catchRate: 90
+  pokemonStatus: 1
+  genderRate: 0
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 23229976a9e108640b678af201609a5a, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 10d9f56733f4dfc4e8960f44802f0c55, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 38965cc6552b4b948b8490cdc5008fa1, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 59bbc3c6fe23ca240ab87f101f42e840, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 38965cc6552b4b948b8490cdc5008fa1, type: 2}
+    level: 3
+  - moveBase: {fileID: 11400000, guid: 59bbc3c6fe23ca240ab87f101f42e840, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: f839c4ff43d0fbb4eb0cfb282fc561e5, type: 2}
+    level: 11
+  - moveBase: {fileID: 11400000, guid: aa30341a5ee68c34490489cb4560e36c, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 77894fa3cad4a614c9fdc7e8d51eb441, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: a142347348c64c34693f56489900fa7c, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: f50da39bc1a715742a170b45d434df06, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: 22dbe7eaa6aab1241ba968231fd216a3, type: 2}
+    level: 40
+  - moveBase: {fileID: 11400000, guid: 23254e916ce07ac43bd6b40a56aa62e6, type: 2}
+    level: 51
+  - moveBase: {fileID: 11400000, guid: 775add7e620e61548896742908a56968, type: 2}
+    level: 62
+  - moveBase: {fileID: 11400000, guid: eae96b657b521be4598511d5969ae235, type: 2}
+    level: 73
+  - moveBase: {fileID: 11400000, guid: 39cf006a0a2323c4cba89aaaa7a34e1e, type: 2}
+    level: 86
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  evolutions: []

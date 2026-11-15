@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0281 Kirlia
+  m_EditorClassIdentifier: 
+  pokemonName: Kirlia
+  pokemonDescription: It is highly perceptive of its Trainer's feelings. It dances
+    when it is feeling happy.
+  frontSprite: {fileID: 21300000, guid: fbc4c23f3601d134e907593049d83c35, type: 3}
+  battleOffsetY: 7
+  backSprite: {fileID: 21300000, guid: beeb0749c1e7a4a4faba0e8210ce6b40, type: 3}
+  iconSprite: {fileID: 21300000, guid: ff62bd683f0446b499f7eb084aa69715, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 852f44b3b0439a0478c50800a076f3b8, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 29d3299f227b4b941932f0d1c1ae4014, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 14
+  pokemonType2: 18
+  ability1: 66
+  ability2: 69
+  hiddenAbility: 156
+  maxHP: 38
+  attack: 35
+  defense: 35
+  spAttack: 65
+  spDefense: 55
+  speed: 50
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 2
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 97
+  growthRate: 4
+  catchRate: 120
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 35
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 10d9f56733f4dfc4e8960f44802f0c55, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: b785a5389ec42bd498f43b3002910412, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: c8f126278caf550448bee904a65dd571, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 10d9f56733f4dfc4e8960f44802f0c55, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: b785a5389ec42bd498f43b3002910412, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: c8f126278caf550448bee904a65dd571, type: 2}
+    level: 12
+  - moveBase: {fileID: 11400000, guid: dd9a68c175026d34ead3b17584c394fd, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 711adf12e59b11a489366c11643ed6e6, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: fa6cc13dc1d96364ea5852cf6beb05f7, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: c52a1116f79bb0f4790ac4f9e9f3d9c9, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: c4f0260ee55fe1e4c93607391a8ea468, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 8fd1eb09ad9aacf46a6161efe6babcb1, type: 2}
+    level: 41
+  - moveBase: {fileID: 11400000, guid: f41423c4fe9e66f4cafebf0695328dfb, type: 2}
+    level: 45
+  - moveBase: {fileID: 11400000, guid: 788b10408ac5639449945e72416e3f3f, type: 2}
+    level: 50
+  - moveBase: {fileID: 11400000, guid: f839c4ff43d0fbb4eb0cfb282fc561e5, type: 2}
+    level: 53
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 66fd2133ef52772429a6a3852c1e464b, type: 2}
+    requiredLevel: 30
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0
+  - evolvesInto: {fileID: 11400000, guid: d79ad90be66408943ae7f105798f7ec7, type: 2}
+    requiredLevel: 110
+    requiredItem: {fileID: 11400000, guid: d27ba490d92963d4a86c1031391563b0, type: 2}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

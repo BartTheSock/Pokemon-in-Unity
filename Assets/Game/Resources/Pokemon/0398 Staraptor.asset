@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0398 Staraptor
+  m_EditorClassIdentifier: 
+  pokemonName: Staraptor
+  pokemonDescription: It has a savage nature. It will courageously challenge foes
+    that are much larger than itself.
+  frontSprite: {fileID: 21300000, guid: 56e8db9cbc22a6d4daf97d40ada1cef9, type: 3}
+  battleOffsetY: 7
+  backSprite: {fileID: 21300000, guid: 8ef9b5659c064f8429b5d07d735909db, type: 3}
+  iconSprite: {fileID: 21300000, guid: f53f384fdb50f53499e134ffb82646cc, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: fcb90111cd7f30b428ac1b30e2caf81d, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 610c1a64e7dd62c4faba06f236084eb7, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 1
+  pokemonType2: 3
+  ability1: 27
+  ability2: 27
+  hiddenAbility: 104
+  maxHP: 85
+  attack: 120
+  defense: 70
+  spAttack: 50
+  spDefense: 60
+  speed: 100
+  HPEVYield: 0
+  attackEVYield: 3
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 243
+  growthRate: 3
+  catchRate: 45
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: da819a2533f664c4c995e0da6ede6dbe, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 0aed80ca2b175ae4eb92cdb7a15b3c98, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 3b5a937544b2828489f1012a1bb05dce, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 0aed80ca2b175ae4eb92cdb7a15b3c98, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 3b5a937544b2828489f1012a1bb05dce, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: b785a5389ec42bd498f43b3002910412, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: bf4780e00f962f74095dce363cb7bbf5, type: 2}
+    level: 18
+  - moveBase: {fileID: 11400000, guid: f4825ade32d931a42b31ccfc92c32d3b, type: 2}
+    level: 23
+  - moveBase: {fileID: 11400000, guid: d7e284b8b884bc340ae8b033ef861d47, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 13769e1b352836747a6291d6b3be9024, type: 2}
+    level: 33
+  - moveBase: {fileID: 11400000, guid: eae96b657b521be4598511d5969ae235, type: 2}
+    level: 41
+  - moveBase: {fileID: 11400000, guid: 42975b430391279458494dec90208cbd, type: 2}
+    level: 49
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

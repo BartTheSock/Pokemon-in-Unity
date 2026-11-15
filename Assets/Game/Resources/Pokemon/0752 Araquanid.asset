@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0752 Araquanid
+  m_EditorClassIdentifier: Assembly-CSharp::PokemonBase
+  pokemonName: Araquanid
+  pokemonDescription: "A caring Pok\xE9mon, Araquanid carries Dewpider around inside
+    its water bubble to protect them as it walks. It protects its food in its bubble
+    too."
+  frontSprite: {fileID: 21300000, guid: 4e76e605c53959948a6f46e32f51da8a, type: 3}
+  battleOffsetY: 9
+  backSprite: {fileID: 21300000, guid: 50081d460d8363542a17a52c9b5e0569, type: 3}
+  iconSprite: {fileID: 21300000, guid: a6b5f61da5f4a8147b668252028b040a, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: a29ee50af8884de47befe69ca46aee12, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 17411587e753e754bb8090bf9f44b2f9, type: 3}
+  pokemonType1: 11
+  pokemonType2: 7
+  ability1: 231
+  ability2: 231
+  hiddenAbility: 73
+  maxHP: 68
+  attack: 70
+  defense: 92
+  spAttack: 50
+  spDefense: 132
+  speed: 42
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 2
+  speedEVYield: 0
+  expYield: 159
+  growthRate: 2
+  catchRate: 100
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 980059f3d8b3220448c96124b5b99ab7, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: b0807a0a513c9e24783174e40dfe8f00, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: f47444127fa6ede4a9367dbaf9625448, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: 8d3e6d6e0e5986041bddd97d8c9786f8, type: 2}
+    level: 12
+  - moveBase: {fileID: 11400000, guid: ef6e04d2c450be54fac0656768fb229d, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: f9754b98b54142b48ad0bd185d7d741f, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: 05aaa98939291cc40a7427b7bee3450a, type: 2}
+    level: 26
+  - moveBase: {fileID: 11400000, guid: 43eb4537295bb09449c147a0e7b70c62, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: 7a7cc5fe208c841459298391ced14287, type: 2}
+    level: 38
+  - moveBase: {fileID: 11400000, guid: 8163a1699ae70e849ad1f7f18b24829f, type: 2}
+    level: 44
+  - moveBase: {fileID: 11400000, guid: 39d792f0b046cb34bb4f440bd4f0e639, type: 2}
+    level: 50
+  - moveBase: {fileID: 11400000, guid: ec0f92de082ea2f479fcb553463fe65b, type: 2}
+    level: 56
+  - moveBase: {fileID: 11400000, guid: eae96b657b521be4598511d5969ae235, type: 2}
+    level: 62
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 11400000, guid: 097b3746cabc52c428ac4c2303d4e9a5, type: 2}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions: []

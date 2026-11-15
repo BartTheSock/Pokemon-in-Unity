@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0271 Lombre
+  m_EditorClassIdentifier: 
+  pokemonName: Lombre
+  pokemonDescription: It has a mischievous spirit. If it spots an angler, it will
+    tug on the fishing line to interfere.
+  frontSprite: {fileID: 21300000, guid: 9f52b52f4279fcc4eb2ced6fdb664f2f, type: 3}
+  battleOffsetY: 13
+  backSprite: {fileID: 21300000, guid: b000fad4703e1eb41ab27d57b47a403d, type: 3}
+  iconSprite: {fileID: 21300000, guid: 1f07804e3ed2b6747a5f318afc4d0f57, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 3c337d2d15c5d144b83ad34794790418, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 22098af0dacd29e488ceb0d696f35462, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 11
+  pokemonType2: 12
+  ability1: 65
+  ability2: 46
+  hiddenAbility: 40
+  maxHP: 60
+  attack: 50
+  defense: 50
+  spAttack: 60
+  spDefense: 70
+  speed: 50
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 2
+  speedEVYield: 0
+  expYield: 119
+  growthRate: 3
+  catchRate: 120
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: afaa8be75500ef441a7a8dc94ec8ff60, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 3
+  - moveBase: {fileID: 11400000, guid: dfa8c6a33e3023349b0d66e6d2091c22, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: a51d01fd53f1c3f4e8e42788784c205d, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 05aaa98939291cc40a7427b7bee3450a, type: 2}
+    level: 11
+  - moveBase: {fileID: 11400000, guid: cb3c38d6d1e8f544192d583416700e5d, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 26cffb0cf9854bf488d4f7772a7ff0d1, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: f9754b98b54142b48ad0bd185d7d741f, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 4bde7e52c6949354b8862ac339943819, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: 44d316d94b7e5724f8e96ec92cd813b8, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: f792656126440ae4aa1f8703324c6dd2, type: 2}
+    level: 45
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 097b3746cabc52c428ac4c2303d4e9a5, type: 2}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 158be0420a31ed14784172f4b31c4413, type: 2}
+    requiredLevel: 110
+    requiredItem: {fileID: 11400000, guid: 3106725fcce6ef7488a5b3ffafd4f048, type: 2}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

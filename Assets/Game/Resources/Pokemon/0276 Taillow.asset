@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0276 Taillow
+  m_EditorClassIdentifier: 
+  pokemonName: Taillow
+  pokemonDescription: It has a gutsy spirit that makes it bravely take on tough foes.
+    It flies in search of warm climates.
+  frontSprite: {fileID: 21300000, guid: 623737d9b6bac954ca2f9f0ce3d9f47b, type: 3}
+  battleOffsetY: 14
+  backSprite: {fileID: 21300000, guid: 905b73e5076d3d34dbfbbdddfed85225, type: 3}
+  iconSprite: {fileID: 21300000, guid: 975d8d6590c8e8c489ee34aae2ea6cb6, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 5fc157aa0cfb67641a0a32bb1f8b35e5, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 65ede19dbc5cd8d41a7c74be471187b5, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 1
+  pokemonType2: 3
+  ability1: 19
+  ability2: 19
+  hiddenAbility: 106
+  maxHP: 40
+  attack: 55
+  defense: 30
+  spAttack: 30
+  spDefense: 30
+  speed: 85
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 1
+  expYield: 54
+  growthRate: 3
+  catchRate: 200
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: e82c9aa6c581cd14f8a3800400547e03, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: d7cef81c096d2364d98837f570133b34, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 0aed80ca2b175ae4eb92cdb7a15b3c98, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: 3b5a937544b2828489f1012a1bb05dce, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: b785a5389ec42bd498f43b3002910412, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: 3d76a5d1684712d4cae4bae32df69d73, type: 2}
+    level: 26
+  - moveBase: {fileID: 11400000, guid: d7e284b8b884bc340ae8b033ef861d47, type: 2}
+    level: 34
+  - moveBase: {fileID: 11400000, guid: eae96b657b521be4598511d5969ae235, type: 2}
+    level: 43
+  - moveBase: {fileID: 11400000, guid: 5cbe33111b749194e9472e43d77b5140, type: 2}
+    level: 53
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 8bc86bd94e3d85641a85d61b6e2b0a88, type: 2}
+    requiredLevel: 22
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

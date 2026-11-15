@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0724 Decidueye
+  m_EditorClassIdentifier: 
+  pokemonName: Decidueye
+  pokemonDescription: It cunningly conceals arrow quills in its wings. It launches
+    these quills with such precision that they can pierce a pebble at over a hundred
+    yards.
+  frontSprite: {fileID: 21300000, guid: faff86a46b478ac41b98307d9d130bbf, type: 3}
+  battleOffsetY: 4
+  backSprite: {fileID: 21300000, guid: 4700247fd1bbb564da734a19de6e1ea5, type: 3}
+  iconSprite: {fileID: 21300000, guid: 32c701591d4deb64aa4a76f42f0727f6, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: ffb696b71c78c92468cadced6666823d, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: a5a9c0d029b030a44904b3179b093b7e, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 12
+  pokemonType2: 8
+  ability1: 39
+  ability2: 39
+  hiddenAbility: 209
+  maxHP: 78
+  attack: 107
+  defense: 75
+  spAttack: 100
+  spDefense: 100
+  speed: 70
+  HPEVYield: 0
+  attackEVYield: 3
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 239
+  growthRate: 3
+  catchRate: 45
+  pokemonStatus: 2
+  genderRate: 2
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: d1cc59250a9a19246a9378b53da56d36, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 5b0bafc75838dad478d12d1b94bd6cc7, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e82c9aa6c581cd14f8a3800400547e03, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: e82c9aa6c581cd14f8a3800400547e03, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: afaa8be75500ef441a7a8dc94ec8ff60, type: 2}
+    level: 11
+  - moveBase: {fileID: 11400000, guid: 8778242a785390040a5ea4d60b440026, type: 2}
+    level: 14
+  - moveBase: {fileID: 11400000, guid: 80bedd3e83410c54aa5bd738b6fbc47f, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: d6717924b0b1bb64ebdf01668ef772f9, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: 0828ee665ddbe134e99d37d115864f6b, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: 3a2b607f097308648adc4ffc2b1cda9a, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: bf4780e00f962f74095dce363cb7bbf5, type: 2}
+    level: 33
+  - moveBase: {fileID: 11400000, guid: 97a885dd37204df4b9ec8f9a87faa93c, type: 2}
+    level: 38
+  - moveBase: {fileID: 11400000, guid: 01926d62015eece43a8c74a59a507147, type: 2}
+    level: 44
+  - moveBase: {fileID: 11400000, guid: c21e0f4007a42f74f918aef255fb64b2, type: 2}
+    level: 49
+  - moveBase: {fileID: 11400000, guid: 42975b430391279458494dec90208cbd, type: 2}
+    level: 55
+  - moveBase: {fileID: 11400000, guid: 2ec432da0596de345aaa31a2ba030362, type: 2}
+    level: 60
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

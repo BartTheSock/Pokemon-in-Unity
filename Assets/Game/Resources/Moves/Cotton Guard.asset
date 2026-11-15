@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 949a9766d2753df4d9b25a9bbb0b5435, type: 3}
+  m_Name: Cotton Guard
+  m_EditorClassIdentifier: 
+  moveName: Cotton Guard
+  moveDescription: The user protects itself by wrapping its body in soft cotton,
+    drastically boosting its Defense stat.
+  moveType: 12
+  power: 0
+  accuracy: 100
+  alwaysHits: 1
+  pp: 10
+  priority: 0
+  highCriticalHitRatio: 0
+  alwaysCriticalHit: 0
+  recoilPercent: 0
+  damageType: 0
+  category: 0
+  effects:
+    boosts:
+    - stat: 1
+      boost: 3
+    status: 0
+    volatileStatus: 0
+    weather: 0
+    healUser: 0
+    recoil: 0
+  secondaryEffects: []
+  target: 1
+  hitRange: {x: 0, y: 0}
+  sound: {fileID: 0}
+  flags: 

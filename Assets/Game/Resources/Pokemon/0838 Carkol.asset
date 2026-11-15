@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0838 Carkol
+  m_EditorClassIdentifier: 
+  pokemonName: Carkol
+  pokemonDescription: "Due to the coal tar created inside it, the heap of coal on
+    Carkol's back never falls apart, even when the Pok\xE9mon rolls around at high
+    speeds."
+  frontSprite: {fileID: 21300000, guid: c9478fea5988c2c459ff292a5aa98f81, type: 3}
+  battleOffsetY: 10
+  backSprite: {fileID: 21300000, guid: 51d6d4c7a81928b46ab24bb1e043e18a, type: 3}
+  iconSprite: {fileID: 21300000, guid: 77d12f1752d8ff9478f200ab8729c185, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: e83a8cb69c5ceca408fa642d676c1423, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 158017bca1302ef4896a80541b7af237, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 6
+  pokemonType2: 10
+  ability1: 263
+  ability2: 16
+  hiddenAbility: 17
+  maxHP: 80
+  attack: 60
+  defense: 90
+  spAttack: 60
+  spDefense: 70
+  speed: 50
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 2
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 144
+  growthRate: 3
+  catchRate: 120
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 1a7cdc8e2ace855499436ee335ff283d, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 57ccd78ebe7edb447aadff44bebf8a02, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 59bbc3c6fe23ca240ab87f101f42e840, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 4b10e918ee367ee46950e586058d6f03, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: 6573339101488204d8605c52db090c1d, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: a142347348c64c34693f56489900fa7c, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: 8b8b9ff00560f064183c6d0c4343552e, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: aa30341a5ee68c34490489cb4560e36c, type: 2}
+    level: 35
+  - moveBase: {fileID: 11400000, guid: 5f5b7ec7e1d5d614aa07f8d3aadb7318, type: 2}
+    level: 41
+  - moveBase: {fileID: 11400000, guid: 8064089c3907bfa4e97d0e52238efa5d, type: 2}
+    level: 48
+  - moveBase: {fileID: 11400000, guid: 9a1adc4d0dc40b7428123464bfc364d8, type: 2}
+    level: 55
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 275267a7cff1e71479fd89c234becdab, type: 2}
+    requiredLevel: 34
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0512 Simisage
+  m_EditorClassIdentifier: 
+  pokemonName: Simisage
+  pokemonDescription: It strikes its enemies with a thorn-covered tail. The leaf
+    on its head is bitter.
+  frontSprite: {fileID: 21300000, guid: 0e105f06664a1644e97f63732de5607f, type: 3}
+  battleOffsetY: 2
+  backSprite: {fileID: 21300000, guid: 66252952a3898ff4db664353fd8f57fb, type: 3}
+  iconSprite: {fileID: 21300000, guid: f56f1de67635d5f43bb8e7a01e6d029c, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 4c09a77b9055c1e41bb71fc6d7ab840b, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: cd03956a420d7484492d6a51b6e276d8, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 12
+  pokemonType2: 0
+  ability1: 88
+  ability2: 88
+  hiddenAbility: 39
+  maxHP: 75
+  attack: 98
+  defense: 63
+  spAttack: 98
+  spDefense: 63
+  speed: 101
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 2
+  expYield: 174
+  growthRate: 2
+  catchRate: 75
+  pokemonStatus: 1
+  genderRate: 2
+  baseFriendship: 50
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 1dd60b9f9f4d3c14cb047e4e43a39560, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: cb3c38d6d1e8f544192d583416700e5d, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 8def782cce7e2c74dbfce52b62530fcd, type: 2}
+    level: 1
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions: []

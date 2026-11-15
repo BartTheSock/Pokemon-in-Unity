@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0540 Sewaddle
+  m_EditorClassIdentifier: 
+  pokemonName: Sewaddle
+  pokemonDescription: "This Pok\xE9mon makes clothes for itself. It chews up leaves
+    and sews them with sticky thread extruded from its mouth."
+  frontSprite: {fileID: 21300000, guid: ba7b160dd940c8f4cb2056df022bcac6, type: 3}
+  battleOffsetY: 15
+  backSprite: {fileID: 21300000, guid: 8311accfcafe0ea4c8c525bb0fd08613, type: 3}
+  iconSprite: {fileID: 21300000, guid: f5eb76fe61842424681fffb16a4989e1, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 300a4a02f23046948be288ce162fd76f, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: d0a90a6e2dbadce468983ee165907e3c, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 7
+  pokemonType2: 12
+  ability1: 64
+  ability2: 5
+  hiddenAbility: 146
+  maxHP: 45
+  attack: 53
+  defense: 70
+  spAttack: 40
+  spDefense: 60
+  speed: 42
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 1
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 62
+  growthRate: 3
+  catchRate: 255
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: ef6e04d2c450be54fac0656768fb229d, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: f47444127fa6ede4a9367dbaf9625448, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: 8778242a785390040a5ea4d60b440026, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: fa003f39688f3844a9203e730ccb8874, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: 0f02566e3ac3214478a5cfb2db3b5785, type: 2}
+    level: 29
+  - moveBase: {fileID: 11400000, guid: f61d49a65b0235e449f94e30c871b3d8, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: ecfb6921b39bb6746a421df560ed7182, type: 2}
+    level: 43
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: fec97bd41b936684f9557bdfd2cc06e6, type: 2}
+    requiredLevel: 20
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

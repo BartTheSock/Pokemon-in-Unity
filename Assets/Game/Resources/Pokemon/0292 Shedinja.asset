@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0292 Shedinja
+  m_EditorClassIdentifier: 
+  pokemonName: Shedinja
+  pokemonDescription: It is a discarded bug shell that came to life. Peering into
+    the crack on its back is said to steal one's spirit.
+  frontSprite: {fileID: 21300000, guid: 1c0641f3d3986ac4d9fbd25171604315, type: 3}
+  battleOffsetY: -8
+  backSprite: {fileID: 21300000, guid: c1c8abaedb1707c4fae27d37c869b1b2, type: 3}
+  iconSprite: {fileID: 21300000, guid: 19d50d4fc264f1a4690bbaeb6319f52f, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 6ed919f66e6dcd545a0db704fb7da182, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 359d02fe5b99360498c0898b2911c145, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 7
+  pokemonType2: 8
+  ability1: 76
+  ability2: 76
+  hiddenAbility: 76
+  maxHP: 1
+  attack: 90
+  defense: 45
+  spAttack: 30
+  spDefense: 30
+  speed: 40
+  HPEVYield: 2
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 83
+  growthRate: 0
+  catchRate: 45
+  pokemonStatus: 1
+  genderRate: 0
+  baseFriendship: 50
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1cfce7ccaac906b4dab6a456c13ab842, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 38965cc6552b4b948b8490cdc5008fa1, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: dfa8c6a33e3023349b0d66e6d2091c22, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 486133dbc88798f488f17dfbcf05ec57, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: cb3c38d6d1e8f544192d583416700e5d, type: 2}
+    level: 14
+  - moveBase: {fileID: 11400000, guid: d6717924b0b1bb64ebdf01668ef772f9, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: afaa8be75500ef441a7a8dc94ec8ff60, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 30e90e55fce413e43ae3f38945b08194, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: 5d7854d81d1669e458bcfef49107843d, type: 2}
+    level: 38
+  - moveBase: {fileID: 11400000, guid: 81e21c577e069f54a9a6543b668f4ac6, type: 2}
+    level: 45
+  - moveBase: {fileID: 11400000, guid: 1cf1b8759985c214e9ea7fce8987a657, type: 2}
+    level: 52
+  - moveBase: {fileID: 11400000, guid: 0c8bc70c599ada44b8bdf3673fe72a9a, type: 2}
+    level: 59
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions: []

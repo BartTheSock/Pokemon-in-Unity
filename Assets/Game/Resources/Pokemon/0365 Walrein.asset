@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0365 Walrein
+  m_EditorClassIdentifier: 
+  pokemonName: Walrein
+  pokemonDescription: It shatters ice with its big tusks. Its thick blubber repels
+    not only the cold but also enemy attacks.
+  frontSprite: {fileID: 21300000, guid: ec9697b9ed211154793c11d5bd232efe, type: 3}
+  battleOffsetY: 7
+  backSprite: {fileID: 21300000, guid: 8811fc3b50ea70b4cb470e60cbbace80, type: 3}
+  iconSprite: {fileID: 21300000, guid: 0c84444c06365bc4d84d1c6b52d20a03, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: dd431102adb18204abfaf571d9a1c6b1, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: ea7de8731285b0249a26ba1713284400, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 15
+  pokemonType2: 11
+  ability1: 67
+  ability2: 92
+  hiddenAbility: 38
+  maxHP: 110
+  attack: 80
+  defense: 90
+  spAttack: 95
+  spDefense: 90
+  speed: 65
+  HPEVYield: 3
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 239
+  growthRate: 3
+  catchRate: 45
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: a846082cc4169d94e86fc21f2a5c3f50, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 43eb4537295bb09449c147a0e7b70c62, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 31540e49de4dd074981729fae4dab054, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 8d3e6d6e0e5986041bddd97d8c9786f8, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: b237bf6ded2821a478dd55d15a79ba1b, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e2e84a9c7637a694e9c53a16e06df1d8, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 157eb61a4bd132140a0eddf688516ee3, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: 3d76a5d1684712d4cae4bae32df69d73, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: c29547de52c9e7f4bb64c06e25be9306, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 3da1ead767dfb994f8212c04273da231, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: 7a9382dcf11d5a74d978feb808bec7a1, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: ea627caaddcea5f40b64b5ad73b0e399, type: 2}
+    level: 39
+  - moveBase: {fileID: 11400000, guid: c85b0fe3a6fad0247baf6e3ae00c605e, type: 2}
+    level: 52
+  - moveBase: {fileID: 11400000, guid: b1426c0fc11c5154b9e2b6180cc6bc79, type: 2}
+    level: 65
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 097b3746cabc52c428ac4c2303d4e9a5, type: 2}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions: []

@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0391 Monferno
+  m_EditorClassIdentifier: 
+  pokemonName: Monferno
+  pokemonDescription: It uses ceilings and walls to launch aerial attacks. Its fiery
+    tail is but one of its weapons.
+  frontSprite: {fileID: 21300000, guid: 2e2b0c370b8f3df4fa8b817ee23aff0d, type: 3}
+  battleOffsetY: 11
+  backSprite: {fileID: 21300000, guid: 061b6d6da2176814588e9bd311ff10b0, type: 3}
+  iconSprite: {fileID: 21300000, guid: 56a5fddae7717ae45946d5e6d6649dc7, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: e60d1cb46fa871e428c88f641afbb5ee, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: db2f22e7a607d984da3ddf832f9f87ba, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 10
+  pokemonType2: 2
+  ability1: 4
+  ability2: 4
+  hiddenAbility: 93
+  maxHP: 64
+  attack: 78
+  defense: 52
+  spAttack: 78
+  spDefense: 52
+  speed: 81
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 1
+  spDefenseEVYield: 0
+  speedEVYield: 1
+  expYield: 142
+  growthRate: 3
+  catchRate: 45
+  pokemonStatus: 2
+  genderRate: 2
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: d4f9a8efa3eb2a6468ff0f7f671ae932, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1cfce7ccaac906b4dab6a456c13ab842, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e3aee3e3753080047b12fa8051d20c7b, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e3aee3e3753080047b12fa8051d20c7b, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 5269d90dd10eb394691878afaa467536, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: cb3c38d6d1e8f544192d583416700e5d, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 371c054b3d564a44082f76194230ec11, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: 2ec432da0596de345aaa31a2ba030362, type: 2}
+    level: 26
+  - moveBase: {fileID: 11400000, guid: 34c6f8c667be5e148afdab9421e2ee11, type: 2}
+    level: 29
+  - moveBase: {fileID: 11400000, guid: da819a2533f664c4c995e0da6ede6dbe, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 24ba3e6657fa71846ac35c06e458349d, type: 2}
+    level: 39
+  - moveBase: {fileID: 11400000, guid: 485633d80eb8a7e41841b5eafa628af3, type: 2}
+    level: 46
+  - moveBase: {fileID: 11400000, guid: 13da203a3f5a3f54ca29e146de088130, type: 2}
+    level: 49
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: d37c5f5f25aab8641a5fde95eaa6bed9, type: 2}
+    requiredLevel: 36
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

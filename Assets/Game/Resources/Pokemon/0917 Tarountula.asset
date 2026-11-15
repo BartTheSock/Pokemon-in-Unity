@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0917 Tarountula
+  m_EditorClassIdentifier: Assembly-CSharp::PokemonBase
+  pokemonName: Tarountula
+  pokemonDescription: "The ball of threads wrapped around its body is elastic enough
+    to deflect the scythes of Scyther, this Pok\xE9mon\u2019s natural enemy."
+  frontSprite: {fileID: 21300000, guid: c74582a87dd12264c9fc0271a2565bfa, type: 3}
+  battleOffsetY: 13
+  backSprite: {fileID: 21300000, guid: 68fa2d6909fe56e48b1971cc0cfdb494, type: 3}
+  iconSprite: {fileID: 21300000, guid: 654d056ff2bc071428db8b283dae9869, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 6b2fd1389d904f34680dd8249f88282f, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 21a7637a59c7e2b4c8c33f0a9c19b498, type: 3}
+  arachnid: 1
+  altFrontSprite: {fileID: 21300000, guid: 7bd65a787e7eb324faea1e24aa06e682, type: 3}
+  altBattleOffsetY: 18
+  altBackSprite: {fileID: 21300000, guid: 067d10dd8fbe3f84198cd73222238e71, type: 3}
+  altIconSprite: {fileID: 21300000, guid: 1003f7b9f5a03b645bbc3da477e1aff7, type: 3}
+  altShinyFrontSprite: {fileID: 21300000, guid: cb2221c5f03a7d743ac2e1525d0f9a05, type: 3}
+  altShinyBackSprite: {fileID: 21300000, guid: f299ae2dbf80c40409db98469e2a6e4f, type: 3}
+  pokemonType1: 7
+  pokemonType2: 0
+  ability1: 26
+  ability2: 26
+  hiddenAbility: 225
+  maxHP: 35
+  attack: 41
+  defense: 45
+  spAttack: 29
+  spDefense: 40
+  speed: 20
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 1
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 42
+  growthRate: 0
+  catchRate: 255
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: ef6e04d2c450be54fac0656768fb229d, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: fa003f39688f3844a9203e730ccb8874, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 513ff650b9c854f4c8bedc35f10f521c, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: f26cff0d340f458498ababaa79aea615, type: 2}
+    level: 11
+  - moveBase: {fileID: 11400000, guid: f47444127fa6ede4a9367dbaf9625448, type: 2}
+    level: 14
+  - moveBase: {fileID: 11400000, guid: b237bf6ded2821a478dd55d15a79ba1b, type: 2}
+    level: 18
+  - moveBase: {fileID: 11400000, guid: 637bc76688eb70149b9d53b7ac585ed4, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: 05aaa98939291cc40a7427b7bee3450a, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 8e3a3e0bc2710a84a84d8c0392122b2a, type: 2}
+    level: 29
+  - moveBase: {fileID: 11400000, guid: 51f39c774ed71d64c9157006cc0416e9, type: 2}
+    level: 33
+  - moveBase: {fileID: 11400000, guid: f07e2819b4dbae548bbf711cb2d76f18, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: e1ab5f4ac62c38d4ba5b9311e8f82169, type: 2}
+    level: 40
+  - moveBase: {fileID: 11400000, guid: c69c0f1794f640e4bad08a13f3de967b, type: 2}
+    level: 44
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000}
+    requiredLevel: 15
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

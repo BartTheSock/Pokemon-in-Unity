@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0046 Paras
+  m_EditorClassIdentifier: 
+  pokemonName: Paras
+  pokemonDescription: Mushrooms named tochukaso grow on its back. They grow along
+    with the host Paras.
+  frontSprite: {fileID: 21300000, guid: 44dfe586cbc614143ba6415a4c1dffee, type: 3}
+  battleOffsetY: 16
+  backSprite: {fileID: 21300000, guid: 1c2e455eae164d04aa32fb401df6d365, type: 3}
+  iconSprite: {fileID: 21300000, guid: 5100d0af342d87f45b778a8e157242d5, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: e15dce690b5a2964bbcfd0255577d0b6, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 2c5c336da8c31de478844663bd441266, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 7
+  pokemonType2: 12
+  ability1: 15
+  ability2: 83
+  hiddenAbility: 11
+  maxHP: 35
+  attack: 70
+  defense: 55
+  spAttack: 45
+  spDefense: 55
+  speed: 25
+  HPEVYield: 0
+  attackEVYield: 1
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 57
+  growthRate: 2
+  catchRate: 190
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1cfce7ccaac906b4dab6a456c13ab842, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: a51d01fd53f1c3f4e8e42788784c205d, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: 51f39c774ed71d64c9157006cc0416e9, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: dfa8c6a33e3023349b0d66e6d2091c22, type: 2}
+    level: 11
+  - moveBase: {fileID: 11400000, guid: e025acac31bcfb94180c9c94b5873b11, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 1e107f2ef8dc04c439f8d93b42cf2e7e, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: 6fdff47b73e7e4243a43b7c5a4fc2a09, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: accb39c7dc1e6e5419347282b01702db, type: 2}
+    level: 33
+  - moveBase: {fileID: 11400000, guid: 955ad0358a27d2549890525e7008b890, type: 2}
+    level: 38
+  - moveBase: {fileID: 11400000, guid: 18b51685563539845898b7e3e83392ad, type: 2}
+    level: 43
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 7cfcd3ff1e27a164498afb59cb9849a1, type: 2}
+    requiredLevel: 24
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

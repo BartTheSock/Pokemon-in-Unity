@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0201 UnownP
+  m_EditorClassIdentifier: 
+  pokemonName: Unown
+  pokemonDescription: "Because the Pok\xE9mon is shaped like ancient writing, it
+    is a huge mystery whether written language or Unown came first."
+  frontSprite: {fileID: 21300000, guid: 16af9e616f6cc1a44a887607816edfdf, type: 3}
+  battleOffsetY: -4
+  backSprite: {fileID: 21300000, guid: c462325b6ffd4454da600236a3f5bea2, type: 3}
+  iconSprite: {fileID: 21300000, guid: 520a1e1bb547b4b45836e03e5ad9be80, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 3dffd959935adc14ebd39bcba520033c, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: ed10faeae4a7cf24bb3ee566fba23626, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 14
+  pokemonType2: 0
+  ability1: 29
+  ability2: 29
+  hiddenAbility: 29
+  maxHP: 48
+  attack: 72
+  defense: 48
+  spAttack: 72
+  spDefense: 48
+  speed: 48
+  HPEVYield: 0
+  attackEVYield: 1
+  defenseEVYield: 0
+  spAttackEVYield: 1
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 118
+  growthRate: 2
+  catchRate: 225
+  pokemonStatus: 1
+  genderRate: 0
+  baseFriendship: 50
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 6bbf56301bbdbce46997733723ab6395, type: 2}
+    level: 1
+  learnableByItems: []
+  evolutions: []

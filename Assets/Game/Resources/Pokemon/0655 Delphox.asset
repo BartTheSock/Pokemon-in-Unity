@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0655 Delphox
+  m_EditorClassIdentifier: 
+  pokemonName: Delphox
+  pokemonDescription: It leaves burn marks in the ground with the flame at the tip
+    of its wand. Long ago, people used the shapes of these burn marks for divination.
+  frontSprite: {fileID: 21300000, guid: 7bad76d873572fb4888e4583db85d563, type: 3}
+  battleOffsetY: 1
+  backSprite: {fileID: 21300000, guid: 6e5941488d1be6a44baae5fffa4b1fd4, type: 3}
+  iconSprite: {fileID: 21300000, guid: 49298be29bcfb184794c547cff182f86, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 576ff75deab772b4b8a28f28369f0a95, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: e7015e84587b00748bca6ed1069d8d30, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 10
+  pokemonType2: 14
+  ability1: 4
+  ability2: 4
+  hiddenAbility: 180
+  maxHP: 75
+  attack: 69
+  defense: 72
+  spAttack: 114
+  spDefense: 100
+  speed: 104
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 3
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 240
+  growthRate: 3
+  catchRate: 45
+  pokemonStatus: 2
+  genderRate: 2
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: af0da612ab307bd4ea6c3fa1a3ce3f60, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1cfce7ccaac906b4dab6a456c13ab842, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 743cecf0a3490854d8f38789b440b8a6, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e3aee3e3753080047b12fa8051d20c7b, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 7365dc93dfad88548b3097486dd51785, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e3aee3e3753080047b12fa8051d20c7b, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: 7365dc93dfad88548b3097486dd51785, type: 2}
+    level: 11
+  - moveBase: {fileID: 11400000, guid: 1a7cdc8e2ace855499436ee335ff283d, type: 2}
+    level: 14
+  - moveBase: {fileID: 11400000, guid: f839c4ff43d0fbb4eb0cfb282fc561e5, type: 2}
+    level: 18
+  - moveBase: {fileID: 11400000, guid: 24ba3e6657fa71846ac35c06e458349d, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: 672ed2da24ac9c943a50b5dcb4f5adfb, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 00453fe54305a0949af0ef6722c6f25f, type: 2}
+    level: 38
+  - moveBase: {fileID: 11400000, guid: 76338d4301d17cb489747f4845164d9b, type: 2}
+    level: 45
+  - moveBase: {fileID: 11400000, guid: 6e25bf0724d4cac4f882f64ba6a6a056, type: 2}
+    level: 51
+  - moveBase: {fileID: 11400000, guid: c52a1116f79bb0f4790ac4f9e9f3d9c9, type: 2}
+    level: 57
+  - moveBase: {fileID: 11400000, guid: 86bf0a4258a26fa45bd1e9eaf57ca1b3, type: 2}
+    level: 62
+  - moveBase: {fileID: 11400000, guid: dd9a68c175026d34ead3b17584c394fd, type: 2}
+    level: 68
+  - moveBase: {fileID: 11400000, guid: 69b5f7f0f4a7557468f8906b89de42fd, type: 2}
+    level: 74
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

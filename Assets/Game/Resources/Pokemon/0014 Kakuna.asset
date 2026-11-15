@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0014 Kakuna
+  m_EditorClassIdentifier: 
+  pokemonName: Kakuna
+  pokemonDescription: While awaiting evolution, it hides from predators under leaves
+    and in nooks of branches.
+  frontSprite: {fileID: 21300000, guid: 4c86f85be0321c84f973342ff03a512b, type: 3}
+  battleOffsetY: 12
+  backSprite: {fileID: 21300000, guid: 8fe57b7eb1829fa4b8db9eeaf156405b, type: 3}
+  iconSprite: {fileID: 21300000, guid: 3fd3f011ff9ed1f42903200779e10c46, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: b99ff177b286a0c44be2d759f7eab40c, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: e5a0c7524bd39ee4cb76109bf66de4e8, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 7
+  pokemonType2: 4
+  ability1: 54
+  ability2: 54
+  hiddenAbility: 54
+  maxHP: 45
+  attack: 25
+  defense: 50
+  spAttack: 25
+  spDefense: 25
+  speed: 35
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 2
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 72
+  growthRate: 2
+  catchRate: 120
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 38965cc6552b4b948b8490cdc5008fa1, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 38965cc6552b4b948b8490cdc5008fa1, type: 2}
+    level: 1
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 6f37d07afc672114eb2ec2f86905a10a, type: 2}
+    requiredLevel: 10
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

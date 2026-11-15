@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0407 Roserade
+  m_EditorClassIdentifier: 
+  pokemonName: Roserade
+  pokemonDescription: It attracts prey with a sweet aroma, then downs it with thorny
+    whips hidden in its arms.
+  frontSprite: {fileID: 21300000, guid: fb5d1b42cf42faa4b91dfdb3fdc4812c, type: 3}
+  battleOffsetY: 8
+  backSprite: {fileID: 21300000, guid: 90c85071a45d77e48ad06fcb093bede8, type: 3}
+  iconSprite: {fileID: 21300000, guid: 4036a945299137c47b0baed358049e1f, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 264f4ba2b9095a64480012f56136f00b, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: af5871fe4a899b44b8b3e96395ac7fcf, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 12
+  pokemonType2: 4
+  ability1: 37
+  ability2: 43
+  hiddenAbility: 120
+  maxHP: 60
+  attack: 75
+  defense: 65
+  spAttack: 125
+  spDefense: 105
+  speed: 90
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 3
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 258
+  growthRate: 3
+  catchRate: 75
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 70980b9e23facd1448de5b86cea38fb1, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: faa059aa4cc88ef47b9a9088d54fd3b7, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 3a2b607f097308648adc4ffc2b1cda9a, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 711adf12e59b11a489366c11643ed6e6, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: bfd997ff49b573a4cbf6c6b068cf1c14, type: 2}
+    level: 1
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

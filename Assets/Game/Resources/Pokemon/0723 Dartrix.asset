@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0723 Dartrix
+  m_EditorClassIdentifier: 
+  pokemonName: Dartrix
+  pokemonDescription: Supremely sensitive to the presence of others, it can detect
+    opponents standing behind it, flinging its sharp feathers to take them out.
+  frontSprite: {fileID: 21300000, guid: 54523a882c7ef86418cac061f4650938, type: 3}
+  battleOffsetY: 10
+  backSprite: {fileID: 21300000, guid: ffcccb699d743e74fbc10217e4c0e7e0, type: 3}
+  iconSprite: {fileID: 21300000, guid: 08518d980bf844640a4e18b7912d3428, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: f7c6bf0241d2ff248bc76a55e264c934, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 88cddd44f85306241956e3f742d04a49, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 12
+  pokemonType2: 3
+  ability1: 39
+  ability2: 39
+  hiddenAbility: 209
+  maxHP: 78
+  attack: 75
+  defense: 75
+  spAttack: 70
+  spDefense: 70
+  speed: 52
+  HPEVYield: 2
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 147
+  growthRate: 3
+  catchRate: 45
+  pokemonStatus: 2
+  genderRate: 2
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 5b0bafc75838dad478d12d1b94bd6cc7, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e82c9aa6c581cd14f8a3800400547e03, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: e82c9aa6c581cd14f8a3800400547e03, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: afaa8be75500ef441a7a8dc94ec8ff60, type: 2}
+    level: 11
+  - moveBase: {fileID: 11400000, guid: 8778242a785390040a5ea4d60b440026, type: 2}
+    level: 14
+  - moveBase: {fileID: 11400000, guid: 80bedd3e83410c54aa5bd738b6fbc47f, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: d6717924b0b1bb64ebdf01668ef772f9, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: 0828ee665ddbe134e99d37d115864f6b, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: 3a2b607f097308648adc4ffc2b1cda9a, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: bf4780e00f962f74095dce363cb7bbf5, type: 2}
+    level: 33
+  - moveBase: {fileID: 11400000, guid: 97a885dd37204df4b9ec8f9a87faa93c, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: 01926d62015eece43a8c74a59a507147, type: 2}
+    level: 42
+  - moveBase: {fileID: 11400000, guid: c21e0f4007a42f74f918aef255fb64b2, type: 2}
+    level: 46
+  - moveBase: {fileID: 11400000, guid: 42975b430391279458494dec90208cbd, type: 2}
+    level: 51
+  - moveBase: {fileID: 11400000, guid: 2ec432da0596de345aaa31a2ba030362, type: 2}
+    level: 55
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 88b10848e34982447a642eb009e7f111, type: 2}
+    requiredLevel: 34
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

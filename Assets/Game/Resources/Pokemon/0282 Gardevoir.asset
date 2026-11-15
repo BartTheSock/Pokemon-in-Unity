@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0282 Gardevoir
+  m_EditorClassIdentifier: 
+  pokemonName: Gardevoir
+  pokemonDescription: It will try to guard its trusted Trainer with its life. It
+    has the ability to see the future.
+  frontSprite: {fileID: 21300000, guid: 300ab722de948244ea095c1f633f5a76, type: 3}
+  battleOffsetY: 1
+  backSprite: {fileID: 21300000, guid: 5ef90ffde2da9294a9406b09e425b28c, type: 3}
+  iconSprite: {fileID: 21300000, guid: 08ba1d06ccaf4374f93c756bc07d78fc, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 7a36cda788309d34482f7f87484acdfc, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: ef64de70e67a0e24bb0c88b5e62f6f50, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 14
+  pokemonType2: 18
+  ability1: 66
+  ability2: 69
+  hiddenAbility: 156
+  maxHP: 68
+  attack: 65
+  defense: 65
+  spAttack: 125
+  spDefense: 115
+  speed: 80
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 3
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 259
+  growthRate: 4
+  catchRate: 45
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 35
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 6b85aaedd84299c42bd26c607a67415b, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 10d9f56733f4dfc4e8960f44802f0c55, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: b785a5389ec42bd498f43b3002910412, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: c8f126278caf550448bee904a65dd571, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 10d9f56733f4dfc4e8960f44802f0c55, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: b785a5389ec42bd498f43b3002910412, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: c8f126278caf550448bee904a65dd571, type: 2}
+    level: 12
+  - moveBase: {fileID: 11400000, guid: dd9a68c175026d34ead3b17584c394fd, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 711adf12e59b11a489366c11643ed6e6, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: fa6cc13dc1d96364ea5852cf6beb05f7, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: c52a1116f79bb0f4790ac4f9e9f3d9c9, type: 2}
+    level: 33
+  - moveBase: {fileID: 11400000, guid: c4f0260ee55fe1e4c93607391a8ea468, type: 2}
+    level: 40
+  - moveBase: {fileID: 11400000, guid: 8fd1eb09ad9aacf46a6161efe6babcb1, type: 2}
+    level: 45
+  - moveBase: {fileID: 11400000, guid: f41423c4fe9e66f4cafebf0695328dfb, type: 2}
+    level: 53
+  - moveBase: {fileID: 11400000, guid: 788b10408ac5639449945e72416e3f3f, type: 2}
+    level: 60
+  - moveBase: {fileID: 11400000, guid: f839c4ff43d0fbb4eb0cfb282fc561e5, type: 2}
+    level: 65
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

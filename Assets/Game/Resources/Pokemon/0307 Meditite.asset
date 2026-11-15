@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0307 Meditite
+  m_EditorClassIdentifier: 
+  pokemonName: Meditite
+  pokemonDescription: It meditates in order to build up its mental energy. It's said
+    to eat just one Berry a day.
+  frontSprite: {fileID: 21300000, guid: 6fe580339ca510a4fa3d5838a478d4a7, type: 3}
+  battleOffsetY: 0
+  backSprite: {fileID: 21300000, guid: e83ecfef2322f6c44b4b5321a10fc146, type: 3}
+  iconSprite: {fileID: 21300000, guid: d6bcca82e996fa74ebc21a9592af8737, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 8e4fb1c887b5b9841b003301786fa9b4, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 4825095eab77cf94b8282d662c5cdadb, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 2
+  pokemonType2: 14
+  ability1: 45
+  ability2: 45
+  hiddenAbility: 156
+  maxHP: 30
+  attack: 80
+  defense: 55
+  spAttack: 40
+  spDefense: 55
+  speed: 60
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 1
+  expYield: 56
+  growthRate: 2
+  catchRate: 180
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: e04721a68196017438cc68f20cd59b23, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: ca20ddf922edcb149b674ee0c19aae2f, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 10d9f56733f4dfc4e8960f44802f0c55, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: ddf11ec0473b07f46993332c2b8aa294, type: 2}
+    level: 11
+  - moveBase: {fileID: 11400000, guid: f26cff0d340f458498ababaa79aea615, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 7f81c0e7ce30b5c4e823147c42d63d6e, type: 2}
+    level: 18
+  - moveBase: {fileID: 11400000, guid: f839c4ff43d0fbb4eb0cfb282fc561e5, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: 96887448ecd71ec4da1704d78ed03862, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: fa6cc13dc1d96364ea5852cf6beb05f7, type: 2}
+    level: 29
+  - moveBase: {fileID: 11400000, guid: a385176a632d278489e3a18494cfacc6, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: db7b6f047370e554daffb908bbfbc576, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: eae96b657b521be4598511d5969ae235, type: 2}
+    level: 39
+  - moveBase: {fileID: 11400000, guid: 637bc76688eb70149b9d53b7ac585ed4, type: 2}
+    level: 43
+  - moveBase: {fileID: 11400000, guid: 1239573fbb499af45a98e02961dfdaef, type: 2}
+    level: 46
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: d7e284b8b884bc340ae8b033ef861d47, type: 2}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 585f41740ed099e4aaee13155f3af2a0, type: 2}
+    requiredLevel: 37
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

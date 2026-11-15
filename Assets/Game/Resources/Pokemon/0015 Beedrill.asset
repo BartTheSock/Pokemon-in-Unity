@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0015 Beedrill
+  m_EditorClassIdentifier: 
+  pokemonName: Beedrill
+  pokemonDescription: Its best attack involves flying around at high speed, striking
+    with poison needles, then flying off.
+  frontSprite: {fileID: 21300000, guid: 1bf3aa8fd32c98d489cb8c0bcf5202a6, type: 3}
+  battleOffsetY: -8
+  backSprite: {fileID: 21300000, guid: dc7f0f5d289136f44ace9cdcf9b70b17, type: 3}
+  iconSprite: {fileID: 21300000, guid: 19924142b6af78c418b4fe4621cf4819, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 1d628ff8fb5735146b84427651345b2a, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 333e5c41a752968489c714cd43a86672, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 7
+  pokemonType2: 4
+  ability1: 64
+  ability2: 64
+  hiddenAbility: 110
+  maxHP: 65
+  attack: 90
+  defense: 40
+  spAttack: 45
+  spDefense: 80
+  speed: 75
+  HPEVYield: 0
+  attackEVYield: 2
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 1
+  speedEVYield: 0
+  expYield: 198
+  growthRate: 2
+  catchRate: 45
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: bf4780e00f962f74095dce363cb7bbf5, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: faa059aa4cc88ef47b9a9088d54fd3b7, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: ef6e04d2c450be54fac0656768fb229d, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: f47444127fa6ede4a9367dbaf9625448, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: accb39c7dc1e6e5419347282b01702db, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: 3956fd3fccf1bc94eb323dec0a46e541, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: d7cef81c096d2364d98837f570133b34, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: 6dcd1ae88dcf03f4db2524065399cfb3, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: fdef7836f88d81947a8b64b591a8b9d0, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 1b1a21315cc720445be4e013f2827ca9, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: eae96b657b521be4598511d5969ae235, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: 513ff650b9c854f4c8bedc35f10f521c, type: 2}
+    level: 34
+  - moveBase: {fileID: 11400000, guid: df14e7fc578f3fa4b888abb1fb6946d3, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: 6539700668e5c0b40af1eb7a86efc829, type: 2}
+    level: 40
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

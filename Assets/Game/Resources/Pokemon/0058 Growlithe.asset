@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0058 Growlithe
+  m_EditorClassIdentifier: 
+  pokemonName: Growlithe
+  pokemonDescription: "It is a Pok\xE9mon with a loyal nature. It will remain motionless
+    until it is given an order by its Trainer."
+  frontSprite: {fileID: 21300000, guid: ceeda8585462f7b44b233775126e0f49, type: 3}
+  battleOffsetY: 12
+  backSprite: {fileID: 21300000, guid: 5abcd4c5d0d487e409d45faac2ff9b41, type: 3}
+  iconSprite: {fileID: 21300000, guid: 7e93e937618f18f4ab64bf221bba8e25, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: d5afe564c371ea64cb6b389b5204446a, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: aa942ae3b97641441ac5f373b303ac1b, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 10
+  pokemonType2: 0
+  ability1: 27
+  ability2: 17
+  hiddenAbility: 139
+  maxHP: 55
+  attack: 70
+  defense: 45
+  spAttack: 70
+  spDefense: 50
+  speed: 60
+  HPEVYield: 0
+  attackEVYield: 1
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 70
+  growthRate: 4
+  catchRate: 190
+  pokemonStatus: 0
+  genderRate: 3
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e3aee3e3753080047b12fa8051d20c7b, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: 1871e22a3da4d554a82a7d1d33db7c87, type: 2}
+    level: 14
+  - moveBase: {fileID: 11400000, guid: 7365dc93dfad88548b3097486dd51785, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 371c054b3d564a44082f76194230ec11, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: ecfb6921b39bb6746a421df560ed7182, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 2a8c741df5c9e4d4492af9d82d1c0200, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 13769e1b352836747a6291d6b3be9024, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: 76338d4301d17cb489747f4845164d9b, type: 2}
+    level: 34
+  - moveBase: {fileID: 11400000, guid: eae96b657b521be4598511d5969ae235, type: 2}
+    level: 39
+  - moveBase: {fileID: 11400000, guid: 43eb4537295bb09449c147a0e7b70c62, type: 2}
+    level: 42
+  - moveBase: {fileID: 11400000, guid: 2f665fb3cdad1af4abdeb188a8437db9, type: 2}
+    level: 45
+  - moveBase: {fileID: 11400000, guid: 13da203a3f5a3f54ca29e146de088130, type: 2}
+    level: 48
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 6a3af28c06b794b4a8a0f22c4023a6a6, type: 2}
+    requiredLevel: 110
+    requiredItem: {fileID: 11400000, guid: 230543b12f524fe4f95256bd28afc950, type: 2}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

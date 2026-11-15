@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0066 Machop
+  m_EditorClassIdentifier: 
+  pokemonName: Machop
+  pokemonDescription: Its muscles never cramp however much it trains. It lives in
+    the mountains away from humans.
+  frontSprite: {fileID: 21300000, guid: 38e36c4523e56aa49baeb1dc6963c576, type: 3}
+  battleOffsetY: 11
+  backSprite: {fileID: 21300000, guid: 688710f52c60697488fc063388602fdf, type: 3}
+  iconSprite: {fileID: 21300000, guid: 81ecb8647cd89df4ba24b9aa0f3afe4d, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 70568c74b94b422478e758847da07175, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 3b721120be5aa8941ade0d00747695b6, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 2
+  pokemonType2: 0
+  ability1: 19
+  ability2: 100
+  hiddenAbility: 116
+  maxHP: 70
+  attack: 80
+  defense: 50
+  spAttack: 35
+  spDefense: 35
+  speed: 35
+  HPEVYield: 0
+  attackEVYield: 1
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 61
+  growthRate: 3
+  catchRate: 180
+  pokemonStatus: 0
+  genderRate: 3
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: ddf11ec0473b07f46993332c2b8aa294, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: d7cef81c096d2364d98837f570133b34, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: d4f9a8efa3eb2a6468ff0f7f671ae932, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: d6717924b0b1bb64ebdf01668ef772f9, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: b10e26d280f706f49a7c96674b79cd39, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: f07e2819b4dbae548bbf711cb2d76f18, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: f551d12cbce04204d978918cbecf6382, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 8e55f5d58bab27b498452f244b8c8ef2, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: ce841326fe0371a4396621db471c00b9, type: 2}
+    level: 34
+  - moveBase: {fileID: 11400000, guid: d07bbcfcf8ccacf49b1820d6b4bda18e, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: 7a7cc5fe208c841459298391ced14287, type: 2}
+    level: 43
+  - moveBase: {fileID: 11400000, guid: 741b8b4d54f69bf4eb7a5bc4ba0bb96c, type: 2}
+    level: 46
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 19907fdf39326e74e9389e26efbf46ed, type: 2}
+    requiredLevel: 28
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

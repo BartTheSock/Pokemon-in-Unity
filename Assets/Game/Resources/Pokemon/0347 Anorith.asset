@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0347 Anorith
+  m_EditorClassIdentifier: 
+  pokemonName: Anorith
+  pokemonDescription: "This Pok\xE9mon ancestor was reanimated from a fossil. It
+    lived in the sea and hunted with its claws."
+  frontSprite: {fileID: 21300000, guid: fee624d87f04d534dbffc7a4ed42543e, type: 3}
+  battleOffsetY: 20
+  backSprite: {fileID: 21300000, guid: 3e5f1dac22fc159409b0d6d77d642d75, type: 3}
+  iconSprite: {fileID: 21300000, guid: 0a68c635de257b44ebd9d1411f91301a, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: d5a4a2c3c378c0d4a9638a15d1df8e16, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 2fffaf6a30f666e4cb2d96739198977b, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 6
+  pokemonType2: 7
+  ability1: 3
+  ability2: 3
+  hiddenAbility: 65
+  maxHP: 45
+  attack: 95
+  defense: 50
+  spAttack: 40
+  spDefense: 50
+  speed: 75
+  HPEVYield: 0
+  attackEVYield: 1
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 71
+  growthRate: 0
+  catchRate: 120
+  pokemonStatus: 1
+  genderRate: 2
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1cfce7ccaac906b4dab6a456c13ab842, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 38965cc6552b4b948b8490cdc5008fa1, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 6149eab9d0fef0c4cb10bdc5041fb582, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 8d3e6d6e0e5986041bddd97d8c9786f8, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: f8f2f247289f7b74099468f4238e7362, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: f47444127fa6ede4a9367dbaf9625448, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: a142347348c64c34693f56489900fa7c, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: accb39c7dc1e6e5419347282b01702db, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: 1e107f2ef8dc04c439f8d93b42cf2e7e, type: 2}
+    level: 43
+  - moveBase: {fileID: 11400000, guid: 8064089c3907bfa4e97d0e52238efa5d, type: 2}
+    level: 49
+  - moveBase: {fileID: 11400000, guid: 11d8607ebaee30741afef1746c1ee877, type: 2}
+    level: 55
+  - moveBase: {fileID: 11400000, guid: 18b51685563539845898b7e3e83392ad, type: 2}
+    level: 61
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: d7e284b8b884bc340ae8b033ef861d47, type: 2}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 7638630aef97c0e4f861e2ae562d8d68, type: 2}
+    requiredLevel: 40
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

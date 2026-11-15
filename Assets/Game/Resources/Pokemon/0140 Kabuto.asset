@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0140 Kabuto
+  m_EditorClassIdentifier: 
+  pokemonName: Kabuto
+  pokemonDescription: It is thought to have inhabited beaches 300 million years ago.
+    It is protected by a sturdy shell.
+  frontSprite: {fileID: 21300000, guid: 7e609753abf8e9c4fb97f479ac10d278, type: 3}
+  battleOffsetY: 21
+  backSprite: {fileID: 21300000, guid: 7101cee611486e142a8e2f975d0ea802, type: 3}
+  iconSprite: {fileID: 21300000, guid: 7b0179773e1a28a4d9ca2c06b546ce90, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: f35dfc36e8f54af468aa5e9fde1187bc, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 9353128fdd631ea48850629d40e922aa, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 6
+  pokemonType2: 11
+  ability1: 65
+  ability2: 3
+  hiddenAbility: 162
+  maxHP: 30
+  attack: 80
+  defense: 90
+  spAttack: 55
+  spDefense: 45
+  speed: 55
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 1
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 71
+  growthRate: 2
+  catchRate: 120
+  pokemonStatus: 1
+  genderRate: 2
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1cfce7ccaac906b4dab6a456c13ab842, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 38965cc6552b4b948b8490cdc5008fa1, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: dfa8c6a33e3023349b0d66e6d2091c22, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 11
+  - moveBase: {fileID: 11400000, guid: 699044c3bb514b341a472e2dc80d07ba, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 486133dbc88798f488f17dfbcf05ec57, type: 2}
+    level: 21
+  - moveBase: {fileID: 11400000, guid: c29547de52c9e7f4bb64c06e25be9306, type: 2}
+    level: 26
+  - moveBase: {fileID: 11400000, guid: 591ec395569b0ca489bcbd24c66309be, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: 3a2b607f097308648adc4ffc2b1cda9a, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 5b6d4c59f07c31e479b4097956453437, type: 2}
+    level: 41
+  - moveBase: {fileID: 11400000, guid: a142347348c64c34693f56489900fa7c, type: 2}
+    level: 46
+  - moveBase: {fileID: 11400000, guid: ec0f92de082ea2f479fcb553463fe65b, type: 2}
+    level: 51
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 097b3746cabc52c428ac4c2303d4e9a5, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: d7e284b8b884bc340ae8b033ef861d47, type: 2}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 9ec1d840d6a79db4b987cc80e479d75f, type: 2}
+    requiredLevel: 40
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

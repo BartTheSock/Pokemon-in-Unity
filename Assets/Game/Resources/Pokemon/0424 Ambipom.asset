@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0424 Ambipom
+  m_EditorClassIdentifier: 
+  pokemonName: Ambipom
+  pokemonDescription: To eat, it deftly shucks nuts with its two tails. It rarely
+    uses its arms now.
+  frontSprite: {fileID: 21300000, guid: 487be1d12bcc7db4e93c77fa36499163, type: 3}
+  battleOffsetY: 3
+  backSprite: {fileID: 21300000, guid: 1295f75bd81aa7c45aaf0215d185b49a, type: 3}
+  iconSprite: {fileID: 21300000, guid: 5626f50b1720f4f409f77e683a051366, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 0ef0f913b3d1b8849b0e3e25c0fbb852, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 06ccbcaa47ea5da48b31ec3c7afe754b, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 1
+  pokemonType2: 0
+  ability1: 120
+  ability2: 41
+  hiddenAbility: 108
+  maxHP: 75
+  attack: 100
+  defense: 66
+  spAttack: 60
+  spDefense: 66
+  speed: 115
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 2
+  expYield: 169
+  growthRate: 1
+  catchRate: 45
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1cfce7ccaac906b4dab6a456c13ab842, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 743cecf0a3490854d8f38789b440b8a6, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 486133dbc88798f488f17dfbcf05ec57, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: afaa8be75500ef441a7a8dc94ec8ff60, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 486133dbc88798f488f17dfbcf05ec57, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: afaa8be75500ef441a7a8dc94ec8ff60, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: e11663e881dae2540a3b4b839355b03e, type: 2}
+    level: 11
+  - moveBase: {fileID: 11400000, guid: 700a6a4ad1b0d6d43907dbf9f03bb822, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: cb3c38d6d1e8f544192d583416700e5d, type: 2}
+    level: 18
+  - moveBase: {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: 058d2ea14181c284e957d6515d7ec0e8, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: eae96b657b521be4598511d5969ae235, type: 2}
+    level: 29
+  - moveBase: {fileID: 11400000, guid: 4e62cfed06a4bef44a9667d1fe01bdaf, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: 3e9b5f41dbc897541b2bb2d592f35c94, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 2ec432da0596de345aaa31a2ba030362, type: 2}
+    level: 39
+  - moveBase: {fileID: 11400000, guid: 931a146a2c960fe478ff68baf8f3fe50, type: 2}
+    level: 43
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: d7e284b8b884bc340ae8b033ef861d47, type: 2}
+  evolutions: []

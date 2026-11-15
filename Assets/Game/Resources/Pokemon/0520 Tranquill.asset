@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0520 Tranquill
+  m_EditorClassIdentifier: 
+  pokemonName: Tranquill
+  pokemonDescription: "These bright Pok\xE9mon have acute memories. Apparently delivery
+    workers often choose them as their partners."
+  frontSprite: {fileID: 21300000, guid: 7dce028e31022e345a09bb2bca5cf3ff, type: 3}
+  battleOffsetY: 10
+  backSprite: {fileID: 21300000, guid: 29eb47d5688cf5842ab847b88f751386, type: 3}
+  iconSprite: {fileID: 21300000, guid: ff1bb709594e7d44b832af9fae7f4d8a, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: e5cb987e523f22e42bef856160e0e98b, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: d3ed2520620e0f64b87a940ba4e71195, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 1
+  pokemonType2: 3
+  ability1: 125
+  ability2: 118
+  hiddenAbility: 105
+  maxHP: 62
+  attack: 77
+  defense: 62
+  spAttack: 50
+  spDefense: 42
+  speed: 65
+  HPEVYield: 0
+  attackEVYield: 2
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 125
+  growthRate: 3
+  catchRate: 120
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1bac8bb3fc64e964e9cba495435594d1, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 0aed80ca2b175ae4eb92cdb7a15b3c98, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 0aed80ca2b175ae4eb92cdb7a15b3c98, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: ae9914eb3377bc347984d71f06757d6a, type: 2}
+    level: 12
+  - moveBase: {fileID: 11400000, guid: da3cab269e9701a4181d6f5e5e793c9b, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 5cbe33111b749194e9472e43d77b5140, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: a6f3123091b76634ca60ff5188f0ac3b, type: 2}
+    level: 26
+  - moveBase: {fileID: 11400000, guid: c21e0f4007a42f74f918aef255fb64b2, type: 2}
+    level: 34
+  - moveBase: {fileID: 11400000, guid: 7a9382dcf11d5a74d978feb808bec7a1, type: 2}
+    level: 38
+  - moveBase: {fileID: 11400000, guid: 3d51fbed6ae901d4caf2e43eba84bed6, type: 2}
+    level: 44
+  - moveBase: {fileID: 11400000, guid: 9b3f4d0ff179a2b4d8d04d91fc2bbd2f, type: 2}
+    level: 50
+  - moveBase: {fileID: 11400000, guid: 8771f4ad936d2a244b6b800f3de67bf9, type: 2}
+    level: 56
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 11400000, guid: d7e284b8b884bc340ae8b033ef861d47, type: 2}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: e79e70a4a2c345244aba75f49d99f3b2, type: 2}
+    requiredLevel: 32
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

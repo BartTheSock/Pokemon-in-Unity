@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0330 Flygon
+  m_EditorClassIdentifier: 
+  pokemonName: Flygon
+  pokemonDescription: It whips up sandstorms with powerful flaps of its wings. It
+    is known as the Desert Spirit.
+  frontSprite: {fileID: 21300000, guid: 97ec74e3ae362e74cbf63b3e9063a00e, type: 3}
+  battleOffsetY: -8
+  backSprite: {fileID: 21300000, guid: 6e7dd5b9db11ecb46bc34b9309ce4d13, type: 3}
+  iconSprite: {fileID: 21300000, guid: a33d9290486d0fa41b5758041df9cddc, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: f8476944c867de14989d3ffd3bf12156, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 66db81e00029ccf49951f057ac183c90, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 5
+  pokemonType2: 16
+  ability1: 29
+  ability2: 29
+  hiddenAbility: 29
+  maxHP: 80
+  attack: 100
+  defense: 80
+  spAttack: 80
+  spDefense: 80
+  speed: 100
+  HPEVYield: 0
+  attackEVYield: 1
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 2
+  expYield: 234
+  growthRate: 3
+  catchRate: 45
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: ec737726ffdd33b4ebe8db4bac3a84b0, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 9c983af833bc26142a8cb61c2600b409, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 486133dbc88798f488f17dfbcf05ec57, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: f0d08902af80db84ea7498ce7073e330, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 3278f30e7aa6e0d4d96bb33a4e86c64d, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 486133dbc88798f488f17dfbcf05ec57, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: f0d08902af80db84ea7498ce7073e330, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 3278f30e7aa6e0d4d96bb33a4e86c64d, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: ce1a0f1c44eb65e4584ca6a04aa1df6a, type: 2}
+    level: 33
+  - moveBase: {fileID: 11400000, guid: 058d2ea14181c284e957d6515d7ec0e8, type: 2}
+    level: 41
+  - moveBase: {fileID: 11400000, guid: 22dbe7eaa6aab1241ba968231fd216a3, type: 2}
+    level: 49
+  - moveBase: {fileID: 11400000, guid: 23229976a9e108640b678af201609a5a, type: 2}
+    level: 57
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 11400000, guid: d7e284b8b884bc340ae8b033ef861d47, type: 2}
+  evolutions: []

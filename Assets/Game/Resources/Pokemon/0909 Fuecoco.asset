@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0909 Fuecoco
+  m_EditorClassIdentifier: Assembly-CSharp::PokemonBase
+  pokemonName: Fuecoco
+  pokemonDescription: It lies on warm rocks and uses the heat absorbed by its square-shaped
+    scales to create fire energy.
+  frontSprite: {fileID: 21300000, guid: 93949a1978d2b8541899540bc87e8925, type: 3}
+  battleOffsetY: 10
+  backSprite: {fileID: 21300000, guid: 4876a833ea86aaa4587a3104c7c8ef87, type: 3}
+  iconSprite: {fileID: 21300000, guid: 9b695e7631ccc664abf3b724c5ff5ecb, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 48ce1bf7d609eb64997759b2d37e6b8e, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 96f39bebee012b547b85983f1cddc9e5, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 0
+  pokemonType2: 0
+  ability1: 4
+  ability2: 4
+  hiddenAbility: 122
+  maxHP: 67
+  attack: 45
+  defense: 59
+  spAttack: 63
+  spDefense: 40
+  speed: 36
+  HPEVYield: 1
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 62
+  growthRate: 3
+  catchRate: 45
+  pokemonStatus: 2
+  genderRate: 2
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e3aee3e3753080047b12fa8051d20c7b, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: e9ca2f245ef2fcc409b477a0c3dd886f, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 12
+  - moveBase: {fileID: 11400000, guid: 8b8b9ff00560f064183c6d0c4343552e, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: bdc7d453c62926241bf4895126e72499, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 791b79ee88b7a9a4a977681cd68831d9, type: 2}
+    level: 21
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 76338d4301d17cb489747f4845164d9b, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 4e4579ba7cf92714aafdd36dffbe08b3, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: 69b5f7f0f4a7557468f8906b89de42fd, type: 2}
+    level: 36
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 46aae5aafbfa16b41913d27cfb8e9899, type: 2}
+    requiredLevel: 16
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

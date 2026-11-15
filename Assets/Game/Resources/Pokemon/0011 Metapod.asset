@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0011 Metapod
+  m_EditorClassIdentifier: 
+  pokemonName: Metapod
+  pokemonDescription: "A steel-hard shell protects its tender body. The Pok\xE9mon
+    quietly endures hardships while awaiting evolution."
+  frontSprite: {fileID: 21300000, guid: 870e095683400194c9a9394701f462f7, type: 3}
+  battleOffsetY: 14
+  backSprite: {fileID: 21300000, guid: 59a12106d52d46f408788632bd696815, type: 3}
+  iconSprite: {fileID: 21300000, guid: e69f813fcaaa45042b1fa4f537af4235, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: b569148f1f8f7994aa32e088cd4b616c, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 63e66550fd5877d4fa8df82f11c65407, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 7
+  pokemonType2: 0
+  ability1: 54
+  ability2: 54
+  hiddenAbility: 54
+  maxHP: 50
+  attack: 20
+  defense: 55
+  spAttack: 25
+  spDefense: 25
+  speed: 30
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 2
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 72
+  growthRate: 2
+  catchRate: 120
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 38965cc6552b4b948b8490cdc5008fa1, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 38965cc6552b4b948b8490cdc5008fa1, type: 2}
+    level: 1
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 082da6b0a3d68b346840cf1fd64f89bf, type: 2}
+    requiredLevel: 10
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

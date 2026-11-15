@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0148 Dragonair
+  m_EditorClassIdentifier: 
+  pokemonName: Dragonair
+  pokemonDescription: If its body takes on an aura, the weather changes instantly.
+    It is said to live in seas and lakes.
+  frontSprite: {fileID: 21300000, guid: da43118d70322264fb2c9f94e022311c, type: 3}
+  battleOffsetY: 2
+  backSprite: {fileID: 21300000, guid: 9fc1ed8216fdf8d499da914bfb9ecd0d, type: 3}
+  iconSprite: {fileID: 21300000, guid: 0cb19dbed63f0d04b8783b47cf8dd824, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 351e2b0193ee3c5408d789b6b6aae396, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: fc0c436cae9ed2f45bcb9a705fb1bca5, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 16
+  pokemonType2: 0
+  ability1: 54
+  ability2: 54
+  hiddenAbility: 35
+  maxHP: 61
+  attack: 84
+  defense: 65
+  spAttack: 70
+  spDefense: 70
+  speed: 70
+  HPEVYield: 0
+  attackEVYield: 2
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 147
+  growthRate: 4
+  catchRate: 45
+  pokemonStatus: 3
+  genderRate: 4
+  baseFriendship: 35
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 929f6a9693f7f674e85436e88700be71, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: cd2f57390ff2e4243a4a9071ff0bfba7, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 8aca12d686354f74d935289ab26108b3, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: cd2f57390ff2e4243a4a9071ff0bfba7, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 8aca12d686354f74d935289ab26108b3, type: 2}
+    level: 11
+  - moveBase: {fileID: 11400000, guid: 3dd573f9ae42e7d409b108d64527fbfd, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 44d316d94b7e5724f8e96ec92cd813b8, type: 2}
+    level: 21
+  - moveBase: {fileID: 11400000, guid: eae96b657b521be4598511d5969ae235, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: ee1702e6310a2fd4cbd2ef8c81304cfd, type: 2}
+    level: 33
+  - moveBase: {fileID: 11400000, guid: f684882eb9a291e4daa2c4706c7dce86, type: 2}
+    level: 39
+  - moveBase: {fileID: 11400000, guid: d7cef81c096d2364d98837f570133b34, type: 2}
+    level: 47
+  - moveBase: {fileID: 11400000, guid: cc011528cce1e0b4396247f168a761a3, type: 2}
+    level: 53
+  - moveBase: {fileID: 11400000, guid: 1d96e8314edf16e45983d696c4f9681c, type: 2}
+    level: 61
+  - moveBase: {fileID: 11400000, guid: 23229976a9e108640b678af201609a5a, type: 2}
+    level: 67
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 097b3746cabc52c428ac4c2303d4e9a5, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 6fa6611b551c1484c87f4b1bf815391c, type: 2}
+    requiredLevel: 55
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0731 Pikipek
+  m_EditorClassIdentifier: 
+  pokemonName: Pikipek
+  pokemonDescription: Using its beak to strike 16 times per second, it opens holes
+    in even the hardest of trees.
+  frontSprite: {fileID: 21300000, guid: ff7bddd6d695e214296fc1cfbeb44239, type: 3}
+  battleOffsetY: 13
+  backSprite: {fileID: 21300000, guid: d4dd3674b1f337146ae1f8c674a5b8f1, type: 3}
+  iconSprite: {fileID: 21300000, guid: 6168424bb8509a54e852df0a61afa261, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 0475a756b9295b34a885e035a54376e3, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 2de44a70af730574fb5853c2bfad6f9b, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 1
+  pokemonType2: 3
+  ability1: 28
+  ability2: 108
+  hiddenAbility: 41
+  maxHP: 35
+  attack: 75
+  defense: 30
+  spAttack: 30
+  spDefense: 30
+  speed: 65
+  HPEVYield: 0
+  attackEVYield: 1
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 53
+  growthRate: 2
+  catchRate: 255
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: e82c9aa6c581cd14f8a3800400547e03, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 3
+  - moveBase: {fileID: 11400000, guid: 7eed7dba9bf879745bd9b027ed6cabfc, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: d7e284b8b884bc340ae8b033ef861d47, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: ce1a0f1c44eb65e4584ca6a04aa1df6a, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: 0828ee665ddbe134e99d37d115864f6b, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: da3cab269e9701a4181d6f5e5e793c9b, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: bf4780e00f962f74095dce363cb7bbf5, type: 2}
+    level: 21
+  - moveBase: {fileID: 11400000, guid: 058d2ea14181c284e957d6515d7ec0e8, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 4ea90573af4737444846e8b1ce6d5d2c, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: 9d4bd32ede9e2f64ba3f4617c01f6ed1, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: c21e0f4007a42f74f918aef255fb64b2, type: 2}
+    level: 33
+  - moveBase: {fileID: 11400000, guid: 4e4579ba7cf92714aafdd36dffbe08b3, type: 2}
+    level: 37
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 11400000, guid: d7e284b8b884bc340ae8b033ef861d47, type: 2}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 98d34fbbd69445a45b0154720e7402f3, type: 2}
+    requiredLevel: 14
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

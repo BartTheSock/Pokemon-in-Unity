@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0243 Raikou
+  m_EditorClassIdentifier: 
+  pokemonName: Raikou
+  pokemonDescription: It is said to have fallen with lightning. It can fire thunderbolts
+    from the rain clouds on its back.
+  frontSprite: {fileID: 21300000, guid: d130e6cfe78e7044d9175864cb9217bd, type: 3}
+  battleOffsetY: 7
+  backSprite: {fileID: 21300000, guid: f6556067ea59d4c49871320eb87fe7c9, type: 3}
+  iconSprite: {fileID: 21300000, guid: d49a63e8391747845be069f680bdbf86, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 3eca12969344a9843acfab99b4fd1b95, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 30e6f6e6ee2792a438564e92167f6f0c, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 13
+  pokemonType2: 0
+  ability1: 44
+  ability2: 44
+  hiddenAbility: 25
+  maxHP: 90
+  attack: 85
+  defense: 75
+  spAttack: 115
+  spDefense: 100
+  speed: 115
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 1
+  spDefenseEVYield: 0
+  speedEVYield: 2
+  expYield: 261
+  growthRate: 4
+  catchRate: 3
+  pokemonStatus: 4
+  genderRate: 0
+  baseFriendship: 35
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: a14dbb6d7f6b9a446bf31748a1106291, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: 0aed80ca2b175ae4eb92cdb7a15b3c98, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 18f9843c19944124fa0dc8b3fe0501e4, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: dd9a68c175026d34ead3b17584c394fd, type: 2}
+    level: 29
+  - moveBase: {fileID: 11400000, guid: 43eb4537295bb09449c147a0e7b70c62, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: bd39272fd9c165247821b2074a076d4a, type: 2}
+    level: 43
+  - moveBase: {fileID: 11400000, guid: 7913c2e12d2f4ab4ea46bc57e7ad7fa0, type: 2}
+    level: 50
+  - moveBase: {fileID: 11400000, guid: f50da39bc1a715742a170b45d434df06, type: 2}
+    level: 57
+  - moveBase: {fileID: 11400000, guid: 51496e7d8216db945ba60ba88c3a0182, type: 2}
+    level: 64
+  - moveBase: {fileID: 11400000, guid: fa6cc13dc1d96364ea5852cf6beb05f7, type: 2}
+    level: 71
+  - moveBase: {fileID: 11400000, guid: 5a67cb5c296b54341846710274387de1, type: 2}
+    level: 78
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0205 Forretress
+  m_EditorClassIdentifier: 
+  pokemonName: Forretress
+  pokemonDescription: "It is encased in a steel shell. Forretress's eyes peer out,
+    but what lies within this Pok\xE9mon's shell is unknown."
+  frontSprite: {fileID: 21300000, guid: 2be4ed7724845434891631dfc545efa3, type: 3}
+  battleOffsetY: 0
+  backSprite: {fileID: 21300000, guid: f02c83da0860fa845865b4f0f0fa4acc, type: 3}
+  iconSprite: {fileID: 21300000, guid: 0419f6e61af7ad24f9a5fb26ed054cb5, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 24d54bdc329715a4aa392fd1ab0d1762, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: da855f50ffce3954894afa93c4db9ee4, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 7
+  pokemonType2: 9
+  ability1: 62
+  ability2: 62
+  hiddenAbility: 146
+  maxHP: 75
+  attack: 90
+  defense: 140
+  spAttack: 60
+  spDefense: 60
+  speed: 40
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 2
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 163
+  growthRate: 2
+  catchRate: 75
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 258bb79961bc2d145ae6f3fd8880329e, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 38965cc6552b4b948b8490cdc5008fa1, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 77894fa3cad4a614c9fdc7e8d51eb441, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: f47444127fa6ede4a9367dbaf9625448, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 77894fa3cad4a614c9fdc7e8d51eb441, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: f47444127fa6ede4a9367dbaf9625448, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: 13769e1b352836747a6291d6b3be9024, type: 2}
+    level: 12
+  - moveBase: {fileID: 11400000, guid: 59bbc3c6fe23ca240ab87f101f42e840, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: b237bf6ded2821a478dd55d15a79ba1b, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+    level: 23
+  - moveBase: {fileID: 11400000, guid: 3e9b5f41dbc897541b2bb2d592f35c94, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 1f76bfe368633d243b0d160a9a06c567, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: 39cf006a0a2323c4cba89aaaa7a34e1e, type: 2}
+    level: 33
+  - moveBase: {fileID: 11400000, guid: 0b36e163fb5a62744932415882337a2c, type: 2}
+    level: 38
+  - moveBase: {fileID: 11400000, guid: 412bddf0f9dcb7b4a9e9ea1b868c005d, type: 2}
+    level: 45
+  - moveBase: {fileID: 11400000, guid: 931a146a2c960fe478ff68baf8f3fe50, type: 2}
+    level: 50
+  - moveBase: {fileID: 11400000, guid: c3998be70d9e4fc4f95538cc4a36a8f3, type: 2}
+    level: 56
+  - moveBase: {fileID: 11400000, guid: 6971aacca6821f947a4bc12e7d09f51c, type: 2}
+    level: 64
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  evolutions: []

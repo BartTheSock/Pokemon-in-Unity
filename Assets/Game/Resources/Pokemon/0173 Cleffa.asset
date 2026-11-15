@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0173 Cleffa
+  m_EditorClassIdentifier: 
+  pokemonName: Cleffa
+  pokemonDescription: Its silhouette is like a star. It is believed to arrive riding
+    on shooting stars.
+  frontSprite: {fileID: 21300000, guid: 37d8c9ec93c0cc042988e03523251dac, type: 3}
+  battleOffsetY: 20
+  backSprite: {fileID: 21300000, guid: 6fa42a19dcf74544cbb32828d45806e6, type: 3}
+  iconSprite: {fileID: 21300000, guid: d307664de76bd24409f4b114319d030d, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: f33c68f0b1d187e48ac86ed7f9095c4d, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: bce5a1e8809095745bb29d5d83107075, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 18
+  pokemonType2: 0
+  ability1: 10
+  ability2: 96
+  hiddenAbility: 131
+  maxHP: 50
+  attack: 25
+  defense: 28
+  spAttack: 45
+  spDefense: 55
+  speed: 15
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 1
+  speedEVYield: 0
+  expYield: 44
+  growthRate: 1
+  catchRate: 150
+  pokemonStatus: 0
+  genderRate: 5
+  baseFriendship: 140
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1fb217a95c7e98b469c850be2bff8aee, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e04721a68196017438cc68f20cd59b23, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: f41423c4fe9e66f4cafebf0695328dfb, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 839f18effa8ef884bbb114b6be2880ad, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 8a370228fc8dbad4b8bd80dedeb52a42, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: 56c60d0d96b22d3439f5f20671f04689, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: 711adf12e59b11a489366c11643ed6e6, type: 2}
+    level: 16
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: c97555c510c52084e94ce1b9f08c8493, type: 2}
+    requiredLevel: 0
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 1

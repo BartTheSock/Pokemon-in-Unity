@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0191 Sunkern
+  m_EditorClassIdentifier: 
+  pokemonName: Sunkern
+  pokemonDescription: They may suddenly fall out of the sky in the morning. In the
+    year following a cold summer, their population explodes.
+  frontSprite: {fileID: 21300000, guid: f96c449af87e89b4db2807a7c4602a18, type: 3}
+  battleOffsetY: 19
+  backSprite: {fileID: 21300000, guid: e30466ed9cdcff64b9e8755c3175a450, type: 3}
+  iconSprite: {fileID: 21300000, guid: 1e82e9eeab59f1047ac1c7889e37921a, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: f43b18ba1a030214eaed2710b4aac588, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 652e4bd2f5bfa484e8c426f443379f54, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 12
+  pokemonType2: 0
+  ability1: 5
+  ability2: 113
+  hiddenAbility: 14
+  maxHP: 30
+  attack: 30
+  defense: 30
+  spAttack: 30
+  spDefense: 30
+  speed: 30
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 1
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 36
+  growthRate: 3
+  catchRate: 235
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 6fdff47b73e7e4243a43b7c5a4fc2a09, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: dfa8c6a33e3023349b0d66e6d2091c22, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 3a2b607f097308648adc4ffc2b1cda9a, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: 2416d5351b6f0b24ebe7d672aeed47cf, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: fda4f4631bfdf38479c4f9e332fc874c, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 8778242a785390040a5ea4d60b440026, type: 2}
+    level: 21
+  - moveBase: {fileID: 11400000, guid: 931a146a2c960fe478ff68baf8f3fe50, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 711adf12e59b11a489366c11643ed6e6, type: 2}
+    level: 29
+  - moveBase: {fileID: 11400000, guid: 955ad0358a27d2549890525e7008b890, type: 2}
+    level: 33
+  - moveBase: {fileID: 11400000, guid: 86bf0a4258a26fa45bd1e9eaf57ca1b3, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: cbceef98cec6df04a90d7ef9ec095ffe, type: 2}
+    level: 41
+  - moveBase: {fileID: 11400000, guid: 8def782cce7e2c74dbfce52b62530fcd, type: 2}
+    level: 45
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: b81d646c47c29ab4db69be247d619f39, type: 2}
+    requiredLevel: 110
+    requiredItem: {fileID: 11400000, guid: 15357c76691189d478b136afbcb20d34, type: 2}
+    friendshipRequired: 0

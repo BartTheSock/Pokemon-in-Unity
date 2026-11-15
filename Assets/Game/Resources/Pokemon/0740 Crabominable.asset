@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0740 Crabominable
+  m_EditorClassIdentifier: 
+  pokemonName: Crabominable
+  pokemonDescription: "It aimed for the top but got lost and ended up on a snowy
+    mountain. Being forced to endure the cold, this Pok\xE9mon evolved and grew fur."
+  frontSprite: {fileID: 21300000, guid: 5ce85e08d59ba914f8621673cf21faf9, type: 3}
+  battleOffsetY: 3
+  backSprite: {fileID: 21300000, guid: 5f4656dbaaa4a5b4da22e3beb7938391, type: 3}
+  iconSprite: {fileID: 21300000, guid: be77b1383b81cd54d92c87ccfe2dd31a, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 3581390fdc8ce144f8faaab92c42919b, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: d5836b3847c06d04ba54b8b02df26e9a, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 2
+  pokemonType2: 15
+  ability1: 22
+  ability2: 93
+  hiddenAbility: 79
+  maxHP: 97
+  attack: 132
+  defense: 77
+  spAttack: 62
+  spDefense: 67
+  speed: 43
+  HPEVYield: 0
+  attackEVYield: 2
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 167
+  growthRate: 2
+  catchRate: 60
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 9fbdfafa2116932419b807ac98128e12, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 980059f3d8b3220448c96124b5b99ab7, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 3d7aa09f31ba7b94cbcdeda4f7c373d7, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 6dcd1ae88dcf03f4db2524065399cfb3, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 3d7aa09f31ba7b94cbcdeda4f7c373d7, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: 6dcd1ae88dcf03f4db2524065399cfb3, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: f9754b98b54142b48ad0bd185d7d741f, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 07ca4883d0a0f4d43b46528588679d42, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: 45f20a1aee866ee43bdaf181025cc67e, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: b16c625fcbcbc044fa645b9dfe692a1a, type: 2}
+    level: 30
+  - moveBase: {fileID: 11400000, guid: 637bc76688eb70149b9d53b7ac585ed4, type: 2}
+    level: 35
+  - moveBase: {fileID: 11400000, guid: d6088892fc3034c4199e55ddf23db22d, type: 2}
+    level: 39
+  - moveBase: {fileID: 11400000, guid: 0b36e163fb5a62744932415882337a2c, type: 2}
+    level: 42
+  - moveBase: {fileID: 11400000, guid: 741b8b4d54f69bf4eb7a5bc4ba0bb96c, type: 2}
+    level: 45
+  - moveBase: {fileID: 11400000, guid: da819a2533f664c4c995e0da6ede6dbe, type: 2}
+    level: 49
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

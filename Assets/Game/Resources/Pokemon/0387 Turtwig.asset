@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0387 Turtwig
+  m_EditorClassIdentifier: 
+  pokemonName: Turtwig
+  pokemonDescription: "It undertakes photosynthesis within its body, making oxygen.
+    The leaf on its head wilts if the Pok\xE9mon is thirsty."
+  frontSprite: {fileID: 21300000, guid: fc6fd7189b4995b4fb735dad1b45eacc, type: 3}
+  battleOffsetY: 12
+  backSprite: {fileID: 21300000, guid: 2a6d97ddb49c57249b6b45ba7510158a, type: 3}
+  iconSprite: {fileID: 21300000, guid: 1b416caa12ecb84418fd7f1c3d21576e, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 4cb8ae3445bad50468a9c3612f205039, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 702a789f149233946a74fc9879bf6ec2, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 12
+  pokemonType2: 0
+  ability1: 39
+  ability2: 39
+  hiddenAbility: 55
+  maxHP: 55
+  attack: 68
+  defense: 64
+  spAttack: 45
+  spDefense: 55
+  speed: 31
+  HPEVYield: 0
+  attackEVYield: 1
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 64
+  growthRate: 3
+  catchRate: 45
+  pokemonStatus: 2
+  genderRate: 2
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 16bc013fa6508d846b421e1704aab191, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 5b0bafc75838dad478d12d1b94bd6cc7, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: 8778242a785390040a5ea4d60b440026, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: 6fdff47b73e7e4243a43b7c5a4fc2a09, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: aa9cb1499a4eaee4d8eb472d7514b354, type: 2}
+    level: 21
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 3a2b607f097308648adc4ffc2b1cda9a, type: 2}
+    level: 29
+  - moveBase: {fileID: 11400000, guid: fda4f4631bfdf38479c4f9e332fc874c, type: 2}
+    level: 33
+  - moveBase: {fileID: 11400000, guid: 43eb4537295bb09449c147a0e7b70c62, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: 955ad0358a27d2549890525e7008b890, type: 2}
+    level: 41
+  - moveBase: {fileID: 11400000, guid: b5b4fe7723c45ab458e76d22735a6976, type: 2}
+    level: 45
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 81c230e947f64f3458a72c0b65287ed0, type: 2}
+    requiredLevel: 18
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

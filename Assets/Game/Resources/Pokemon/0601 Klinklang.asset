@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0601 Klinklang
+  m_EditorClassIdentifier: 
+  pokemonName: Klinklang
+  pokemonDescription: From its spikes, it launches powerful blasts of electricity.
+    Its red core contains an enormous amount of energy.
+  frontSprite: {fileID: 21300000, guid: 880c8daa0ba83be458a75c178cc912f2, type: 3}
+  battleOffsetY: -6
+  backSprite: {fileID: 21300000, guid: 5d116b84454462a4a8b3b6dd8a13bf03, type: 3}
+  iconSprite: {fileID: 21300000, guid: f3c6afd51229eac4fa910be6dc2772a2, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 58b855df60c9a984e995b72bb7245b6c, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: eaa606559d13673468e4b9160fbb9dfb, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 9
+  pokemonType2: 0
+  ability1: 42
+  ability2: 36
+  hiddenAbility: 6
+  maxHP: 60
+  attack: 100
+  defense: 115
+  spAttack: 70
+  spDefense: 85
+  speed: 90
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 3
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 234
+  growthRate: 3
+  catchRate: 30
+  pokemonStatus: 1
+  genderRate: 0
+  baseFriendship: 50
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 3d7aa09f31ba7b94cbcdeda4f7c373d7, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: c3998be70d9e4fc4f95538cc4a36a8f3, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: a14dbb6d7f6b9a446bf31748a1106291, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 0bbc9cd645ef2964fb0871bfa999501e, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: c3998be70d9e4fc4f95538cc4a36a8f3, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: a14dbb6d7f6b9a446bf31748a1106291, type: 2}
+    level: 11
+  - moveBase: {fileID: 11400000, guid: 0bbc9cd645ef2964fb0871bfa999501e, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: fb3c884f86acce043a1527451c6374e4, type: 2}
+    level: 21
+  - moveBase: {fileID: 11400000, guid: 1ce3b19c21b12514f931bd44b59ac130, type: 2}
+    level: 26
+  - moveBase: {fileID: 11400000, guid: 258bb79961bc2d145ae6f3fd8880329e, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: 1f76bfe368633d243b0d160a9a06c567, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 058d2ea14181c284e957d6515d7ec0e8, type: 2}
+    level: 40
+  - moveBase: {fileID: 11400000, guid: 7913c2e12d2f4ab4ea46bc57e7ad7fa0, type: 2}
+    level: 44
+  - moveBase: {fileID: 11400000, guid: 5b6d4c59f07c31e479b4097956453437, type: 2}
+    level: 48
+  - moveBase: {fileID: 11400000, guid: decfa7f385184024686d102d503c12fa, type: 2}
+    level: 54
+  - moveBase: {fileID: 11400000, guid: 88297976916507d44a02f1fc60809167, type: 2}
+    level: 60
+  - moveBase: {fileID: 11400000, guid: 6971aacca6821f947a4bc12e7d09f51c, type: 2}
+    level: 66
+  - moveBase: {fileID: 11400000, guid: 23229976a9e108640b678af201609a5a, type: 2}
+    level: 72
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  evolutions: []

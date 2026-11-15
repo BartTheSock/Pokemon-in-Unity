@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0333 Swablu
+  m_EditorClassIdentifier: 
+  pokemonName: Swablu
+  pokemonDescription: Its wings are like cotton tufts. If it perches on someone's
+    head, it looks like a cotton hat.
+  frontSprite: {fileID: 21300000, guid: 59fa23857a3f38041ad5ce058dd4d37e, type: 3}
+  battleOffsetY: -8
+  backSprite: {fileID: 21300000, guid: 2751cf5dfcbbe4a4c9e147e568af176b, type: 3}
+  iconSprite: {fileID: 21300000, guid: f3e0ac3ed321aa24480623bfc20d124b, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: cb63f1f62aedc6b498acaebd0190b717, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: ee44190c8157e3d4b8bc7ad837b56c7c, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 1
+  pokemonType2: 3
+  ability1: 37
+  ability2: 37
+  hiddenAbility: 7
+  maxHP: 45
+  attack: 40
+  defense: 60
+  spAttack: 40
+  spDefense: 75
+  speed: 50
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 1
+  speedEVYield: 0
+  expYield: 62
+  growthRate: 0
+  catchRate: 255
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: e82c9aa6c581cd14f8a3800400547e03, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: afaa8be75500ef441a7a8dc94ec8ff60, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 839f18effa8ef884bbb114b6be2880ad, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: bf4780e00f962f74095dce363cb7bbf5, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: d6717924b0b1bb64ebdf01668ef772f9, type: 2}
+    level: 18
+  - moveBase: {fileID: 11400000, guid: c21e0f4007a42f74f918aef255fb64b2, type: 2}
+    level: 23
+  - moveBase: {fileID: 11400000, guid: 13769e1b352836747a6291d6b3be9024, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: cc011528cce1e0b4396247f168a761a3, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: 3b5a937544b2828489f1012a1bb05dce, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 7a9382dcf11d5a74d978feb808bec7a1, type: 2}
+    level: 40
+  - moveBase: {fileID: 11400000, guid: 1d96e8314edf16e45983d696c4f9681c, type: 2}
+    level: 45
+  - moveBase: {fileID: 11400000, guid: 8771f4ad936d2a244b6b800f3de67bf9, type: 2}
+    level: 50
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: e9abd312cf472284d84db75dfd8f7c5c, type: 2}
+    requiredLevel: 35
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

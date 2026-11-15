@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0746 Wishiwashi
+  m_EditorClassIdentifier: 
+  pokemonName: Wishiwashi
+  pokemonDescription: When it senses danger, its eyes tear up. The sparkle of its
+    tears signals other Wishiwashi to gather.
+  frontSprite: {fileID: 21300000, guid: bd8ad05ac1f3c23499389cf769977ced, type: 3}
+  battleOffsetY: 0
+  backSprite: {fileID: 21300000, guid: 0ac2ba3f47657d347b0e9d584e1a8be1, type: 3}
+  iconSprite: {fileID: 21300000, guid: bae862318b095cc46ae5f8af8c8e106d, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 99955d78507227945a2c569d62c56779, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 5549a446139509b469cd046c54d48763, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 11
+  pokemonType2: 0
+  ability1: 220
+  ability2: 220
+  hiddenAbility: 220
+  maxHP: 45
+  attack: 20
+  defense: 20
+  spAttack: 25
+  spDefense: 25
+  speed: 40
+  HPEVYield: 1
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 61
+  growthRate: 1
+  catchRate: 60
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 8d3e6d6e0e5986041bddd97d8c9786f8, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 00b5e22d50a520c4ea4e5d2dbae2c994, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: f0d08902af80db84ea7498ce7073e330, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: c29547de52c9e7f4bb64c06e25be9306, type: 2}
+    level: 12
+  - moveBase: {fileID: 11400000, guid: e1a09201554f0c2498ed8dd380d0bd2b, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 591ec395569b0ca489bcbd24c66309be, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: caf657f6e408cb847892c3c2b479de29, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: 13769e1b352836747a6291d6b3be9024, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: f9754b98b54142b48ad0bd185d7d741f, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: ee1702e6310a2fd4cbd2ef8c81304cfd, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 3d76a5d1684712d4cae4bae32df69d73, type: 2}
+    level: 40
+  - moveBase: {fileID: 11400000, guid: f792656126440ae4aa1f8703324c6dd2, type: 2}
+    level: 44
+  - moveBase: {fileID: 11400000, guid: 931a146a2c960fe478ff68baf8f3fe50, type: 2}
+    level: 48
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 097b3746cabc52c428ac4c2303d4e9a5, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions: []

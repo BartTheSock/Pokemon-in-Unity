@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0059 Arcanine
+  m_EditorClassIdentifier: 
+  pokemonName: Arcanine
+  pokemonDescription: Its proud and regal appearance has captured the hearts of people
+    since long ago.
+  frontSprite: {fileID: 21300000, guid: 52b08ee233563fe4ca4979dd3c1b0773, type: 3}
+  battleOffsetY: 1
+  backSprite: {fileID: 21300000, guid: 85bbb79885641ff43be518ea285e7792, type: 3}
+  iconSprite: {fileID: 21300000, guid: 387141ecb8d765a4cb9cf8464f724295, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 991d8150e2170554f9884b6714586cbf, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 30962ffb56441ea4ca5a7cbe959e65d4, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 10
+  pokemonType2: 0
+  ability1: 27
+  ability2: 17
+  hiddenAbility: 139
+  maxHP: 90
+  attack: 110
+  defense: 80
+  spAttack: 100
+  spDefense: 80
+  speed: 95
+  HPEVYield: 0
+  attackEVYield: 2
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 194
+  growthRate: 4
+  catchRate: 75
+  pokemonStatus: 1
+  genderRate: 3
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 9ba60f8c0a236c34687e2a0cf900a10d, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: bd39272fd9c165247821b2074a076d4a, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 1871e22a3da4d554a82a7d1d33db7c87, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 7365dc93dfad88548b3097486dd51785, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2a8c741df5c9e4d4492af9d82d1c0200, type: 2}
+    level: 1
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

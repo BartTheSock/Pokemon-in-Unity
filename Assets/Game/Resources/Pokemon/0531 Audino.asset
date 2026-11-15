@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0531 Audino
+  m_EditorClassIdentifier: 
+  pokemonName: Audino
+  pokemonDescription: "This Pok\xE9mon has a kind heart. By touching with its feelers,
+    Audino can gauge other creatures' feelings and physical conditions."
+  frontSprite: {fileID: 21300000, guid: a206a76eba27b194cb90d7740c4cd6d0, type: 3}
+  battleOffsetY: 9
+  backSprite: {fileID: 21300000, guid: ff8f64e0bbcbe0944872686d66587bc5, type: 3}
+  iconSprite: {fileID: 21300000, guid: 3f63b681f69d41548a3f84c7b99456ea, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 9d7b863d1c9324b4d9eb367fc6858961, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: ea7684c9d7bc4894e85f79352326efa1, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 1
+  pokemonType2: 0
+  ability1: 133
+  ability2: 151
+  hiddenAbility: 94
+  maxHP: 103
+  attack: 60
+  defense: 86
+  spAttack: 60
+  spDefense: 86
+  speed: 50
+  HPEVYield: 2
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 390
+  growthRate: 1
+  catchRate: 255
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: e04721a68196017438cc68f20cd59b23, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: a858c76d249f20b489dd8533a35b70f0, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 56c60d0d96b22d3439f5f20671f04689, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: 757cd6b987f8540439d7e0d9b42969fd, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 8a4e7b1292191114886153c4eb35b5cc, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: 4bde7e52c6949354b8862ac339943819, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 13769e1b352836747a6291d6b3be9024, type: 2}
+    level: 30
+  - moveBase: {fileID: 11400000, guid: dd9a68c175026d34ead3b17584c394fd, type: 2}
+    level: 35
+  - moveBase: {fileID: 11400000, guid: 1239573fbb499af45a98e02961dfdaef, type: 2}
+    level: 40
+  - moveBase: {fileID: 11400000, guid: 62b6b620040cb4b41a41c069bbb8c0b6, type: 2}
+    level: 45
+  - moveBase: {fileID: 11400000, guid: 931a146a2c960fe478ff68baf8f3fe50, type: 2}
+    level: 50
+  - moveBase: {fileID: 11400000, guid: 4e4579ba7cf92714aafdd36dffbe08b3, type: 2}
+    level: 55
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 097b3746cabc52c428ac4c2303d4e9a5, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions: []

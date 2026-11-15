@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0183 Marill
+  m_EditorClassIdentifier: 
+  pokemonName: Marill
+  pokemonDescription: Using its tail as a float, it dives underwater. It likes eating
+    plants that grow in riverbeds.
+  frontSprite: {fileID: 21300000, guid: cec43d5ab0458024d9db52cf0b312ff7, type: 3}
+  battleOffsetY: 15
+  backSprite: {fileID: 21300000, guid: 65b27469e55d14a4cbac8b386a4119bd, type: 3}
+  iconSprite: {fileID: 21300000, guid: f9daffcc1a57a664bba94e52ea72ab04, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 09df41d0eaa73ac4ca00fb73a4d22d98, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 2454f1ba8c4da6844831082bff87c24d, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 11
+  pokemonType2: 18
+  ability1: 67
+  ability2: 20
+  hiddenAbility: 154
+  maxHP: 70
+  attack: 20
+  defense: 50
+  spAttack: 20
+  spDefense: 50
+  speed: 40
+  HPEVYield: 2
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 88
+  growthRate: 1
+  catchRate: 190
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: b237bf6ded2821a478dd55d15a79ba1b, type: 2}
+    level: 2
+  - moveBase: {fileID: 11400000, guid: 743cecf0a3490854d8f38789b440b8a6, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 8d3e6d6e0e5986041bddd97d8c9786f8, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: e7630bcfaa7f5964999b5a8cf55fe473, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: f9754b98b54142b48ad0bd185d7d741f, type: 2}
+    level: 18
+  - moveBase: {fileID: 11400000, guid: caf657f6e408cb847892c3c2b479de29, type: 2}
+    level: 23
+  - moveBase: {fileID: 11400000, guid: 931a146a2c960fe478ff68baf8f3fe50, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: 51496e7d8216db945ba60ba88c3a0182, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: ee1702e6310a2fd4cbd2ef8c81304cfd, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: f792656126440ae4aa1f8703324c6dd2, type: 2}
+    level: 42
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 097b3746cabc52c428ac4c2303d4e9a5, type: 2}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 6c9c7ac559d25db4e8f0701f113ff04d, type: 2}
+    requiredLevel: 18
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

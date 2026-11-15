@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0542 Leavanny
+  m_EditorClassIdentifier: 
+  pokemonName: Leavanny
+  pokemonDescription: "This gentle Pok\xE9mon has strong protective instincts. The
+    leaves on its arms are sharp enough to slice a thick tree in half with one stroke."
+  frontSprite: {fileID: 21300000, guid: 0285f2af61dbed74186b3cb4c8591a6a, type: 3}
+  battleOffsetY: 0
+  backSprite: {fileID: 21300000, guid: c662899bb47c59748a3d42114aba3242, type: 3}
+  iconSprite: {fileID: 21300000, guid: c4545053f87cbee48a843feb96f00b0d, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 24885e0513b724847b27a344fbd66969, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 6e66bb41f33ebc94fa56f3498ba7c58b, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 7
+  pokemonType2: 12
+  ability1: 64
+  ability2: 5
+  hiddenAbility: 146
+  maxHP: 75
+  attack: 103
+  defense: 80
+  spAttack: 70
+  spDefense: 70
+  speed: 92
+  HPEVYield: 0
+  attackEVYield: 3
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 225
+  growthRate: 3
+  catchRate: 45
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 1e107f2ef8dc04c439f8d93b42cf2e7e, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: ef6e04d2c450be54fac0656768fb229d, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 98a933e8cbe09e9408b2415f22ab007f, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 8778242a785390040a5ea4d60b440026, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 98a933e8cbe09e9408b2415f22ab007f, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: 8778242a785390040a5ea4d60b440026, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: b237bf6ded2821a478dd55d15a79ba1b, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: fa003f39688f3844a9203e730ccb8874, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: 6539700668e5c0b40af1eb7a86efc829, type: 2}
+    level: 29
+  - moveBase: {fileID: 11400000, guid: 01926d62015eece43a8c74a59a507147, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 18b51685563539845898b7e3e83392ad, type: 2}
+    level: 39
+  - moveBase: {fileID: 11400000, guid: 13769e1b352836747a6291d6b3be9024, type: 2}
+    level: 43
+  - moveBase: {fileID: 11400000, guid: db7b6f047370e554daffb908bbfbc576, type: 2}
+    level: 46
+  - moveBase: {fileID: 11400000, guid: b5b4fe7723c45ab458e76d22735a6976, type: 2}
+    level: 50
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: d7e284b8b884bc340ae8b033ef861d47, type: 2}
+  evolutions: []

@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0206 Dunsparce
+  m_EditorClassIdentifier: 
+  pokemonName: Dunsparce
+  pokemonDescription: It digs into the ground with its tail and makes a mazelike
+    nest. It can fly just a little.
+  frontSprite: {fileID: 21300000, guid: 409b4f012714574459f911fcac1be3ef, type: 3}
+  battleOffsetY: 12
+  backSprite: {fileID: 21300000, guid: 3a2f0866d3b64e743b0dad53da56fc85, type: 3}
+  iconSprite: {fileID: 21300000, guid: 1b87be930a61568459034230557d5579, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 7775f69e153bc284f8fba3013a8da0e0, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 83744223a6adb2e49890673f57aea073, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 1
+  pokemonType2: 0
+  ability1: 52
+  ability2: 49
+  hiddenAbility: 150
+  maxHP: 100
+  attack: 70
+  defense: 70
+  spAttack: 65
+  spDefense: 65
+  speed: 45
+  HPEVYield: 1
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 145
+  growthRate: 2
+  catchRate: 190
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: b237bf6ded2821a478dd55d15a79ba1b, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: bdc7d453c62926241bf4895126e72499, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: 8794fc85cef3f7e4cb9522673bfe7473, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: e7630bcfaa7f5964999b5a8cf55fe473, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: afaa8be75500ef441a7a8dc94ec8ff60, type: 2}
+    level: 21
+  - moveBase: {fileID: 11400000, guid: 6dcd1ae88dcf03f4db2524065399cfb3, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 058d2ea14181c284e957d6515d7ec0e8, type: 2}
+    level: 29
+  - moveBase: {fileID: 11400000, guid: f687e436d2563fb4c92148253defc082, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: da3cab269e9701a4181d6f5e5e793c9b, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 13769e1b352836747a6291d6b3be9024, type: 2}
+    level: 40
+  - moveBase: {fileID: 11400000, guid: a142347348c64c34693f56489900fa7c, type: 2}
+    level: 44
+  - moveBase: {fileID: 11400000, guid: d92179d1243053f448d57343c58589a4, type: 2}
+    level: 48
+  - moveBase: {fileID: 11400000, guid: 3d76a5d1684712d4cae4bae32df69d73, type: 2}
+    level: 53
+  - moveBase: {fileID: 11400000, guid: ecfb6921b39bb6746a421df560ed7182, type: 2}
+    level: 58
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 9d56214c7fc73eb429e78a639bf520fe, type: 2}
+    requiredLevel: 33
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 11400000, guid: f687e436d2563fb4c92148253defc082, type: 2}
+    friendshipRequired: 0

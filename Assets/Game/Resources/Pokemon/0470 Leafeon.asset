@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0470 Leafeon
+  m_EditorClassIdentifier: 
+  pokemonName: Leafeon
+  pokemonDescription: Just like a plant, it uses photosynthesis. As a result, it
+    is always enveloped in clear air.
+  frontSprite: {fileID: 21300000, guid: 5f047a9266e12b6469b21528f5d04330, type: 3}
+  battleOffsetY: 10
+  backSprite: {fileID: 21300000, guid: e3ed821faa1b5ca43bacd3b2f45424b4, type: 3}
+  iconSprite: {fileID: 21300000, guid: 7d7764055e358574f9a21683231bf575, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 3baaba2ab3b2fe040aa593b71e09b1a0, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 9a43c18f27bc3f044864573fdfbc0a3d, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 12
+  pokemonType2: 0
+  ability1: 95
+  ability2: 95
+  hiddenAbility: 5
+  maxHP: 65
+  attack: 110
+  defense: 130
+  spAttack: 60
+  spDefense: 65
+  speed: 95
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 2
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 184
+  growthRate: 2
+  catchRate: 45
+  pokemonStatus: 1
+  genderRate: 2
+  baseFriendship: 35
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 8778242a785390040a5ea4d60b440026, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 743cecf0a3490854d8f38789b440b8a6, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 486133dbc88798f488f17dfbcf05ec57, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: 8778242a785390040a5ea4d60b440026, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 0aed80ca2b175ae4eb92cdb7a15b3c98, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: fda4f4631bfdf38479c4f9e332fc874c, type: 2}
+    level: 29
+  - moveBase: {fileID: 11400000, guid: 711adf12e59b11a489366c11643ed6e6, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 955ad0358a27d2549890525e7008b890, type: 2}
+    level: 43
+  - moveBase: {fileID: 11400000, guid: 2416d5351b6f0b24ebe7d672aeed47cf, type: 2}
+    level: 50
+  - moveBase: {fileID: 11400000, guid: 86bf0a4258a26fa45bd1e9eaf57ca1b3, type: 2}
+    level: 57
+  - moveBase: {fileID: 11400000, guid: 01926d62015eece43a8c74a59a507147, type: 2}
+    level: 64
+  - moveBase: {fileID: 11400000, guid: db7b6f047370e554daffb908bbfbc576, type: 2}
+    level: 71
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

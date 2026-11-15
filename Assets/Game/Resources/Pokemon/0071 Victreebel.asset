@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0071 Victreebel
+  m_EditorClassIdentifier: 
+  pokemonName: Victreebel
+  pokemonDescription: In its mouth, it pools a fragrant nectar-like fluid. The fluid
+    is really an acid that dissolves anything.
+  frontSprite: {fileID: 21300000, guid: 5566ff2044f654542aa93880070cd905, type: 3}
+  battleOffsetY: 0
+  backSprite: {fileID: 21300000, guid: 7a08ac41cccb4db4d82d460c622047d0, type: 3}
+  iconSprite: {fileID: 21300000, guid: 12268d3dcf75f0e4086e89dd313ad777, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 1c5f179222828864da1ebbd8f20d2fc0, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 4644d3ca76ae12f44aea6abb56b85cbc, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 12
+  pokemonType2: 4
+  ability1: 5
+  ability2: 5
+  hiddenAbility: 88
+  maxHP: 80
+  attack: 105
+  defense: 65
+  spAttack: 100
+  spDefense: 60
+  speed: 70
+  HPEVYield: 0
+  attackEVYield: 3
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 221
+  growthRate: 3
+  catchRate: 45
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: fc59604d3a4265144a360ba85eacfd5d, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 115f64d01e6a3474ebcec312690c292c, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: bfd997ff49b573a4cbf6c6b068cf1c14, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 8778242a785390040a5ea4d60b440026, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e781d3b803a302b4d809c1bfeb5fc1ce, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: b5b4fe7723c45ab458e76d22735a6976, type: 2}
+    level: 47
+  - moveBase: {fileID: 11400000, guid: 01926d62015eece43a8c74a59a507147, type: 2}
+    level: 58
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

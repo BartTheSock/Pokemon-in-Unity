@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0824 Blipbug
+  m_EditorClassIdentifier: 
+  pokemonName: Blipbug
+  pokemonDescription: "A constant collector of information, this Pok\xE9mon is very
+    smart. Very strong is what it isn't."
+  frontSprite: {fileID: 21300000, guid: 804d7c1dc04e49b4ea5eb969c5cae6a5, type: 3}
+  battleOffsetY: 14
+  backSprite: {fileID: 21300000, guid: fff7ee1fe39bfbc419f59c49d05dc7f4, type: 3}
+  iconSprite: {fileID: 21300000, guid: bb3d4200a56586243a7734774aafac75, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: c4bd9c4bc4918a148b1574bb05667970, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: e9647823fb379104d98c0b7f98b90b31, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 7
+  pokemonType2: 0
+  ability1: 64
+  ability2: 9
+  hiddenAbility: 156
+  maxHP: 25
+  attack: 20
+  defense: 20
+  spAttack: 25
+  spDefense: 45
+  speed: 45
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 1
+  speedEVYield: 0
+  expYield: 36
+  growthRate: 2
+  catchRate: 255
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: fa003f39688f3844a9203e730ccb8874, type: 2}
+    level: 1
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: d79549c0462dfd749a14dd8abbe1441a, type: 2}
+    requiredLevel: 10
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

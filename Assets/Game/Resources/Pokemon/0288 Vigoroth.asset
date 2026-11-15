@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0288 Vigoroth
+  m_EditorClassIdentifier: 
+  pokemonName: Vigoroth
+  pokemonDescription: Its heart beats at 10 times its previous rate, so it cannot
+    sit still for even a moment.
+  frontSprite: {fileID: 21300000, guid: ca36370b0e19bd74db10f6bdcee5f79e, type: 3}
+  battleOffsetY: 9
+  backSprite: {fileID: 21300000, guid: cc8a5fdea71b76c48a46777170ce7339, type: 3}
+  iconSprite: {fileID: 21300000, guid: 4377fb0cd2a343846b1afe3ad6685ec5, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 891b1b985bbd325418367e29b6a9c68a, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 43ad8cf600ec7c14f9598762e3b5da79, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 1
+  pokemonType2: 0
+  ability1: 71
+  ability2: 71
+  hiddenAbility: 71
+  maxHP: 80
+  attack: 80
+  defense: 80
+  spAttack: 55
+  spDefense: 55
+  speed: 90
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 2
+  expYield: 154
+  growthRate: 4
+  catchRate: 120
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1cfce7ccaac906b4dab6a456c13ab842, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: d7cef81c096d2364d98837f570133b34, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 0ac763834cf350a449b476adc28ee509, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: cb3c38d6d1e8f544192d583416700e5d, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 0ac763834cf350a449b476adc28ee509, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: cb3c38d6d1e8f544192d583416700e5d, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: f0d08902af80db84ea7498ce7073e330, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: 05aaa98939291cc40a7427b7bee3450a, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 1e107f2ef8dc04c439f8d93b42cf2e7e, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: e1ab5f4ac62c38d4ba5b9311e8f82169, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: 3d51fbed6ae901d4caf2e43eba84bed6, type: 2}
+    level: 43
+  - moveBase: {fileID: 11400000, guid: 637bc76688eb70149b9d53b7ac585ed4, type: 2}
+    level: 49
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 6a0c50a6db6751641988ea7c1a3067d7, type: 2}
+    requiredLevel: 36
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

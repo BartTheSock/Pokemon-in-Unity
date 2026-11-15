@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0175 Togepi
+  m_EditorClassIdentifier: 
+  pokemonName: Togepi
+  pokemonDescription: Its shell is said to be stuffed with happiness that it shares
+    with kindhearted people.
+  frontSprite: {fileID: 21300000, guid: e8773342d615b9549ae9d439febb136b, type: 3}
+  battleOffsetY: 18
+  backSprite: {fileID: 21300000, guid: 82be325bb2b003d409e1ecb5eeb73f83, type: 3}
+  iconSprite: {fileID: 21300000, guid: fe254f365f6007d4f998be1198676469, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 2ee3334f2efbdc1458484f8fb455b771, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 67255328efcc5c948bec1ba6cca3fb68, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 18
+  pokemonType2: 0
+  ability1: 21
+  ability2: 52
+  hiddenAbility: 118
+  maxHP: 35
+  attack: 20
+  defense: 65
+  spAttack: 40
+  spDefense: 65
+  speed: 20
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 1
+  speedEVYield: 0
+  expYield: 49
+  growthRate: 1
+  catchRate: 190
+  pokemonStatus: 1
+  genderRate: 2
+  baseFriendship: 70
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: f41423c4fe9e66f4cafebf0695328dfb, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e04721a68196017438cc68f20cd59b23, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: 8a370228fc8dbad4b8bd80dedeb52a42, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: bdc7d453c62926241bf4895126e72499, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: b237bf6ded2821a478dd55d15a79ba1b, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: 69e5b2550809f774ab0be589cd080ead, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: 9e647726c7652d446bd83b1fff8535f8, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: a142347348c64c34693f56489900fa7c, type: 2}
+    level: 33
+  - moveBase: {fileID: 11400000, guid: 9e647726c7652d446bd83b1fff8535f8, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: d6717924b0b1bb64ebdf01668ef772f9, type: 2}
+    level: 42
+  - moveBase: {fileID: 11400000, guid: 931a146a2c960fe478ff68baf8f3fe50, type: 2}
+    level: 46
+  - moveBase: {fileID: 11400000, guid: 561a61509680ec648885f7a44ae558d8, type: 2}
+    level: 51
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 0333944eb8ead794da330cb25c74a53e, type: 2}
+    requiredLevel: 0
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 1

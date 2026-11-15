@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0070 Weepinbell
+  m_EditorClassIdentifier: 
+  pokemonName: Weepinbell
+  pokemonDescription: "This Pok\xE9mon has the appearance of a plant. It captures
+    unwary prey by dousing them with a toxic powder."
+  frontSprite: {fileID: 21300000, guid: b3013bbd75768da48bdb211f7255595c, type: 3}
+  battleOffsetY: 0
+  backSprite: {fileID: 21300000, guid: 96843cb38c6e413489767dec08818df4, type: 3}
+  iconSprite: {fileID: 21300000, guid: d9cf3f30ae7c9b44bab3d4094ad84c88, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: faa3902298cc1fc4bb2184925e2d1193, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: dd5fa39c526a8a94f9487ba691384637, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 12
+  pokemonType2: 4
+  ability1: 5
+  ability2: 5
+  hiddenAbility: 88
+  maxHP: 65
+  attack: 90
+  defense: 50
+  spAttack: 85
+  spDefense: 45
+  speed: 55
+  HPEVYield: 0
+  attackEVYield: 2
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 137
+  growthRate: 3
+  catchRate: 120
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 115f64d01e6a3474ebcec312690c292c, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 6fdff47b73e7e4243a43b7c5a4fc2a09, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 929f6a9693f7f674e85436e88700be71, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 6fdff47b73e7e4243a43b7c5a4fc2a09, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 929f6a9693f7f674e85436e88700be71, type: 2}
+    level: 11
+  - moveBase: {fileID: 11400000, guid: e781d3b803a302b4d809c1bfeb5fc1ce, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: 51f39c774ed71d64c9157006cc0416e9, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: a51d01fd53f1c3f4e8e42788784c205d, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 6e4f78af3b84c464b9caeb15b8dd9d4d, type: 2}
+    level: 23
+  - moveBase: {fileID: 11400000, guid: ed735825f8fa1984cbce5f008bd18c34, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: bfd997ff49b573a4cbf6c6b068cf1c14, type: 2}
+    level: 29
+  - moveBase: {fileID: 11400000, guid: 04141b7a936b5a64a92dd19dfe61fd44, type: 2}
+    level: 35
+  - moveBase: {fileID: 11400000, guid: 8778242a785390040a5ea4d60b440026, type: 2}
+    level: 39
+  - moveBase: {fileID: 11400000, guid: 44d316d94b7e5724f8e96ec92cd813b8, type: 2}
+    level: 41
+  - moveBase: {fileID: 11400000, guid: 8def782cce7e2c74dbfce52b62530fcd, type: 2}
+    level: 47
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 0969d36b46792e64ca0f6b7de61b0d8a, type: 2}
+    requiredLevel: 110
+    requiredItem: {fileID: 11400000, guid: 85d9e87acfb056341951fe64343b0e58, type: 2}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

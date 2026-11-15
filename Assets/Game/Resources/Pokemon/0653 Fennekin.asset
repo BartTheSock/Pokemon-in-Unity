@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0653 Fennekin
+  m_EditorClassIdentifier: 
+  pokemonName: Fennekin
+  pokemonDescription: "This Pok\xE9mon gets worked up easily. Its body can also overheat,
+    so it uses its ears to dissipate the heat and calm down."
+  frontSprite: {fileID: 21300000, guid: 9fef00e84177d984ebef3ce5af4a48bd, type: 3}
+  battleOffsetY: 11
+  backSprite: {fileID: 21300000, guid: 6c6622bbc97c189449b9fd71b63adfae, type: 3}
+  iconSprite: {fileID: 21300000, guid: a316945614b17394d84045ab473e2bea, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: b966ea1f1ec34e346b5f47e3a992b172, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 32b14fa930e602844a7ced41153e5d66, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 10
+  pokemonType2: 0
+  ability1: 4
+  ability2: 4
+  hiddenAbility: 180
+  maxHP: 40
+  attack: 45
+  defense: 40
+  spAttack: 62
+  spDefense: 60
+  speed: 60
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 1
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 61
+  growthRate: 3
+  catchRate: 45
+  pokemonStatus: 2
+  genderRate: 2
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1cfce7ccaac906b4dab6a456c13ab842, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 743cecf0a3490854d8f38789b440b8a6, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e3aee3e3753080047b12fa8051d20c7b, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: 7365dc93dfad88548b3097486dd51785, type: 2}
+    level: 11
+  - moveBase: {fileID: 11400000, guid: 1a7cdc8e2ace855499436ee335ff283d, type: 2}
+    level: 14
+  - moveBase: {fileID: 11400000, guid: f839c4ff43d0fbb4eb0cfb282fc561e5, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 24ba3e6657fa71846ac35c06e458349d, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: 672ed2da24ac9c943a50b5dcb4f5adfb, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 00453fe54305a0949af0ef6722c6f25f, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: 76338d4301d17cb489747f4845164d9b, type: 2}
+    level: 35
+  - moveBase: {fileID: 11400000, guid: 6e25bf0724d4cac4f882f64ba6a6a056, type: 2}
+    level: 38
+  - moveBase: {fileID: 11400000, guid: c52a1116f79bb0f4790ac4f9e9f3d9c9, type: 2}
+    level: 41
+  - moveBase: {fileID: 11400000, guid: 86bf0a4258a26fa45bd1e9eaf57ca1b3, type: 2}
+    level: 43
+  - moveBase: {fileID: 11400000, guid: 69b5f7f0f4a7557468f8906b89de42fd, type: 2}
+    level: 48
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 61a3729ebd62da8478dba0f77b1f5237, type: 2}
+    requiredLevel: 16
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

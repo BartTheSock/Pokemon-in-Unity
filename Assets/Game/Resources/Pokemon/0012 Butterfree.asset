@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0012 Butterfree
+  m_EditorClassIdentifier: 
+  pokemonName: Butterfree
+  pokemonDescription: It loves the nectar of flowers and can locate flower patches
+    that have even tiny amounts of pollen.
+  frontSprite: {fileID: 21300000, guid: d0ebec048d3423d48b5a4ca85d48e61e, type: 3}
+  battleOffsetY: -8
+  backSprite: {fileID: 21300000, guid: cd8f6909e388335468d9e47dbdb39578, type: 3}
+  iconSprite: {fileID: 21300000, guid: 1042cac9098bc3042917b19e2cf035d4, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: edfb16739f769744d81ba13af94c967d, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 56be4e254cce8344d97d54bbbc0baa0a, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 7
+  pokemonType2: 0
+  ability1: 9
+  ability2: 9
+  hiddenAbility: 121
+  maxHP: 60
+  attack: 45
+  defense: 50
+  spAttack: 90
+  spDefense: 80
+  speed: 70
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 2
+  spDefenseEVYield: 1
+  speedEVYield: 0
+  expYield: 198
+  growthRate: 2
+  catchRate: 45
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 1bac8bb3fc64e964e9cba495435594d1, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: ef6e04d2c450be54fac0656768fb229d, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: f47444127fa6ede4a9367dbaf9625448, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: ce1a0f1c44eb65e4584ca6a04aa1df6a, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 10d9f56733f4dfc4e8960f44802f0c55, type: 2}
+    level: 12
+  - moveBase: {fileID: 11400000, guid: 51f39c774ed71d64c9157006cc0416e9, type: 2}
+    level: 14
+  - moveBase: {fileID: 11400000, guid: a51d01fd53f1c3f4e8e42788784c205d, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: e781d3b803a302b4d809c1bfeb5fc1ce, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: ce1a0f1c44eb65e4584ca6a04aa1df6a, type: 2}
+    level: 18
+  - moveBase: {fileID: 11400000, guid: f4825ade32d931a42b31ccfc92c32d3b, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: f839c4ff43d0fbb4eb0cfb282fc561e5, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: b3de7aa899dba8449ae8d32f779aa0f1, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 9b3f4d0ff179a2b4d8d04d91fc2bbd2f, type: 2}
+    level: 30
+  - moveBase: {fileID: 11400000, guid: 609c09962e8c6174384a2f4a90a412af, type: 2}
+    level: 34
+  - moveBase: {fileID: 11400000, guid: f61d49a65b0235e449f94e30c871b3d8, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 78332ad422c1ed4428e2d0c83b4ccd3d, type: 2}
+    level: 40
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

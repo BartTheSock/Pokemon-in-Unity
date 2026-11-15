@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0187 Hoppip
+  m_EditorClassIdentifier: 
+  pokemonName: Hoppip
+  pokemonDescription: They are blown adrift by winds. It is said that when Hoppip
+    gather in fields and mountains, spring is on the way.
+  frontSprite: {fileID: 21300000, guid: a4da256f940d20747ae29c448699b49d, type: 3}
+  battleOffsetY: -8
+  backSprite: {fileID: 21300000, guid: 4f60731feea0acc4fa83ee771bc074c4, type: 3}
+  iconSprite: {fileID: 21300000, guid: 76216daa0be8b8b44af5c71ad0e86e35, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: be4a254cba483f9488c6c74392198855, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 4b86049a338e4a64a8a5ef886ef96aec, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 12
+  pokemonType2: 3
+  ability1: 25
+  ability2: 109
+  hiddenAbility: 98
+  maxHP: 35
+  attack: 35
+  defense: 40
+  spAttack: 35
+  spDefense: 55
+  speed: 50
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 1
+  speedEVYield: 0
+  expYield: 50
+  growthRate: 3
+  catchRate: 255
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1fb217a95c7e98b469c850be2bff8aee, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: dfa8c6a33e3023349b0d66e6d2091c22, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 743cecf0a3490854d8f38789b440b8a6, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: 51f39c774ed71d64c9157006cc0416e9, type: 2}
+    level: 12
+  - moveBase: {fileID: 11400000, guid: a51d01fd53f1c3f4e8e42788784c205d, type: 2}
+    level: 14
+  - moveBase: {fileID: 11400000, guid: e781d3b803a302b4d809c1bfeb5fc1ce, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 9d4bd32ede9e2f64ba3f4617c01f6ed1, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: fda4f4631bfdf38479c4f9e332fc874c, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: 3a2b607f097308648adc4ffc2b1cda9a, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 95ae7f054e547fa4eac8a755301878f3, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: f47444127fa6ede4a9367dbaf9625448, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: 955ad0358a27d2549890525e7008b890, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: c51ff5d2de99155449ae64af3c41c422, type: 2}
+    level: 40
+  - moveBase: {fileID: 11400000, guid: 2ec432da0596de345aaa31a2ba030362, type: 2}
+    level: 43
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 35239a965e4f74c44835cb4de86e7256, type: 2}
+    requiredLevel: 18
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

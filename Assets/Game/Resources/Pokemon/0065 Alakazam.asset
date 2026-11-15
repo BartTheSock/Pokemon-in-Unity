@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0065 Alakazam
+  m_EditorClassIdentifier: 
+  pokemonName: Alakazam
+  pokemonDescription: Its superb memory lets it recall everything it has experienced
+    from birth. Its IQ exceeds 5,000.
+  frontSprite: {fileID: 21300000, guid: 3197d734210e59740801bc1de44ff697, type: 3}
+  battleOffsetY: 3
+  backSprite: {fileID: 21300000, guid: cda9eab9b21b6794db2a0c9188aad74a, type: 3}
+  iconSprite: {fileID: 21300000, guid: c43f44a959b6428408e2f95925c98018, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 6e5a2d36f86df2041ad6e0fe80e8b5f1, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: ca30ba4d2d0e0d542b4cd49eee7c6e2c, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 14
+  pokemonType2: 0
+  ability1: 66
+  ability2: 25
+  hiddenAbility: 96
+  maxHP: 55
+  attack: 50
+  defense: 45
+  spAttack: 135
+  spDefense: 95
+  speed: 120
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 3
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 250
+  growthRate: 3
+  catchRate: 50
+  pokemonStatus: 1
+  genderRate: 3
+  baseFriendship: 50
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1cf1b8759985c214e9ea7fce8987a657, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: c8f126278caf550448bee904a65dd571, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 10d9f56733f4dfc4e8960f44802f0c55, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 10d9f56733f4dfc4e8960f44802f0c55, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 69e5b2550809f774ab0be589cd080ead, type: 2}
+    level: 18
+  - moveBase: {fileID: 11400000, guid: d6717924b0b1bb64ebdf01668ef772f9, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: f839c4ff43d0fbb4eb0cfb282fc561e5, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: dd9a68c175026d34ead3b17584c394fd, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 3a2b607f097308648adc4ffc2b1cda9a, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 1239573fbb499af45a98e02961dfdaef, type: 2}
+    level: 30
+  - moveBase: {fileID: 11400000, guid: 004909bc0ec7abf4d84824d3976dc641, type: 2}
+    level: 34
+  - moveBase: {fileID: 11400000, guid: 61aea8067e9592445892c1e71899ace4, type: 2}
+    level: 38
+  - moveBase: {fileID: 11400000, guid: c52a1116f79bb0f4790ac4f9e9f3d9c9, type: 2}
+    level: 42
+  - moveBase: {fileID: 11400000, guid: 4bde7e52c6949354b8862ac339943819, type: 2}
+    level: 46
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0036 Clefable
+  m_EditorClassIdentifier: 
+  pokemonName: Clefable
+  pokemonDescription: Rarely seen by people, it is said to be drawn by the full moon
+    to play at deserted lakes.
+  frontSprite: {fileID: 21300000, guid: e180e7fa81b0fc740ad2dddfb81807c2, type: 3}
+  battleOffsetY: 8
+  backSprite: {fileID: 21300000, guid: dff1c0b9d9a73e44eb00d8512f24761c, type: 3}
+  iconSprite: {fileID: 21300000, guid: 9bf0f79cd8eed0f438fca172c453878d, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 4f921823f179ee6458ce31474c009521, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 2f0ecad77c2fd504e80fd2c25ef02dfc, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 18
+  pokemonType2: 0
+  ability1: 10
+  ability2: 96
+  hiddenAbility: 122
+  maxHP: 95
+  attack: 70
+  defense: 73
+  spAttack: 95
+  spDefense: 90
+  speed: 60
+  HPEVYield: 3
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 217
+  growthRate: 1
+  catchRate: 25
+  pokemonStatus: 1
+  genderRate: 5
+  baseFriendship: 140
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 9e647726c7652d446bd83b1fff8535f8, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 757cd6b987f8540439d7e0d9b42969fd, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 839f18effa8ef884bbb114b6be2880ad, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 56c60d0d96b22d3439f5f20671f04689, type: 2}
+    level: 1
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  evolutions: []

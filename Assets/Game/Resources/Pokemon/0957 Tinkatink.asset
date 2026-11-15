@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0957 Tinkatink
+  m_EditorClassIdentifier: Assembly-CSharp::PokemonBase
+  pokemonName: Tinkatink
+  pokemonDescription: "It swings its handmade hammer around to protect itself, but
+    the hammer is often stolen by Pok\xE9mon that eat metal."
+  frontSprite: {fileID: 21300000, guid: 2ba65822326b3564b8e3b84241ec6d2b, type: 3}
+  battleOffsetY: 13
+  backSprite: {fileID: 21300000, guid: a71ecdf41789cf14fb1d6494908ec325, type: 3}
+  iconSprite: {fileID: 21300000, guid: a85c85c47b06bfc4eb5ce5a2554097e4, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 82368e131ffd22f4692c13512f82c19b, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 2aaa85c5385b4eb47bdc67af61a1effd, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 18
+  pokemonType2: 9
+  ability1: 97
+  ability2: 40
+  hiddenAbility: 147
+  maxHP: 50
+  attack: 45
+  defense: 45
+  spAttack: 35
+  spDefense: 64
+  speed: 58
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 1
+  speedEVYield: 0
+  expYield: 59
+  growthRate: 3
+  catchRate: 190
+  pokemonStatus: 0
+  genderRate: 7
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: afaa8be75500ef441a7a8dc94ec8ff60, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: df7ca7499a90d654dab7c08841051d01, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: a858c76d249f20b489dd8533a35b70f0, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: f8f2f247289f7b74099468f4238e7362, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: 0ac763834cf350a449b476adc28ee509, type: 2}
+    level: 11
+  - moveBase: {fileID: 11400000, guid: e04721a68196017438cc68f20cd59b23, type: 2}
+    level: 14
+  - moveBase: {fileID: 11400000, guid: 087f100781228604e841b104f4eff4dc, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 8a370228fc8dbad4b8bd80dedeb52a42, type: 2}
+    level: 21
+  - moveBase: {fileID: 11400000, guid: 15785d9245795b943ab200c50ad5668b, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: 44d316d94b7e5724f8e96ec92cd813b8, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: e711245e213de8c46a5436be9feb3fa2, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: 62b6b620040cb4b41a41c069bbb8c0b6, type: 2}
+    level: 35
+  - moveBase: {fileID: 11400000, guid: 0aed80ca2b175ae4eb92cdb7a15b3c98, type: 2}
+    level: 39
+  - moveBase: {fileID: 11400000, guid: dccf755773b736f48ab64ff69b48ad32, type: 2}
+    level: 43
+  - moveBase: {fileID: 11400000, guid: c69c0f1794f640e4bad08a13f3de967b, type: 2}
+    level: 47
+  - moveBase: {fileID: 11400000, guid: ed735825f8fa1984cbce5f008bd18c34, type: 2}
+    level: 52
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: b38a7de85ed922f40a579b55ef9dfdc8, type: 2}
+    requiredLevel: 24
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

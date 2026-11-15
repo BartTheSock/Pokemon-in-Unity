@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0074 Geodude
+  m_EditorClassIdentifier: 
+  pokemonName: Geodude
+  pokemonDescription: Many live on mountain trails and remain half-buried while keeping
+    an eye on climbers.
+  frontSprite: {fileID: 21300000, guid: 15f3bbc5cc091ef45bfa7a9670510de8, type: 3}
+  battleOffsetY: 19
+  backSprite: {fileID: 21300000, guid: 21f5ee54dec6bed46883db36acb771eb, type: 3}
+  iconSprite: {fileID: 21300000, guid: 6eff443e4a554b942b0cd8c9fa0b806d, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: eaa585d370102134599ad64a1cf77727, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: a64ace16e9bbca74e8e4b1a4f1996118, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 6
+  pokemonType2: 5
+  ability1: 47
+  ability2: 62
+  hiddenAbility: 51
+  maxHP: 40
+  attack: 80
+  defense: 100
+  spAttack: 30
+  spDefense: 30
+  speed: 20
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 1
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 60
+  growthRate: 3
+  catchRate: 255
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: b237bf6ded2821a478dd55d15a79ba1b, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 6149eab9d0fef0c4cb10bdc5041fb582, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 6573339101488204d8605c52db090c1d, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: e7630bcfaa7f5964999b5a8cf55fe473, type: 2}
+    level: 11
+  - moveBase: {fileID: 11400000, guid: ef0640287dcbfef4d8a73d0e410a9c5e, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 77894fa3cad4a614c9fdc7e8d51eb441, type: 2}
+    level: 18
+  - moveBase: {fileID: 11400000, guid: 8064089c3907bfa4e97d0e52238efa5d, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: aa30341a5ee68c34490489cb4560e36c, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: adc9de983e42a3c4caed8c2b27a864ca, type: 2}
+    level: 29
+  - moveBase: {fileID: 11400000, guid: 39cf006a0a2323c4cba89aaaa7a34e1e, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: 931a146a2c960fe478ff68baf8f3fe50, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 1bdb5d6f50d3bca41830d108c1859ef3, type: 2}
+    level: 39
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: f55ded3caea46d14cb9599552b026834, type: 2}
+    requiredLevel: 25
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

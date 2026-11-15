@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0829 Gossifleur
+  m_EditorClassIdentifier: 
+  pokemonName: Gossifleur
+  pokemonDescription: It anchors itself in the ground with its single leg, then basks
+    in the sun. After absorbing enough sunlight, its petals spread as it blooms brilliantly.
+  frontSprite: {fileID: 21300000, guid: 3e095309b6322d24f9b25a6445e4f522, type: 3}
+  battleOffsetY: 12
+  backSprite: {fileID: 21300000, guid: fd631ae6b1a9d9347a77a722bf3f9d0f, type: 3}
+  iconSprite: {fileID: 21300000, guid: 8063116cbecdbd34cb02f31af42cf277, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 65e04dafc49c0c645bbc5be15c5b5920, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 1c03bb6fa05245d4bba821cb52aaf018, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 12
+  pokemonType2: 0
+  ability1: 238
+  ability2: 151
+  hiddenAbility: 15
+  maxHP: 40
+  attack: 40
+  defense: 60
+  spAttack: 40
+  spDefense: 60
+  speed: 10
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 1
+  speedEVYield: 0
+  expYield: 50
+  growthRate: 2
+  catchRate: 190
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 5b0bafc75838dad478d12d1b94bd6cc7, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 839f18effa8ef884bbb114b6be2880ad, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 59bbc3c6fe23ca240ab87f101f42e840, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: bfd997ff49b573a4cbf6c6b068cf1c14, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: 8778242a785390040a5ea4d60b440026, type: 2}
+    level: 12
+  - moveBase: {fileID: 11400000, guid: e9ca2f245ef2fcc409b477a0c3dd886f, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: fc59604d3a4265144a360ba85eacfd5d, type: 2}
+    level: 21
+  - moveBase: {fileID: 11400000, guid: 3a2b607f097308648adc4ffc2b1cda9a, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: 4e4579ba7cf92714aafdd36dffbe08b3, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 955ad0358a27d2549890525e7008b890, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: b5b4fe7723c45ab458e76d22735a6976, type: 2}
+    level: 36
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 776a73a51939ddd4fbc22013ae131646, type: 2}
+    requiredLevel: 20
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

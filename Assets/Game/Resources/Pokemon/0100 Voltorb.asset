@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0100 Voltorb
+  m_EditorClassIdentifier: 
+  pokemonName: Voltorb
+  pokemonDescription: "It looks just like a Pok\xE9 Ball. It is dangerous because
+    it may electrocute or explode on touch."
+  frontSprite: {fileID: 21300000, guid: d9273ecf82c01604687cbdbde3bb68fb, type: 3}
+  battleOffsetY: 17
+  backSprite: {fileID: 21300000, guid: 18dc8754eeaf8644ea789d0523b827de, type: 3}
+  iconSprite: {fileID: 21300000, guid: b83892d00e4ecf54c83d55b7d6502875, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: e1e9ca0012c320a47b4448b80b7ea00d, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: ee5ddd4a43ebba44bb6faecd365e29e1, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 13
+  pokemonType2: 0
+  ability1: 57
+  ability2: 59
+  hiddenAbility: 78
+  maxHP: 40
+  attack: 30
+  defense: 50
+  spAttack: 55
+  spDefense: 55
+  speed: 100
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 1
+  expYield: 66
+  growthRate: 2
+  catchRate: 190
+  pokemonStatus: 0
+  genderRate: 0
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: c3998be70d9e4fc4f95538cc4a36a8f3, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 9c983af833bc26142a8cb61c2600b409, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: 18f9843c19944124fa0dc8b3fe0501e4, type: 2}
+    level: 12
+  - moveBase: {fileID: 11400000, guid: 8064089c3907bfa4e97d0e52238efa5d, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 058d2ea14181c284e957d6515d7ec0e8, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: 672ed2da24ac9c943a50b5dcb4f5adfb, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: 1ce3b19c21b12514f931bd44b59ac130, type: 2}
+    level: 26
+  - moveBase: {fileID: 11400000, guid: 77894fa3cad4a614c9fdc7e8d51eb441, type: 2}
+    level: 29
+  - moveBase: {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+    level: 33
+  - moveBase: {fileID: 11400000, guid: 7dbd8272539ddfe4e83b3210c20b6e9f, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 412bddf0f9dcb7b4a9e9ea1b868c005d, type: 2}
+    level: 40
+  - moveBase: {fileID: 11400000, guid: 39cf006a0a2323c4cba89aaaa7a34e1e, type: 2}
+    level: 43
+  - moveBase: {fileID: 11400000, guid: dd9a68c175026d34ead3b17584c394fd, type: 2}
+    level: 47
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: f1a49f8265306d641a5bb429277588b2, type: 2}
+    requiredLevel: 30
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

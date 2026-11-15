@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0906 Sprigatito
+  m_EditorClassIdentifier: Assembly-CSharp::PokemonBase
+  pokemonName: Sprigatito
+  pokemonDescription: "Its fluffy fur is similar in composition to plants. This Pok\xE9mon
+    frequently washes its face to keep it from drying out."
+  frontSprite: {fileID: 21300000, guid: 1ff3af56e3a28584a8fdb1785b73405b, type: 3}
+  battleOffsetY: 9
+  backSprite: {fileID: 21300000, guid: 40ee3ca90e571c049b5d7c8490224fd5, type: 3}
+  iconSprite: {fileID: 21300000, guid: 3abcbe7c75b35c344a0dd296e6aee2e1, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: a25b8251e6ef4884d9e1f16193fc5ae3, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 4e9dba9465a51224eba32b96306c6cb2, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 12
+  pokemonType2: 0
+  ability1: 39
+  ability2: 39
+  hiddenAbility: 185
+  maxHP: 40
+  attack: 61
+  defense: 54
+  spAttack: 45
+  spDefense: 45
+  speed: 65
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 1
+  expYield: 62
+  growthRate: 3
+  catchRate: 45
+  pokemonStatus: 2
+  genderRate: 2
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1cfce7ccaac906b4dab6a456c13ab842, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 743cecf0a3490854d8f38789b440b8a6, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 5b0bafc75838dad478d12d1b94bd6cc7, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 5269d90dd10eb394691878afaa467536, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: 711adf12e59b11a489366c11643ed6e6, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: 0aed80ca2b175ae4eb92cdb7a15b3c98, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 9d4bd32ede9e2f64ba3f4617c01f6ed1, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 3a2b607f097308648adc4ffc2b1cda9a, type: 2}
+    level: 21
+  - moveBase: {fileID: 11400000, guid: 8def782cce7e2c74dbfce52b62530fcd, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 1e107f2ef8dc04c439f8d93b42cf2e7e, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 4c2b4df74d4370642815c77e38b10acd, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: 62b6b620040cb4b41a41c069bbb8c0b6, type: 2}
+    level: 36
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: d7e284b8b884bc340ae8b033ef861d47, type: 2}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: a66e5d37b8f95aa44a608ac4f1d64975, type: 2}
+    requiredLevel: 16
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

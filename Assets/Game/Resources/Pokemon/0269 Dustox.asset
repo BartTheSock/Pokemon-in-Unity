@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0269 Dustox
+  m_EditorClassIdentifier: 
+  pokemonName: Dustox
+  pokemonDescription: "Dustox are nocturnal Pok\xE9mon. Drawn by streetlights, they
+    messily eat the leaves of trees lining boulevards."
+  frontSprite: {fileID: 21300000, guid: e2b0412bfc17b5a4b8b9e35161479804, type: 3}
+  battleOffsetY: -8
+  backSprite: {fileID: 21300000, guid: 77db609ba7ea1334088a20e493bc92c9, type: 3}
+  iconSprite: {fileID: 21300000, guid: addadfdc837eace48bf51d5fe36e82a5, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: cb205b6126145b74dab62acd11d2465a, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: e809706ed57bfc04388ca2dce2824f55, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 7
+  pokemonType2: 4
+  ability1: 56
+  ability2: 56
+  hiddenAbility: 9
+  maxHP: 60
+  attack: 50
+  defense: 70
+  spAttack: 50
+  spDefense: 90
+  speed: 65
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 3
+  speedEVYield: 0
+  expYield: 193
+  growthRate: 2
+  catchRate: 45
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 1bac8bb3fc64e964e9cba495435594d1, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: ef6e04d2c450be54fac0656768fb229d, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: faa059aa4cc88ef47b9a9088d54fd3b7, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 10d9f56733f4dfc4e8960f44802f0c55, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: dd9a68c175026d34ead3b17584c394fd, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: dfa8c6a33e3023349b0d66e6d2091c22, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: f839c4ff43d0fbb4eb0cfb282fc561e5, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: f4825ade32d931a42b31ccfc92c32d3b, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: 672ed2da24ac9c943a50b5dcb4f5adfb, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: b3de7aa899dba8449ae8d32f779aa0f1, type: 2}
+    level: 34
+  - moveBase: {fileID: 11400000, guid: 437c98bba533e15409f0a0bf4671ab80, type: 2}
+    level: 38
+  - moveBase: {fileID: 11400000, guid: f61d49a65b0235e449f94e30c871b3d8, type: 2}
+    level: 38
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

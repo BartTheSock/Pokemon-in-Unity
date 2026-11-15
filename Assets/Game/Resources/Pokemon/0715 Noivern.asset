@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0715 Noivern
+  m_EditorClassIdentifier: 
+  pokemonName: Noivern
+  pokemonDescription: Flying through the darkness, it weakens enemies with ultrasonic
+    waves that could crush stone. Its fangs finish the fight.
+  frontSprite: {fileID: 21300000, guid: 00809a2e21cc99242a81ef718275d473, type: 3}
+  battleOffsetY: 6
+  backSprite: {fileID: 21300000, guid: d48721599b2d5094f85fd3c342d30628, type: 3}
+  iconSprite: {fileID: 21300000, guid: 168c6d0d5b620a04eb42dc3bea87c1e7, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 95810561633145c47be4e5e8afe87ec7, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: ed58d597cea99f148a8d02781bad0267, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 3
+  pokemonType2: 16
+  ability1: 87
+  ability2: 137
+  hiddenAbility: 156
+  maxHP: 85
+  attack: 70
+  defense: 80
+  spAttack: 97
+  spDefense: 80
+  speed: 123
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 2
+  expYield: 187
+  growthRate: 2
+  catchRate: 45
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 1d96e8314edf16e45983d696c4f9681c, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 058d2ea14181c284e957d6515d7ec0e8, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: ce1a0f1c44eb65e4584ca6a04aa1df6a, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: dfa8c6a33e3023349b0d66e6d2091c22, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 1bac8bb3fc64e964e9cba495435594d1, type: 2}
+    level: 11
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: 3b5a937544b2828489f1012a1bb05dce, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: eae96b657b521be4598511d5969ae235, type: 2}
+    level: 18
+  - moveBase: {fileID: 11400000, guid: ae9914eb3377bc347984d71f06757d6a, type: 2}
+    level: 23
+  - moveBase: {fileID: 11400000, guid: da3cab269e9701a4181d6f5e5e793c9b, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: a6f3123091b76634ca60ff5188f0ac3b, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: b785a5389ec42bd498f43b3002910412, type: 2}
+    level: 35
+  - moveBase: {fileID: 11400000, guid: f4825ade32d931a42b31ccfc92c32d3b, type: 2}
+    level: 40
+  - moveBase: {fileID: 11400000, guid: 859844a70b00c9941beb47ea92bbad57, type: 2}
+    level: 43
+  - moveBase: {fileID: 11400000, guid: 5cbe33111b749194e9472e43d77b5140, type: 2}
+    level: 53
+  - moveBase: {fileID: 11400000, guid: 00fdd4a29b6cf5a47b9531466ab9f592, type: 2}
+    level: 62
+  - moveBase: {fileID: 11400000, guid: ae176e49cf2df844c86c544de3144975, type: 2}
+    level: 72
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

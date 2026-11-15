@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0609 Chandelure
+  m_EditorClassIdentifier: 
+  pokemonName: Chandelure
+  pokemonDescription: "This Pok\xE9mon haunts dilapidated mansions. It sways its
+    arms to hypnotize opponents with the ominous dancing of its flames."
+  frontSprite: {fileID: 21300000, guid: a9894e7258d5e6f4bb75c688980924fc, type: 3}
+  battleOffsetY: -4
+  backSprite: {fileID: 21300000, guid: 920d588008a1abe4ba78feddc283b572, type: 3}
+  iconSprite: {fileID: 21300000, guid: f81b7e48efea52c4d9060dc99768e321, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 765055d0393fe4b4d9bf9538d5736d38, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 597b2f02e169d074fb0a282a0b3be7b1, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 8
+  pokemonType2: 10
+  ability1: 17
+  ability2: 16
+  hiddenAbility: 137
+  maxHP: 60
+  attack: 55
+  defense: 90
+  spAttack: 145
+  spDefense: 90
+  speed: 80
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 3
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 234
+  growthRate: 3
+  catchRate: 45
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: afaa8be75500ef441a7a8dc94ec8ff60, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 17323e8bfe4aa8d4d92ad20c2f2e7123, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e3aee3e3753080047b12fa8051d20c7b, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 9e647726c7652d446bd83b1fff8535f8, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e3aee3e3753080047b12fa8051d20c7b, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 9e647726c7652d446bd83b1fff8535f8, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: 24ba3e6657fa71846ac35c06e458349d, type: 2}
+    level: 12
+  - moveBase: {fileID: 11400000, guid: 30e90e55fce413e43ae3f38945b08194, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 81e21c577e069f54a9a6543b668f4ac6, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: 6e25bf0724d4cac4f882f64ba6a6a056, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: 626be5993efcf514f97d20a9589dabb4, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 31eb0bc7a395aff4392b634b18d0f8c8, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: a2a9703098cf16b4cab82bd3be5ce825, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: aa9cb1499a4eaee4d8eb472d7514b354, type: 2}
+    level: 40
+  - moveBase: {fileID: 11400000, guid: 0c8bc70c599ada44b8bdf3673fe72a9a, type: 2}
+    level: 46
+  - moveBase: {fileID: 11400000, guid: 9a1adc4d0dc40b7428123464bfc364d8, type: 2}
+    level: 52
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions: []

@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0518 Musharna
+  m_EditorClassIdentifier: 
+  pokemonName: Musharna
+  pokemonDescription: It drowses and dreams all the time. It's best to leave it be
+    if it's just woken up, as it's a terrible grump when freshly roused from sleep.
+  frontSprite: {fileID: 21300000, guid: 0eb0134a53dee584e845034750642627, type: 3}
+  battleOffsetY: -8
+  backSprite: {fileID: 21300000, guid: 9edd1694f7f1cd74cad7b1ca83830e3e, type: 3}
+  iconSprite: {fileID: 21300000, guid: 3a2a168d48183f541babb9d303750be9, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: fc70a1c9601019a439580e7a49c3bcab, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 93937db95a3f9774f9352d44df496ea9, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 14
+  pokemonType2: 0
+  ability1: 86
+  ability2: 66
+  hiddenAbility: 156
+  maxHP: 116
+  attack: 55
+  defense: 85
+  spAttack: 107
+  spDefense: 95
+  speed: 29
+  HPEVYield: 2
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 170
+  growthRate: 1
+  catchRate: 75
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: b237bf6ded2821a478dd55d15a79ba1b, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: fa6cc13dc1d96364ea5852cf6beb05f7, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: f839c4ff43d0fbb4eb0cfb282fc561e5, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 788b10408ac5639449945e72416e3f3f, type: 2}
+    level: 1
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

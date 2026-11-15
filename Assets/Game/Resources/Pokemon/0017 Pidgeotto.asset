@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0017 Pidgeotto
+  m_EditorClassIdentifier: 
+  pokemonName: Pidgeotto
+  pokemonDescription: It flies over its wide territory in search of prey, downing
+    it with its highly developed claws.
+  frontSprite: {fileID: 21300000, guid: daa948c9bcd6dd44997085c3cfd74933, type: 3}
+  battleOffsetY: -8
+  backSprite: {fileID: 21300000, guid: 616270dbf8288154292f3649c49c145a, type: 3}
+  iconSprite: {fileID: 21300000, guid: 470836349e605f24c9f8388e9dd96044, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 6a63dd00d3a4e8f4ebe0c4c9570e7491, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 4b8ac8a6ea9040c46aebb33a4962c2c0, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 1
+  pokemonType2: 3
+  ability1: 28
+  ability2: 119
+  hiddenAbility: 125
+  maxHP: 63
+  attack: 60
+  defense: 55
+  spAttack: 50
+  spDefense: 50
+  speed: 71
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 2
+  expYield: 122
+  growthRate: 3
+  catchRate: 120
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 486133dbc88798f488f17dfbcf05ec57, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 1bac8bb3fc64e964e9cba495435594d1, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 486133dbc88798f488f17dfbcf05ec57, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 1bac8bb3fc64e964e9cba495435594d1, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: 0aed80ca2b175ae4eb92cdb7a15b3c98, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: f4825ade32d931a42b31ccfc92c32d3b, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 8aca12d686354f74d935289ab26108b3, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: c21e0f4007a42f74f918aef255fb64b2, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: eae96b657b521be4598511d5969ae235, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: 3b5a937544b2828489f1012a1bb05dce, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: da3cab269e9701a4181d6f5e5e793c9b, type: 2}
+    level: 42
+  - moveBase: {fileID: 11400000, guid: 9b3f4d0ff179a2b4d8d04d91fc2bbd2f, type: 2}
+    level: 47
+  - moveBase: {fileID: 11400000, guid: 5cbe33111b749194e9472e43d77b5140, type: 2}
+    level: 52
+  - moveBase: {fileID: 11400000, guid: 00fdd4a29b6cf5a47b9531466ab9f592, type: 2}
+    level: 57
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: d243596b9bdc01f4ea13ffe44f79dc1a, type: 2}
+    requiredLevel: 36
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

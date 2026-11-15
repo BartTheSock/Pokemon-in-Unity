@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a2a4a7897b7b9d4aa6d2e8b4fb7cc61, type: 3}
+  m_Name: Super Rod
+  m_EditorClassIdentifier: 
+  itemName: Super Rod
+  itemNamePlural: Super Rods
+  itemDescription: "An awesome, high-spec fishing rod. Use it at any body of water
+    to fish for wild aquatic Pok\xE9mon."
+  itemUseMessage: 
+  itemIcon: {fileID: -1277297724, guid: 8a3fa31c44eba164e9b515c0c62ddddb, type: 3}

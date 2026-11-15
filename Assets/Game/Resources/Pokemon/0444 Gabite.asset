@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0444 Gabite
+  m_EditorClassIdentifier: 
+  pokemonName: Gabite
+  pokemonDescription: There is a long-held belief that medicine made from its scales
+    will heal incurable illnesses.
+  frontSprite: {fileID: 21300000, guid: 79ffd6e479c0dd54ab4ad359fa390c54, type: 3}
+  battleOffsetY: 8
+  backSprite: {fileID: 21300000, guid: df2a512e5b05fd943b11faf263d7d226, type: 3}
+  iconSprite: {fileID: 21300000, guid: a079eb1297f552e4c83e22aba722e1ae, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: cef98cac0b544a44cbd8b4d14e5ae6a8, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 244f5c56bcc26824dad8a27a805728bf, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 16
+  pokemonType2: 5
+  ability1: 51
+  ability2: 51
+  hiddenAbility: 48
+  maxHP: 68
+  attack: 90
+  defense: 65
+  spAttack: 50
+  spDefense: 55
+  speed: 82
+  HPEVYield: 0
+  attackEVYield: 2
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 144
+  growthRate: 4
+  catchRate: 45
+  pokemonStatus: 3
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 3ad5793c4b719124daff9092cf4c2f18, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 486133dbc88798f488f17dfbcf05ec57, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 486133dbc88798f488f17dfbcf05ec57, type: 2}
+    level: 3
+  - moveBase: {fileID: 11400000, guid: 3dd573f9ae42e7d409b108d64527fbfd, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: 13769e1b352836747a6291d6b3be9024, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 3278f30e7aa6e0d4d96bb33a4e86c64d, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: 1e107f2ef8dc04c439f8d93b42cf2e7e, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: ec737726ffdd33b4ebe8db4bac3a84b0, type: 2}
+    level: 33
+  - moveBase: {fileID: 11400000, guid: d92179d1243053f448d57343c58589a4, type: 2}
+    level: 40
+  - moveBase: {fileID: 11400000, guid: f684882eb9a291e4daa2c4706c7dce86, type: 2}
+    level: 49
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: d497427de3b721847bc6b12e61280b9f, type: 2}
+    requiredLevel: 48
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

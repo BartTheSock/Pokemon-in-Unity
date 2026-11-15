@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0831 Wooloo
+  m_EditorClassIdentifier: 
+  pokemonName: Wooloo
+  pokemonDescription: "Its curly fleece is such an effective cushion that this Pok\xE9mon
+    could fall off a cliff and stand right back up at the bottom, unharmed."
+  frontSprite: {fileID: 21300000, guid: b1a01b7fb1948ae4d91ea576afda6963, type: 3}
+  battleOffsetY: 13
+  backSprite: {fileID: 21300000, guid: 731e05622917ac248b353c3d5365c8f3, type: 3}
+  iconSprite: {fileID: 21300000, guid: 322b173a84bb04443aa17f4be0ed3a92, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: d5315c2c8861c7c4985854b9470f04a7, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 12a0f0d11241eea479646965c851eb52, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 1
+  pokemonType2: 0
+  ability1: 203
+  ability2: 49
+  hiddenAbility: 168
+  maxHP: 42
+  attack: 40
+  defense: 55
+  spAttack: 40
+  spDefense: 45
+  speed: 48
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 1
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 122
+  growthRate: 2
+  catchRate: 255
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: b237bf6ded2821a478dd55d15a79ba1b, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: e9ca2f245ef2fcc409b477a0c3dd886f, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: eae96b657b521be4598511d5969ae235, type: 2}
+    level: 12
+  - moveBase: {fileID: 11400000, guid: 1bd732a1ff9413949b5c3eca19f367fd, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 05aaa98939291cc40a7427b7bee3450a, type: 2}
+    level: 21
+  - moveBase: {fileID: 11400000, guid: 13769e1b352836747a6291d6b3be9024, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: 3d51fbed6ae901d4caf2e43eba84bed6, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 637bc76688eb70149b9d53b7ac585ed4, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: b0fa9e1f10381eb4d81f96473d0e5c76, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 931a146a2c960fe478ff68baf8f3fe50, type: 2}
+    level: 40
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 5b4b2d13454f7fb468a50a4048902446, type: 2}
+    requiredLevel: 24
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

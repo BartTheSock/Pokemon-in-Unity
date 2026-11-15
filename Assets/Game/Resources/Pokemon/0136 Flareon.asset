@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0136 Flareon
+  m_EditorClassIdentifier: 
+  pokemonName: Flareon
+  pokemonDescription: It has a flame sac in its body. Its body temperature tops 1,650
+    degrees Fahrenheit before battle.
+  frontSprite: {fileID: 21300000, guid: 1749506d9702f314399a6ce3c4be2902, type: 3}
+  battleOffsetY: 9
+  backSprite: {fileID: 21300000, guid: f0dc9afd80fc82843bef81f957452258, type: 3}
+  iconSprite: {fileID: 21300000, guid: 10305620fd682d24d98bb562143900e8, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: c6e365d0d77d02f489097a20eb5ba923, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: b5b4c88010d7a674f88eb05b27fefdc0, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 10
+  pokemonType2: 0
+  ability1: 17
+  ability2: 17
+  hiddenAbility: 19
+  maxHP: 65
+  attack: 130
+  defense: 60
+  spAttack: 95
+  spDefense: 110
+  speed: 65
+  HPEVYield: 0
+  attackEVYield: 2
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 184
+  growthRate: 2
+  catchRate: 45
+  pokemonStatus: 1
+  genderRate: 2
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: e3aee3e3753080047b12fa8051d20c7b, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 743cecf0a3490854d8f38789b440b8a6, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 486133dbc88798f488f17dfbcf05ec57, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: e3aee3e3753080047b12fa8051d20c7b, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 0aed80ca2b175ae4eb92cdb7a15b3c98, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 29
+  - moveBase: {fileID: 11400000, guid: 24ba3e6657fa71846ac35c06e458349d, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 2a8c741df5c9e4d4492af9d82d1c0200, type: 2}
+    level: 43
+  - moveBase: {fileID: 11400000, guid: 17323e8bfe4aa8d4d92ad20c2f2e7123, type: 2}
+    level: 50
+  - moveBase: {fileID: 11400000, guid: 7a7cc5fe208c841459298391ced14287, type: 2}
+    level: 57
+  - moveBase: {fileID: 11400000, guid: 69b5f7f0f4a7557468f8906b89de42fd, type: 2}
+    level: 64
+  - moveBase: {fileID: 11400000, guid: d0bc37af8d0eba342ad832d0927f70cd, type: 2}
+    level: 71
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

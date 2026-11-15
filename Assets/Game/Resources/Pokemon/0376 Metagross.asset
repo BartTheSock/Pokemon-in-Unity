@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0376 Metagross
+  m_EditorClassIdentifier: 
+  pokemonName: Metagross
+  pokemonDescription: Metang combined to form it. With four brains, it has the intelligence
+    of a supercomputer.
+  frontSprite: {fileID: 21300000, guid: d01c9db20926c20478d2fc68cd6a1de4, type: 3}
+  battleOffsetY: -8
+  backSprite: {fileID: 21300000, guid: c847869a71f890c4a962c8461e7d194a, type: 3}
+  iconSprite: {fileID: 21300000, guid: cc1889b64868be044b548925e6fa2248, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: e9b805561298d81419e4a8f195359f07, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: f0e8548035570c3429df0d453b0ccd1c, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 9
+  pokemonType2: 14
+  ability1: 6
+  ability2: 6
+  hiddenAbility: 140
+  maxHP: 80
+  attack: 135
+  defense: 130
+  spAttack: 95
+  spDefense: 90
+  speed: 75
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 3
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 270
+  growthRate: 4
+  catchRate: 10
+  pokemonStatus: 3
+  genderRate: 0
+  baseFriendship: 35
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 5f9abc3165071c146b9eb5fe1a795485, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 13769e1b352836747a6291d6b3be9024, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 10d9f56733f4dfc4e8960f44802f0c55, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: f8f2f247289f7b74099468f4238e7362, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 10d9f56733f4dfc4e8960f44802f0c55, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: f8f2f247289f7b74099468f4238e7362, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: 7a7cc5fe208c841459298391ced14287, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: 6dcd1ae88dcf03f4db2524065399cfb3, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 5cbb9147dc349894f9e563f7ba54bd21, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: c52a1116f79bb0f4790ac4f9e9f3d9c9, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 0b36e163fb5a62744932415882337a2c, type: 2}
+    level: 40
+  - moveBase: {fileID: 11400000, guid: eae96b657b521be4598511d5969ae235, type: 2}
+    level: 44
+  - moveBase: {fileID: 11400000, guid: e9d95cfe61f49af42becf5691d2ca4ab, type: 2}
+    level: 53
+  - moveBase: {fileID: 11400000, guid: 4bde7e52c6949354b8862ac339943819, type: 2}
+    level: 62
+  - moveBase: {fileID: 11400000, guid: 23229976a9e108640b678af201609a5a, type: 2}
+    level: 71
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 11400000, guid: d7e284b8b884bc340ae8b033ef861d47, type: 2}
+  evolutions: []

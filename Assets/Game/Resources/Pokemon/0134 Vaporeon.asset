@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0134 Vaporeon
+  m_EditorClassIdentifier: 
+  pokemonName: Vaporeon
+  pokemonDescription: It has evolved to be suited for an aquatic life. It can become
+    invisible when it melts away into water.
+  frontSprite: {fileID: 21300000, guid: 5d487a0277d3ec243b2b169894fd4341, type: 3}
+  battleOffsetY: 10
+  backSprite: {fileID: 21300000, guid: 0d3027b011c834e4d8a8df7d45e48ec1, type: 3}
+  iconSprite: {fileID: 21300000, guid: d107a9d4ddb77fd4996f533de94ea4f5, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 22958d8b5a8e11d44a618e590cb0090e, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 55752fc5f2c67f2449365011ae1c3330, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 11
+  pokemonType2: 0
+  ability1: 73
+  ability2: 73
+  hiddenAbility: 91
+  maxHP: 130
+  attack: 65
+  defense: 60
+  spAttack: 110
+  spDefense: 95
+  speed: 65
+  HPEVYield: 2
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 184
+  growthRate: 2
+  catchRate: 45
+  pokemonStatus: 1
+  genderRate: 2
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 8d3e6d6e0e5986041bddd97d8c9786f8, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 743cecf0a3490854d8f38789b440b8a6, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 486133dbc88798f488f17dfbcf05ec57, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: 8d3e6d6e0e5986041bddd97d8c9786f8, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 0aed80ca2b175ae4eb92cdb7a15b3c98, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 29
+  - moveBase: {fileID: 11400000, guid: 3da1ead767dfb994f8212c04273da231, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: caf657f6e408cb847892c3c2b479de29, type: 2}
+    level: 43
+  - moveBase: {fileID: 11400000, guid: 13769e1b352836747a6291d6b3be9024, type: 2}
+    level: 50
+  - moveBase: {fileID: 11400000, guid: 917a83a238eab1b44a44b8e97ef30935, type: 2}
+    level: 57
+  - moveBase: {fileID: 11400000, guid: f792656126440ae4aa1f8703324c6dd2, type: 2}
+    level: 64
+  - moveBase: {fileID: 11400000, guid: f26530c9741593c458c2a1141d49a90f, type: 2}
+    level: 71
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 11400000, guid: 097b3746cabc52c428ac4c2303d4e9a5, type: 2}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

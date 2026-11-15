@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0192 Sunflora
+  m_EditorClassIdentifier: 
+  pokemonName: Sunflora
+  pokemonDescription: It gets energy from warm sunlight and is known for its habit
+    of moving in pursuit of it.
+  frontSprite: {fileID: 21300000, guid: 279be07d98a25c84797317e6da2d9829, type: 3}
+  battleOffsetY: 8
+  backSprite: {fileID: 21300000, guid: d0768312677573e408f19f9fc4bb9697, type: 3}
+  iconSprite: {fileID: 21300000, guid: 4f19abf61a4ef60408a9a779001997a6, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 59a24235b694c6348a927d8b4e4223d5, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 171f80339ac181d47aa0d1695216e72e, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 12
+  pokemonType2: 0
+  ability1: 5
+  ability2: 113
+  hiddenAbility: 14
+  maxHP: 75
+  attack: 75
+  defense: 55
+  spAttack: 105
+  spDefense: 85
+  speed: 30
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 2
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 149
+  growthRate: 3
+  catchRate: 120
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 6fdff47b73e7e4243a43b7c5a4fc2a09, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: dfa8c6a33e3023349b0d66e6d2091c22, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 3a2b607f097308648adc4ffc2b1cda9a, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: 2416d5351b6f0b24ebe7d672aeed47cf, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: fda4f4631bfdf38479c4f9e332fc874c, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 9d4bd32ede9e2f64ba3f4617c01f6ed1, type: 2}
+    level: 21
+  - moveBase: {fileID: 11400000, guid: 8778242a785390040a5ea4d60b440026, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 711adf12e59b11a489366c11643ed6e6, type: 2}
+    level: 29
+  - moveBase: {fileID: 11400000, guid: 955ad0358a27d2549890525e7008b890, type: 2}
+    level: 33
+  - moveBase: {fileID: 11400000, guid: 86bf0a4258a26fa45bd1e9eaf57ca1b3, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: cbceef98cec6df04a90d7ef9ec095ffe, type: 2}
+    level: 41
+  - moveBase: {fileID: 11400000, guid: b5b4fe7723c45ab458e76d22735a6976, type: 2}
+    level: 45
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions: []

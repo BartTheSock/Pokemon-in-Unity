@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0913 Quaxwell
+  m_EditorClassIdentifier: Assembly-CSharp::PokemonBase
+  pokemonName: Quaxwell
+  pokemonDescription: "These Pok\xE9mon constantly run through shallow waters to
+    train their legs, then compete with each other to see which of them kicks most
+    gracefully."
+  frontSprite: {fileID: 21300000, guid: 3cc560d064c3fe445926199aba99347c, type: 3}
+  battleOffsetY: 5
+  backSprite: {fileID: 21300000, guid: 35d5b258a8de68b45ad497e075277476, type: 3}
+  iconSprite: {fileID: 21300000, guid: a59f94ef4277399438bf04481cffd3f5, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 713206875d9eb4d498f95a58bb23135e, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 29f5520f9790ee74e9d00e74a09e3521, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 11
+  pokemonType2: 0
+  ability1: 68
+  ability2: 68
+  hiddenAbility: 143
+  maxHP: 70
+  attack: 85
+  defense: 65
+  spAttack: 65
+  spDefense: 60
+  speed: 65
+  HPEVYield: 0
+  attackEVYield: 2
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 144
+  growthRate: 3
+  catchRate: 45
+  pokemonStatus: 2
+  genderRate: 2
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: e04721a68196017438cc68f20cd59b23, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 8d3e6d6e0e5986041bddd97d8c9786f8, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 88297976916507d44a02f1fc60809167, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 3b5a937544b2828489f1012a1bb05dce, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: 591ec395569b0ca489bcbd24c66309be, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: 4e62cfed06a4bef44a9667d1fe01bdaf, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 04adb8bcfcbbb0846be3478ba5d4d35b, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: 4a07616997edc4a49bd266cb7bc77012, type: 2}
+    level: 23
+  - moveBase: {fileID: 11400000, guid: 5cbe33111b749194e9472e43d77b5140, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: d7cef81c096d2364d98837f570133b34, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: 34c6f8c667be5e148afdab9421e2ee11, type: 2}
+    level: 38
+  - moveBase: {fileID: 11400000, guid: 39d792f0b046cb34bb4f440bd4f0e639, type: 2}
+    level: 43
+  - moveBase: {fileID: 11400000, guid: c21e0f4007a42f74f918aef255fb64b2, type: 2}
+    level: 48
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 097b3746cabc52c428ac4c2303d4e9a5, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: d7e284b8b884bc340ae8b033ef861d47, type: 2}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 55f28634dbe20f944a75bab07373bea0, type: 2}
+    requiredLevel: 36
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

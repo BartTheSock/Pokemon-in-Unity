@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0823 Corviknight
+  m_EditorClassIdentifier: 
+  pokemonName: Corviknight
+  pokemonDescription: "Although its wings have partly turned to steel and become
+    heavy as a result, this Pok\xE9mon flies through the skies with ease."
+  frontSprite: {fileID: 21300000, guid: f986ef240217f6244b7bcd743cc01682, type: 3}
+  battleOffsetY: 9
+  backSprite: {fileID: 21300000, guid: f5a8305773833c6458e62b3415b7d9a5, type: 3}
+  iconSprite: {fileID: 21300000, guid: 75aabb8d59d921d4f83b4def936307a6, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: df6484952502bb340b751ca1e19beaea, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 6426df02dcce3e3449a1948b6a0802a0, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 3
+  pokemonType2: 9
+  ability1: 44
+  ability2: 160
+  hiddenAbility: 251
+  maxHP: 98
+  attack: 87
+  defense: 105
+  spAttack: 53
+  spDefense: 85
+  speed: 67
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 3
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 248
+  growthRate: 3
+  catchRate: 45
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: b6504a80e33379f4080ddde43f416558, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: e82c9aa6c581cd14f8a3800400547e03, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 6dcd1ae88dcf03f4db2524065399cfb3, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 5269d90dd10eb394691878afaa467536, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 6dcd1ae88dcf03f4db2524065399cfb3, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 5269d90dd10eb394691878afaa467536, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: bf4780e00f962f74095dce363cb7bbf5, type: 2}
+    level: 12
+  - moveBase: {fileID: 11400000, guid: 0828ee665ddbe134e99d37d115864f6b, type: 2}
+    level: 46
+  - moveBase: {fileID: 11400000, guid: 2ec432da0596de345aaa31a2ba030362, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: 7a7cc5fe208c841459298391ced14287, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 4ea90573af4737444846e8b1ce6d5d2c, type: 2}
+    level: 34
+  - moveBase: {fileID: 11400000, guid: b6504a80e33379f4080ddde43f416558, type: 2}
+    level: 38
+  - moveBase: {fileID: 11400000, guid: 42975b430391279458494dec90208cbd, type: 2}
+    level: 50
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 11400000, guid: d7e284b8b884bc340ae8b033ef861d47, type: 2}
+  evolutions: []

@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0705 Sliggoo
+  m_EditorClassIdentifier: 
+  pokemonName: Sliggoo
+  pokemonDescription: It drives away opponents by excreting a sticky liquid that
+    can dissolve anything. Its eyes devolved, so it can't see anything.
+  frontSprite: {fileID: 21300000, guid: cf8af2819b6bdc44bb90b5a2347f9257, type: 3}
+  battleOffsetY: 8
+  backSprite: {fileID: 21300000, guid: d2c155329014b894a86b5df39b1d9a52, type: 3}
+  iconSprite: {fileID: 21300000, guid: b7cd05d9dcadfbb438c5d6e0ef7944f4, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: d3f09526f9785b24ea19184e8ead73a5, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: e373fb29f5a26e647acabf16b8f1eabb, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 16
+  pokemonType2: 0
+  ability1: 154
+  ability2: 91
+  hiddenAbility: 178
+  maxHP: 68
+  attack: 75
+  defense: 53
+  spAttack: 85
+  spDefense: 113
+  speed: 60
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 2
+  speedEVYield: 0
+  expYield: 158
+  growthRate: 4
+  catchRate: 45
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 35
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 0786490cd16c05545a2ea433a24ce8fb, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 8d3e6d6e0e5986041bddd97d8c9786f8, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: dfa8c6a33e3023349b0d66e6d2091c22, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: b237bf6ded2821a478dd55d15a79ba1b, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: caf657f6e408cb847892c3c2b479de29, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: baca0d8029a3e09498c24df4ea1972fa, type: 2}
+    level: 18
+  - moveBase: {fileID: 11400000, guid: f9754b98b54142b48ad0bd185d7d741f, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: ecfb6921b39bb6746a421df560ed7182, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 3d76a5d1684712d4cae4bae32df69d73, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: f26530c9741593c458c2a1141d49a90f, type: 2}
+    level: 38
+  - moveBase: {fileID: 11400000, guid: 1d96e8314edf16e45983d696c4f9681c, type: 2}
+    level: 47
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: a1264e6ed72c8794f9a7c379dd7e1f6c, type: 2}
+    requiredLevel: 50
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0
+  - evolvesInto: {fileID: 11400000, guid: a1264e6ed72c8794f9a7c379dd7e1f6c, type: 2}
+    requiredLevel: 110
+    requiredItem: {fileID: 11400000, guid: 3106725fcce6ef7488a5b3ffafd4f048, type: 2}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

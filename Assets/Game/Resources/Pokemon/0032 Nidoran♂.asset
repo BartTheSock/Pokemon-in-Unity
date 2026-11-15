@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: "0032 Nidoran\u2642"
+  m_EditorClassIdentifier: 
+  pokemonName: "Nidoran\u2642"
+  pokemonDescription: It scans its surroundings by raising its ears out of the grass.
+    Its toxic horn is for protection.
+  frontSprite: {fileID: 21300000, guid: 4d8bc9d346d38c44393a7ae14160c224, type: 3}
+  battleOffsetY: 13
+  backSprite: {fileID: 21300000, guid: 76c52fbe5c1d54442934281e376ae434, type: 3}
+  iconSprite: {fileID: 21300000, guid: beacc8961db042e4795762426792151d, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 30a25d86ae442db48a04e0c2fbd7eae0, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: bcf66bbe66fec9d4ebca5ebd03a5e601, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 4
+  pokemonType2: 0
+  ability1: 43
+  ability2: 105
+  hiddenAbility: 21
+  maxHP: 46
+  attack: 57
+  defense: 40
+  spAttack: 40
+  spDefense: 40
+  speed: 50
+  HPEVYield: 0
+  attackEVYield: 1
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 55
+  growthRate: 3
+  catchRate: 235
+  pokemonStatus: 0
+  genderRate: 1
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e82c9aa6c581cd14f8a3800400547e03, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: d7cef81c096d2364d98837f570133b34, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 1bd732a1ff9413949b5c3eca19f367fd, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: faa059aa4cc88ef47b9a9088d54fd3b7, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: bf4780e00f962f74095dce363cb7bbf5, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: 624173bcfcd3fca47be6e12ca6025921, type: 2}
+    level: 21
+  - moveBase: {fileID: 11400000, guid: 437c98bba533e15409f0a0bf4671ab80, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: dccf755773b736f48ab64ff69b48ad32, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: df14e7fc578f3fa4b888abb1fb6946d3, type: 2}
+    level: 33
+  - moveBase: {fileID: 11400000, guid: 609c09962e8c6174384a2f4a90a412af, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: 8198d3cb6ef647b4b9f2cbfdeb10187f, type: 2}
+    level: 43
+  - moveBase: {fileID: 11400000, guid: 775add7e620e61548896742908a56968, type: 2}
+    level: 45
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: bc8b49af1457c744cacd2b770eb553b3, type: 2}
+    requiredLevel: 16
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

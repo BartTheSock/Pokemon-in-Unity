@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0064 Kadabra
+  m_EditorClassIdentifier: 
+  pokemonName: Kadabra
+  pokemonDescription: When it uses its psychic power, it emits strong alpha waves
+    that can ruin precision instruments.
+  frontSprite: {fileID: 21300000, guid: 52b0bcf9cb6245f4096b739c09969908, type: 3}
+  battleOffsetY: 6
+  backSprite: {fileID: 21300000, guid: afcb833603ebdc04d830b007fd6d7139, type: 3}
+  iconSprite: {fileID: 21300000, guid: 22f9faf82f6e08a4c9cd580eca302fde, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: c445e310784cd54429381b29a8db9080, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 4476d8dcb55af104f9e27e32e8e21242, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 14
+  pokemonType2: 0
+  ability1: 66
+  ability2: 25
+  hiddenAbility: 96
+  maxHP: 40
+  attack: 35
+  defense: 30
+  spAttack: 120
+  spDefense: 70
+  speed: 105
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 2
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 140
+  growthRate: 3
+  catchRate: 100
+  pokemonStatus: 0
+  genderRate: 3
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 10d9f56733f4dfc4e8960f44802f0c55, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1cf1b8759985c214e9ea7fce8987a657, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: c8f126278caf550448bee904a65dd571, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 10d9f56733f4dfc4e8960f44802f0c55, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 69e5b2550809f774ab0be589cd080ead, type: 2}
+    level: 18
+  - moveBase: {fileID: 11400000, guid: d6717924b0b1bb64ebdf01668ef772f9, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: f839c4ff43d0fbb4eb0cfb282fc561e5, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: dd9a68c175026d34ead3b17584c394fd, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 3a2b607f097308648adc4ffc2b1cda9a, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 1239573fbb499af45a98e02961dfdaef, type: 2}
+    level: 30
+  - moveBase: {fileID: 11400000, guid: 004909bc0ec7abf4d84824d3976dc641, type: 2}
+    level: 34
+  - moveBase: {fileID: 11400000, guid: 61aea8067e9592445892c1e71899ace4, type: 2}
+    level: 38
+  - moveBase: {fileID: 11400000, guid: c52a1116f79bb0f4790ac4f9e9f3d9c9, type: 2}
+    level: 42
+  - moveBase: {fileID: 11400000, guid: 4bde7e52c6949354b8862ac339943819, type: 2}
+    level: 46
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 0931c6267ad231640ad8432a16ab0b97, type: 2}
+    requiredLevel: 110
+    requiredItem: {fileID: 11400000, guid: 2149d9df8b38871499173d685b85bf2c, type: 2}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0
+  - evolvesInto: {fileID: 11400000, guid: 0931c6267ad231640ad8432a16ab0b97, type: 2}
+    requiredLevel: 110
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 1

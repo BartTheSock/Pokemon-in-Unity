@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0228 Houndour
+  m_EditorClassIdentifier: 
+  pokemonName: Houndour
+  pokemonDescription: It conveys its feelings using different cries. It works in
+    a pack to cleverly take down prey.
+  frontSprite: {fileID: 21300000, guid: 204ba1c9796e5a54494a831fada049da, type: 3}
+  battleOffsetY: 10
+  backSprite: {fileID: 21300000, guid: db5e6ef21f23dd24d956af1e6d576dfd, type: 3}
+  iconSprite: {fileID: 21300000, guid: 17c0133b451e877498d4834eef220540, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 50df0b7d2c6f5484da3d394733021131, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 0ee14850e6b358a42a492caa13951f6e, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 17
+  pokemonType2: 10
+  ability1: 14
+  ability2: 17
+  hiddenAbility: 160
+  maxHP: 45
+  attack: 60
+  defense: 30
+  spAttack: 80
+  spDefense: 50
+  speed: 65
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 1
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 66
+  growthRate: 4
+  catchRate: 120
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 35
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e3aee3e3753080047b12fa8051d20c7b, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 7365dc93dfad88548b3097486dd51785, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: 17323e8bfe4aa8d4d92ad20c2f2e7123, type: 2}
+    level: 14
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 1871e22a3da4d554a82a7d1d33db7c87, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: 00b5e22d50a520c4ea4e5d2dbae2c994, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: 2a8c741df5c9e4d4492af9d82d1c0200, type: 2}
+    level: 30
+  - moveBase: {fileID: 11400000, guid: f0d08902af80db84ea7498ce7073e330, type: 2}
+    level: 35
+  - moveBase: {fileID: 11400000, guid: f1566467988f4f9468e217f5e9f74235, type: 2}
+    level: 40
+  - moveBase: {fileID: 11400000, guid: 76338d4301d17cb489747f4845164d9b, type: 2}
+    level: 43
+  - moveBase: {fileID: 11400000, guid: 43eb4537295bb09449c147a0e7b70c62, type: 2}
+    level: 48
+  - moveBase: {fileID: 11400000, guid: 2ec432da0596de345aaa31a2ba030362, type: 2}
+    level: 53
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: c4883c14c8484de4c8b392bbf51653d3, type: 2}
+    requiredLevel: 24
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0934 Garganacl
+  m_EditorClassIdentifier: Assembly-CSharp::PokemonBase
+  pokemonName: Garganacl
+  pokemonDescription: "Garganacl will rub its fingertips together and sprinkle injured
+    Pok\xE9mon with salt. Even severe wounds will promptly heal afterward."
+  frontSprite: {fileID: 21300000, guid: 7602320839f99cc4386b8f6e180b2020, type: 3}
+  battleOffsetY: 2
+  backSprite: {fileID: 21300000, guid: 98992d295cae6814abbf9a2692ced111, type: 3}
+  iconSprite: {fileID: 21300000, guid: 0a04d8781fac9df4e8adaada96905037, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 9f662e4b6a5a3734c833ab5423cca482, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: afea7085f3c6ae944a9b98667cbc8cca, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 6
+  pokemonType2: 0
+  ability1: 293
+  ability2: 62
+  hiddenAbility: 6
+  maxHP: 100
+  attack: 100
+  defense: 130
+  spAttack: 45
+  spDefense: 90
+  speed: 35
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 3
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 250
+  growthRate: 3
+  catchRate: 45
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 5f9abc3165071c146b9eb5fe1a795485, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 38965cc6552b4b948b8490cdc5008fa1, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e7630bcfaa7f5964999b5a8cf55fe473, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 699044c3bb514b341a472e2dc80d07ba, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 4b10e918ee367ee46950e586058d6f03, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: 6573339101488204d8605c52db090c1d, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: 05aaa98939291cc40a7427b7bee3450a, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 0b36e163fb5a62744932415882337a2c, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: 1239573fbb499af45a98e02961dfdaef, type: 2}
+    level: 30
+  - moveBase: {fileID: 11400000, guid: e90f09fd42577364a8589ceddc6ad50a, type: 2}
+    level: 34
+  - moveBase: {fileID: 11400000, guid: 22dbe7eaa6aab1241ba968231fd216a3, type: 2}
+    level: 40
+  - moveBase: {fileID: 11400000, guid: 083558ac6adbd4c4db8f8055ace582a0, type: 2}
+    level: 44
+  - moveBase: {fileID: 11400000, guid: adc9de983e42a3c4caed8c2b27a864ca, type: 2}
+    level: 49
+  - moveBase: {fileID: 11400000, guid: 1bdb5d6f50d3bca41830d108c1859ef3, type: 2}
+    level: 54
+  - moveBase: {fileID: 11400000, guid: 39cf006a0a2323c4cba89aaaa7a34e1e, type: 2}
+    level: 60
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  evolutions: []

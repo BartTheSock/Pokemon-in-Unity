@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0665 Spewpa
+  m_EditorClassIdentifier: 
+  pokemonName: Spewpa
+  pokemonDescription: Spewpa doesn't live in a fixed location. It roams where it
+    pleases across the fields and mountains, building up the energy it needs to evolve.
+  frontSprite: {fileID: 21300000, guid: cfb3909b311c20747aae4f1fc15a53a9, type: 3}
+  battleOffsetY: 13
+  backSprite: {fileID: 21300000, guid: 82abe51da03efce42991899e2dc8a9bf, type: 3}
+  iconSprite: {fileID: 21300000, guid: 8532d01408044c54eaeba235e2499b97, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 5d1a074c6bb14f749ba99df8040faabe, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: c14609cca1c6fcc4e97b6a95ee5314fb, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 7
+  pokemonType2: 0
+  ability1: 54
+  ability2: 54
+  hiddenAbility: 131
+  maxHP: 45
+  attack: 22
+  defense: 60
+  spAttack: 27
+  spDefense: 30
+  speed: 29
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 2
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 75
+  growthRate: 2
+  catchRate: 255
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 38965cc6552b4b948b8490cdc5008fa1, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 38965cc6552b4b948b8490cdc5008fa1, type: 2}
+    level: 1
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 2b80d330724799f43a163e87b98eed3f, type: 2}
+    requiredLevel: 12
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

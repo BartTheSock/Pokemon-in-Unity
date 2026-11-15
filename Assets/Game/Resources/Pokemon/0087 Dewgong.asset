@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0087 Dewgong
+  m_EditorClassIdentifier: 
+  pokemonName: Dewgong
+  pokemonDescription: In snow, the pure white coat covering its body obscures it
+    from predators.
+  frontSprite: {fileID: 21300000, guid: f24e57101995eff4cbc2278fee7e36eb, type: 3}
+  battleOffsetY: 4
+  backSprite: {fileID: 21300000, guid: d5270bdeef784f74cb61f52d24d9f546, type: 3}
+  iconSprite: {fileID: 21300000, guid: 5fed893eadc2941499e0e4e320b40153, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 656f301846063ad4881656141e241a56, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: acd08c153a56318448286927de2281f3, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 11
+  pokemonType2: 15
+  ability1: 67
+  ability2: 91
+  hiddenAbility: 92
+  maxHP: 90
+  attack: 70
+  defense: 80
+  spAttack: 70
+  spDefense: 95
+  speed: 70
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 2
+  speedEVYield: 0
+  expYield: 166
+  growthRate: 2
+  catchRate: 75
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: b1426c0fc11c5154b9e2b6180cc6bc79, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 05aaa98939291cc40a7427b7bee3450a, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 90a576a46a69f2a43bd7034dec29caa0, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: b43a457a5e6eb9046a7d986f996c2388, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 3
+  - moveBase: {fileID: 11400000, guid: 90a576a46a69f2a43bd7034dec29caa0, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: b43a457a5e6eb9046a7d986f996c2388, type: 2}
+    level: 11
+  - moveBase: {fileID: 11400000, guid: 8d3e6d6e0e5986041bddd97d8c9786f8, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: 5a2b86de4f1e3654e9d22dbae2359151, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 26cffb0cf9854bf488d4f7772a7ff0d1, type: 2}
+    level: 21
+  - moveBase: {fileID: 11400000, guid: 51496e7d8216db945ba60ba88c3a0182, type: 2}
+    level: 23
+  - moveBase: {fileID: 11400000, guid: 3da1ead767dfb994f8212c04273da231, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: 591ec395569b0ca489bcbd24c66309be, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: c29547de52c9e7f4bb64c06e25be9306, type: 2}
+    level: 33
+  - moveBase: {fileID: 11400000, guid: 13769e1b352836747a6291d6b3be9024, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: efacc6ce9c4216d408b6557448c43f9d, type: 2}
+    level: 41
+  - moveBase: {fileID: 11400000, guid: ee1702e6310a2fd4cbd2ef8c81304cfd, type: 2}
+    level: 43
+  - moveBase: {fileID: 11400000, guid: c19b46518720ad84d8000d14962ac374, type: 2}
+    level: 47
+  - moveBase: {fileID: 11400000, guid: ea627caaddcea5f40b64b5ad73b0e399, type: 2}
+    level: 51
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 097b3746cabc52c428ac4c2303d4e9a5, type: 2}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions: []

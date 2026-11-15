@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0742 Cutiefly
+  m_EditorClassIdentifier: 
+  pokemonName: Cutiefly
+  pokemonDescription: Cutiefly can pick up the auras of living things. It skillfully
+    reads those auras to predict its foes' movements and make fools of them.
+  frontSprite: {fileID: 21300000, guid: 20a29bffd57cd7242894843b91f7e050, type: 3}
+  battleOffsetY: -4
+  backSprite: {fileID: 21300000, guid: 6c7aa97d4ff729d42b3fd9664936070d, type: 3}
+  iconSprite: {fileID: 21300000, guid: abaf760b5ce54f84eb3e97899322d2e8, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 3deba40710fb72145a4cfb2d4003cc10, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 433fb9c302ae70d46b948721711311c3, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 7
+  pokemonType2: 18
+  ability1: 90
+  ability2: 56
+  hiddenAbility: 189
+  maxHP: 40
+  attack: 45
+  defense: 40
+  spAttack: 55
+  spDefense: 40
+  speed: 84
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 1
+  expYield: 61
+  growthRate: 2
+  catchRate: 190
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: dfa8c6a33e3023349b0d66e6d2091c22, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: df7ca7499a90d654dab7c08841051d01, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: a51d01fd53f1c3f4e8e42788784c205d, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: fa003f39688f3844a9203e730ccb8874, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: b3de7aa899dba8449ae8d32f779aa0f1, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: 087f100781228604e841b104f4eff4dc, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: bfd997ff49b573a4cbf6c6b068cf1c14, type: 2}
+    level: 21
+  - moveBase: {fileID: 11400000, guid: f61d49a65b0235e449f94e30c871b3d8, type: 2}
+    level: 26
+  - moveBase: {fileID: 11400000, guid: 0ac763834cf350a449b476adc28ee509, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: 6b85aaedd84299c42bd26c607a67415b, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 78332ad422c1ed4428e2d0c83b4ccd3d, type: 2}
+    level: 41
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: ce75c80f772b1a54a88e90a5f25acf6c, type: 2}
+    requiredLevel: 25
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0812 Rillaboom
+  m_EditorClassIdentifier: 
+  pokemonName: Rillaboom
+  pokemonDescription: By drumming, it taps into the power of its special tree stump.
+    The roots of the stump follow its direction in battle.
+  frontSprite: {fileID: 21300000, guid: b7569e4319f97ee419c911b9cf401a20, type: 3}
+  battleOffsetY: 8
+  backSprite: {fileID: 21300000, guid: 3924a680ab80fd34c87ceecc155bd3ba, type: 3}
+  iconSprite: {fileID: 21300000, guid: e712f56070ead5a4894f5274e2afa2af, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 1d61d70f936f17e4a9f856cd7fd7466f, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 8e330475c3e812a4a86ad2d951ad6fe0, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 12
+  pokemonType2: 0
+  ability1: 39
+  ability2: 39
+  hiddenAbility: 206
+  maxHP: 100
+  attack: 125
+  defense: 90
+  spAttack: 60
+  spDefense: 70
+  speed: 85
+  HPEVYield: 0
+  attackEVYield: 3
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 265
+  growthRate: 3
+  catchRate: 45
+  pokemonStatus: 2
+  genderRate: 2
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 96ac31298059b694381d7dd0e0f5a96e, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1cfce7ccaac906b4dab6a456c13ab842, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 5a66a0299801c4e408fc4f4fb8d1df14, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 115f64d01e6a3474ebcec312690c292c, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 5a66a0299801c4e408fc4f4fb8d1df14, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: 115f64d01e6a3474ebcec312690c292c, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: 8778242a785390040a5ea4d60b440026, type: 2}
+    level: 12
+  - moveBase: {fileID: 11400000, guid: 058d2ea14181c284e957d6515d7ec0e8, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: ed735825f8fa1984cbce5f008bd18c34, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: 44d316d94b7e5724f8e96ec92cd813b8, type: 2}
+    level: 30
+  - moveBase: {fileID: 11400000, guid: 3d76a5d1684712d4cae4bae32df69d73, type: 2}
+    level: 38
+  - moveBase: {fileID: 11400000, guid: 85d802b1cfb115240bc86e63964d6db3, type: 2}
+    level: 46
+  - moveBase: {fileID: 11400000, guid: 13769e1b352836747a6291d6b3be9024, type: 2}
+    level: 54
+  - moveBase: {fileID: 11400000, guid: ae176e49cf2df844c86c544de3144975, type: 2}
+    level: 62
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

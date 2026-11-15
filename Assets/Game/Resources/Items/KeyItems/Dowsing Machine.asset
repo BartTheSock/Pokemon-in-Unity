@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a2a4a7897b7b9d4aa6d2e8b4fb7cc61, type: 3}
+  m_Name: Dowsing Machine
+  m_EditorClassIdentifier: 
+  itemName: Dowsing Machine
+  itemNamePlural: Dowsing Machines
+  itemDescription: This high-tech machine shows the location of invisible items.
+    If there is a hidden item nearby when it is used, it emits a signal.
+  itemUseMessage: 
+  itemIcon: {fileID: -1053188825, guid: 8a3fa31c44eba164e9b515c0c62ddddb, type: 3}

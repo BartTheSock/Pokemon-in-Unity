@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0030 Nidorina
+  m_EditorClassIdentifier: 
+  pokemonName: Nidorina
+  pokemonDescription: When it senses danger, it raises all the barbs on its body.
+    These barbs grow more slowly than Nidorino's.
+  frontSprite: {fileID: 21300000, guid: e7028413009503b4da57cb2b3617a89e, type: 3}
+  battleOffsetY: 14
+  backSprite: {fileID: 21300000, guid: ace255600715361479f0672fc7088421, type: 3}
+  iconSprite: {fileID: 21300000, guid: 97aef4f04034a4440820473a409c3f74, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 7433dc0db213a0b4fb44c4bf06a42edd, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: eaebafb1c390e57489146c1c2b099d57, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 4
+  pokemonType2: 0
+  ability1: 43
+  ability2: 105
+  hiddenAbility: 21
+  maxHP: 70
+  attack: 62
+  defense: 67
+  spAttack: 55
+  spDefense: 55
+  speed: 56
+  HPEVYield: 2
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 128
+  growthRate: 3
+  catchRate: 120
+  pokemonStatus: 0
+  genderRate: 7
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 1cfce7ccaac906b4dab6a456c13ab842, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 743cecf0a3490854d8f38789b440b8a6, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 1bd732a1ff9413949b5c3eca19f367fd, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: faa059aa4cc88ef47b9a9088d54fd3b7, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: cb3c38d6d1e8f544192d583416700e5d, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 23
+  - moveBase: {fileID: 11400000, guid: 437c98bba533e15409f0a0bf4671ab80, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: dccf755773b736f48ab64ff69b48ad32, type: 2}
+    level: 35
+  - moveBase: {fileID: 11400000, guid: 43eb4537295bb09449c147a0e7b70c62, type: 2}
+    level: 38
+  - moveBase: {fileID: 11400000, guid: 609c09962e8c6174384a2f4a90a412af, type: 2}
+    level: 43
+  - moveBase: {fileID: 11400000, guid: 01be77afa4cde334ba5aa213be69b4b6, type: 2}
+    level: 50
+  - moveBase: {fileID: 11400000, guid: 775add7e620e61548896742908a56968, type: 2}
+    level: 58
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 3460625ead180c343aad8dc3d8555397, type: 2}
+    requiredLevel: 110
+    requiredItem: {fileID: 11400000, guid: db72b146cac1ffc41a1297c4d5dec8d6, type: 2}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

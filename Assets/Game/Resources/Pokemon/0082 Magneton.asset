@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0082 Magneton
+  m_EditorClassIdentifier: 
+  pokemonName: Magneton
+  pokemonDescription: "A Magneton is actually three Magnemite linked by magnetism.
+    A group of these Pok\xE9mon can set off a magnetic storm."
+  frontSprite: {fileID: 21300000, guid: 17de934348d89ae478cf825e75e4ebe0, type: 3}
+  battleOffsetY: -8
+  backSprite: {fileID: 21300000, guid: c98201d7607ad944697ff5f72034e88f, type: 3}
+  iconSprite: {fileID: 21300000, guid: 3dfb7aed49481b54b829748e0120e19e, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: aa2e90272c7af9c4888db4bcf62aae37, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 20b168249bfd84c478262e4768a19b08, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 13
+  pokemonType2: 9
+  ability1: 34
+  ability2: 62
+  hiddenAbility: 124
+  maxHP: 50
+  attack: 60
+  defense: 95
+  spAttack: 120
+  spDefense: 70
+  speed: 70
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 2
+  speedEVYield: 0
+  expYield: 163
+  growthRate: 2
+  catchRate: 60
+  pokemonStatus: 0
+  genderRate: 0
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 7128792f0fd4b724e9fccefaef84222d, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 5b6d4c59f07c31e479b4097956453437, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: a14dbb6d7f6b9a446bf31748a1106291, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: ce1a0f1c44eb65e4584ca6a04aa1df6a, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: a14dbb6d7f6b9a446bf31748a1106291, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: ce1a0f1c44eb65e4584ca6a04aa1df6a, type: 2}
+    level: 11
+  - moveBase: {fileID: 11400000, guid: 9c983af833bc26142a8cb61c2600b409, type: 2}
+    level: 14
+  - moveBase: {fileID: 11400000, guid: cd2f57390ff2e4243a4a9071ff0bfba7, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 18f9843c19944124fa0dc8b3fe0501e4, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: c3998be70d9e4fc4f95538cc4a36a8f3, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: 335f842cf227b444bb17a2dba42109d4, type: 2}
+    level: 30
+  - moveBase: {fileID: 11400000, guid: 058d2ea14181c284e957d6515d7ec0e8, type: 2}
+    level: 34
+  - moveBase: {fileID: 11400000, guid: 7913c2e12d2f4ab4ea46bc57e7ad7fa0, type: 2}
+    level: 40
+  - moveBase: {fileID: 11400000, guid: 1f76bfe368633d243b0d160a9a06c567, type: 2}
+    level: 46
+  - moveBase: {fileID: 11400000, guid: 5a67cb5c296b54341846710274387de1, type: 2}
+    level: 50
+  - moveBase: {fileID: 11400000, guid: 412bddf0f9dcb7b4a9e9ea1b868c005d, type: 2}
+    level: 54
+  - moveBase: {fileID: 11400000, guid: 6971aacca6821f947a4bc12e7d09f51c, type: 2}
+    level: 60
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 1a3ee6ec49e21a446b88e3476216cdbb, type: 2}
+    requiredLevel: 110
+    requiredItem: {fileID: 11400000, guid: 17e673a0c56bf31499980d8044f73241, type: 2}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

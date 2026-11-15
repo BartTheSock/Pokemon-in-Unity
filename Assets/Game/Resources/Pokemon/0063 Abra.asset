@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0063 Abra
+  m_EditorClassIdentifier: 
+  pokemonName: Abra
+  pokemonDescription: It sleeps for 18 hours a day. Even when awake, it teleports
+    itself while remaining seated.
+  frontSprite: {fileID: 21300000, guid: 69f2a6891a1ef6342b5189033a503f6f, type: 3}
+  battleOffsetY: 12
+  backSprite: {fileID: 21300000, guid: b6471b2278bb3ac46bf149ab4d242e79, type: 3}
+  iconSprite: {fileID: 21300000, guid: 1944f1209d2c4f647bc3003233e1e6bb, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 755ed4649287c584a9091e55cec66619, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: d5ac871fc5c68574dbd1b108eb7611b1, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 14
+  pokemonType2: 0
+  ability1: 66
+  ability2: 25
+  hiddenAbility: 96
+  maxHP: 25
+  attack: 20
+  defense: 15
+  spAttack: 105
+  spDefense: 55
+  speed: 90
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 1
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 62
+  growthRate: 3
+  catchRate: 200
+  pokemonStatus: 0
+  genderRate: 3
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: c8f126278caf550448bee904a65dd571, type: 2}
+    level: 1
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 0a7c1b36d81fb2b4499a205de892f61d, type: 2}
+    requiredLevel: 16
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

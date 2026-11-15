@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0223 Remoraid
+  m_EditorClassIdentifier: 
+  pokemonName: Remoraid
+  pokemonDescription: "It clings to Mantine to feed on the big Pok\xE9mon's scraps.
+    This is an adaptation to avoid foes."
+  frontSprite: {fileID: 21300000, guid: ac70fedd79ad9d643b59e5fc4ccd3fef, type: 3}
+  battleOffsetY: 0
+  backSprite: {fileID: 21300000, guid: 32fa94aa4c4f79e4aaaceac716792bd3, type: 3}
+  iconSprite: {fileID: 21300000, guid: 224a5c7ef59ed2546b1223cf92d7161c, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 8b2dee39f123310489c3583a1261178c, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: e78abac21408d8e42b9a4c88e807de43, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 11
+  pokemonType2: 0
+  ability1: 21
+  ability2: 110
+  hiddenAbility: 142
+  maxHP: 35
+  attack: 65
+  defense: 35
+  spAttack: 65
+  spDefense: 35
+  speed: 65
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 1
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 60
+  growthRate: 2
+  catchRate: 190
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 8d3e6d6e0e5986041bddd97d8c9786f8, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: d6717924b0b1bb64ebdf01668ef772f9, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: f839c4ff43d0fbb4eb0cfb282fc561e5, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: 3da1ead767dfb994f8212c04273da231, type: 2}
+    level: 14
+  - moveBase: {fileID: 11400000, guid: f9754b98b54142b48ad0bd185d7d741f, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: d7cef81c096d2364d98837f570133b34, type: 2}
+    level: 23
+  - moveBase: {fileID: 11400000, guid: 9d4bd32ede9e2f64ba3f4617c01f6ed1, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: caf657f6e408cb847892c3c2b479de29, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: 90a576a46a69f2a43bd7034dec29caa0, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: c19b46518720ad84d8000d14962ac374, type: 2}
+    level: 40
+  - moveBase: {fileID: 11400000, guid: 23229976a9e108640b678af201609a5a, type: 2}
+    level: 45
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 097b3746cabc52c428ac4c2303d4e9a5, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 2e1c46c2a2662d94bba3b4f1f5fdd21e, type: 2}
+    requiredLevel: 25
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

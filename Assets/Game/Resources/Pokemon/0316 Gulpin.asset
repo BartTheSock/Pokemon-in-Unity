@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0316 Gulpin
+  m_EditorClassIdentifier: 
+  pokemonName: Gulpin
+  pokemonDescription: Almost all its body is its stomach. Its harsh digestive juices
+    quickly dissolve anything it swallows.
+  frontSprite: {fileID: 21300000, guid: 3f6664521492b8a46bc0bfb472e6cd00, type: 3}
+  battleOffsetY: 15
+  backSprite: {fileID: 21300000, guid: 619083d57f48f3a4c9f4f6e7b80f8ac1, type: 3}
+  iconSprite: {fileID: 21300000, guid: 896853279cc374b469f8430509eb22b6, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 4816b8a6fe1d6e043a33e387a53ebf50, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: c0af116486a2436468c45449344e89ff, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 4
+  pokemonType2: 0
+  ability1: 32
+  ability2: 61
+  hiddenAbility: 88
+  maxHP: 70
+  attack: 43
+  defense: 53
+  spAttack: 43
+  spDefense: 53
+  speed: 40
+  HPEVYield: 1
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 60
+  growthRate: 5
+  catchRate: 225
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: e04721a68196017438cc68f20cd59b23, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: bdc7d453c62926241bf4895126e72499, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: 9506a9e6ed75d4942ab9c539ddd86827, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: 6e4f78af3b84c464b9caeb15b8dd9d4d, type: 2}
+    level: 14
+  - moveBase: {fileID: 11400000, guid: c4f0260ee55fe1e4c93607391a8ea468, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 7c78deb3b269051449399b33592f0eb7, type: 2}
+    level: 23
+  - moveBase: {fileID: 11400000, guid: 437c98bba533e15409f0a0bf4671ab80, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 0786490cd16c05545a2ea433a24ce8fb, type: 2}
+    level: 34
+  - moveBase: {fileID: 11400000, guid: 04141b7a936b5a64a92dd19dfe61fd44, type: 2}
+    level: 39
+  - moveBase: {fileID: 11400000, guid: 6d264e41f4329b24fba6ce24e5aed940, type: 2}
+    level: 44
+  - moveBase: {fileID: 11400000, guid: fdef7836f88d81947a8b64b591a8b9d0, type: 2}
+    level: 49
+  - moveBase: {fileID: 11400000, guid: 05c44b1d1da9d46408c5ccb0c4d066b3, type: 2}
+    level: 54
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: c429a5b966feb5649933cefe31bbb232, type: 2}
+    requiredLevel: 26
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

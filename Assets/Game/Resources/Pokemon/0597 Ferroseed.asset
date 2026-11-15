@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0597 Ferroseed
+  m_EditorClassIdentifier: 
+  pokemonName: Ferroseed
+  pokemonDescription: It defends itself by launching spikes, but its aim isn't very
+    good at first. Only after a lot of practice will it improve.
+  frontSprite: {fileID: 21300000, guid: 3c0656632969c7347a0d943ccec6c62f, type: 3}
+  battleOffsetY: 18
+  backSprite: {fileID: 21300000, guid: 3ed5d4e786fbbce44944a579d64f10f0, type: 3}
+  iconSprite: {fileID: 21300000, guid: f6d1cb7f706f70742bb11dcbb3c0b232, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 5ca2cd70babf8e34f95423fa87dfdfb0, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 777571122455c5c41abc82309f178176, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 12
+  pokemonType2: 9
+  ability1: 138
+  ability2: 138
+  hiddenAbility: 138
+  maxHP: 44
+  attack: 50
+  defense: 91
+  spAttack: 24
+  spDefense: 86
+  speed: 10
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 1
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 61
+  growthRate: 2
+  catchRate: 255
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 38965cc6552b4b948b8490cdc5008fa1, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e2e84a9c7637a694e9c53a16e06df1d8, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: aa9cb1499a4eaee4d8eb472d7514b354, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: f8f2f247289f7b74099468f4238e7362, type: 2}
+    level: 14
+  - moveBase: {fileID: 11400000, guid: 1b1a21315cc720445be4e013f2827ca9, type: 2}
+    level: 18
+  - moveBase: {fileID: 11400000, guid: 412bddf0f9dcb7b4a9e9ea1b868c005d, type: 2}
+    level: 21
+  - moveBase: {fileID: 11400000, guid: 0b36e163fb5a62744932415882337a2c, type: 2}
+    level: 26
+  - moveBase: {fileID: 11400000, guid: 1f76bfe368633d243b0d160a9a06c567, type: 2}
+    level: 30
+  - moveBase: {fileID: 11400000, guid: 5269d90dd10eb394691878afaa467536, type: 2}
+    level: 35
+  - moveBase: {fileID: 11400000, guid: 77894fa3cad4a614c9fdc7e8d51eb441, type: 2}
+    level: 38
+  - moveBase: {fileID: 11400000, guid: 699edcd9210796742845fc3f316600df, type: 2}
+    level: 43
+  - moveBase: {fileID: 11400000, guid: 3e9b5f41dbc897541b2bb2d592f35c94, type: 2}
+    level: 47
+  - moveBase: {fileID: 11400000, guid: e711245e213de8c46a5436be9feb3fa2, type: 2}
+    level: 52
+  - moveBase: {fileID: 11400000, guid: 39cf006a0a2323c4cba89aaaa7a34e1e, type: 2}
+    level: 55
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: f0c54d1ecd24c6d45a06608678e0c4af, type: 2}
+    requiredLevel: 40
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

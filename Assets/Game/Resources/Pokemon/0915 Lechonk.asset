@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0915 Lechonk
+  m_EditorClassIdentifier: Assembly-CSharp::PokemonBase
+  pokemonName: Lechonk
+  pokemonDescription: "It searches for food all day. It possesses a keen sense of
+    smell but doesn\u2019t use it for anything other than foraging."
+  frontSprite: {fileID: 21300000, guid: 18f9077080f0f564db34ebe04cdfcf72, type: 3}
+  battleOffsetY: 15
+  backSprite: {fileID: 21300000, guid: d9c36a458013e5048826922c0fe0d003, type: 3}
+  iconSprite: {fileID: 21300000, guid: fb70adc96dae7624b9a6bb4944b7a43f, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 6affadcf8882623428ebc0814dbba60d, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 7525513f4f0caa744953dd24e7e5956b, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 1
+  pokemonType2: 0
+  ability1: 166
+  ability2: 88
+  hiddenAbility: 67
+  maxHP: 54
+  attack: 45
+  defense: 40
+  spAttack: 35
+  spDefense: 45
+  speed: 35
+  HPEVYield: 1
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 51
+  growthRate: 2
+  catchRate: 255
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 743cecf0a3490854d8f38789b440b8a6, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 56c60d0d96b22d3439f5f20671f04689, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 7eed7dba9bf879745bd9b027ed6cabfc, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: 699044c3bb514b341a472e2dc80d07ba, type: 2}
+    level: 12
+  - moveBase: {fileID: 11400000, guid: 0ac763834cf350a449b476adc28ee509, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: d92179d1243053f448d57343c58589a4, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 05aaa98939291cc40a7427b7bee3450a, type: 2}
+    level: 21
+  - moveBase: {fileID: 11400000, guid: bdc7d453c62926241bf4895126e72499, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: 13769e1b352836747a6291d6b3be9024, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: 88297976916507d44a02f1fc60809167, type: 2}
+    level: 30
+  - moveBase: {fileID: 11400000, guid: 4e4579ba7cf92714aafdd36dffbe08b3, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: 931a146a2c960fe478ff68baf8f3fe50, type: 2}
+    level: 35
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: ce49826dcebf47b4b922150528d24f61, type: 2}
+    requiredLevel: 18
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e1f1cddfaf75b945acfbf6260ae1d8a, type: 3}
+  m_Name: Fog Badge
+  m_EditorClassIdentifier: 
+  itemName: Fog Badge
+  itemNamePlural: Fog Badges
+  itemDescription: A shiny badge that you earned as proof of defeating the Gym Leader
+    Morty, who is from Johto. It looks like a whispy ghost.
+  itemUseMessage: 
+  itemIcon: {fileID: -778483964, guid: a489e6d8751ff30428935743e11310e2, type: 3}
+  isSellable: 0
+  price: 0

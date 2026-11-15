@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0289 Slaking
+  m_EditorClassIdentifier: 
+  pokemonName: Slaking
+  pokemonDescription: "It is the world's laziest Pok\xE9mon. When it is lounging,
+    it is actually saving energy for striking back."
+  frontSprite: {fileID: 21300000, guid: 51dfe523f857cfd468e16dd9f08babe5, type: 3}
+  battleOffsetY: 9
+  backSprite: {fileID: 21300000, guid: ad7a11b7e7874ad4d9ab256e7e77bc47, type: 3}
+  iconSprite: {fileID: 21300000, guid: d395c90be66999541b8b0411fa460604, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 924f7ae4bb96b7640894fb49d03a6c89, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 72b97475af08f9c4fb6f75cd5105d748, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 1
+  pokemonType2: 0
+  ability1: 70
+  ability2: 70
+  hiddenAbility: 70
+  maxHP: 150
+  attack: 160
+  defense: 100
+  spAttack: 95
+  spDefense: 65
+  speed: 100
+  HPEVYield: 3
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 252
+  growthRate: 4
+  catchRate: 45
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 7a9382dcf11d5a74d978feb808bec7a1, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1cfce7ccaac906b4dab6a456c13ab842, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: bdc7d453c62926241bf4895126e72499, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 485633d80eb8a7e41841b5eafa628af3, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 05aaa98939291cc40a7427b7bee3450a, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 485633d80eb8a7e41841b5eafa628af3, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 05aaa98939291cc40a7427b7bee3450a, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: f0d08902af80db84ea7498ce7073e330, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: c4f0260ee55fe1e4c93607391a8ea468, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 0ac763834cf350a449b476adc28ee509, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: 3d51fbed6ae901d4caf2e43eba84bed6, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: ecfb6921b39bb6746a421df560ed7182, type: 2}
+    level: 43
+  - moveBase: {fileID: 11400000, guid: 97a885dd37204df4b9ec8f9a87faa93c, type: 2}
+    level: 49
+  - moveBase: {fileID: 11400000, guid: 7a00cc5cf95c65f418263a2f01ef1f34, type: 2}
+    level: 55
+  - moveBase: {fileID: 11400000, guid: 5f9abc3165071c146b9eb5fe1a795485, type: 2}
+    level: 61
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions: []

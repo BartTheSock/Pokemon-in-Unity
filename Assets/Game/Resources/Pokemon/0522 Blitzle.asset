@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0522 Blitzle
+  m_EditorClassIdentifier: 
+  pokemonName: Blitzle
+  pokemonDescription: Its heartbeat generates electricity. When Blitzle is surprised
+    and its heart rate goes up, the voltage of its electricity also rises.
+  frontSprite: {fileID: 21300000, guid: 14c29d9b0fa5e914cb0658761a22fe71, type: 3}
+  battleOffsetY: 6
+  backSprite: {fileID: 21300000, guid: 14bbbf1a8d2f97648b45093004fac683, type: 3}
+  iconSprite: {fileID: 21300000, guid: bb0f21cab792b04409eb444677622452, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: cd601f4588d3fc5408ad3a97413f9a17, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: e57ef4ba5f1b7a84ba44b650d4704fa4, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 13
+  pokemonType2: 0
+  ability1: 30
+  ability2: 98
+  hiddenAbility: 154
+  maxHP: 45
+  attack: 60
+  defense: 32
+  spAttack: 50
+  spDefense: 32
+  speed: 76
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 1
+  expYield: 59
+  growthRate: 2
+  catchRate: 190
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 0aed80ca2b175ae4eb92cdb7a15b3c98, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 743cecf0a3490854d8f38789b440b8a6, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: c3998be70d9e4fc4f95538cc4a36a8f3, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: 382be057ec1821e4999a0c1b70b91d6b, type: 2}
+    level: 11
+  - moveBase: {fileID: 11400000, guid: cd2f57390ff2e4243a4a9071ff0bfba7, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 1a7cdc8e2ace855499436ee335ff283d, type: 2}
+    level: 18
+  - moveBase: {fileID: 11400000, guid: 6dcd1ae88dcf03f4db2524065399cfb3, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: 18f9843c19944124fa0dc8b3fe0501e4, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: c787131ff7dc466459ec98cfe21e8e30, type: 2}
+    level: 29
+  - moveBase: {fileID: 11400000, guid: 7913c2e12d2f4ab4ea46bc57e7ad7fa0, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: eae96b657b521be4598511d5969ae235, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 4034664acf70c364881b411fb03de50c, type: 2}
+    level: 39
+  - moveBase: {fileID: 11400000, guid: 931a146a2c960fe478ff68baf8f3fe50, type: 2}
+    level: 43
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: cdc45a051d40abc478c031d7517ecf70, type: 2}
+    requiredLevel: 27
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

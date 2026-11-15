@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0679 Honedge
+  m_EditorClassIdentifier: 
+  pokemonName: Honedge
+  pokemonDescription: Honedge's soul once belonged to a person who was killed a long
+    time ago by the sword that makes up Honedge's body.
+  frontSprite: {fileID: 21300000, guid: 414fd13d0ee45584cbf9baa04dc3983d, type: 3}
+  battleOffsetY: -8
+  backSprite: {fileID: 21300000, guid: d91659bd6c8cf434ea0cd71310aea1c3, type: 3}
+  iconSprite: {fileID: 21300000, guid: 81af7c7c21bd3de428534ce601afe5f3, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 84ade89d085cff9439dba422496a0b91, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: d87d0f0b32e0840479596c1194ca8d99, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 9
+  pokemonType2: 8
+  ability1: 100
+  ability2: 100
+  hiddenAbility: 100
+  maxHP: 45
+  attack: 80
+  defense: 100
+  spAttack: 35
+  spDefense: 37
+  speed: 28
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 1
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 65
+  growthRate: 2
+  catchRate: 180
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: db7b6f047370e554daffb908bbfbc576, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: accb39c7dc1e6e5419347282b01702db, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 5b6d4c59f07c31e479b4097956453437, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: 6dcd1ae88dcf03f4db2524065399cfb3, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: 258bb79961bc2d145ae6f3fd8880329e, type: 2}
+    level: 18
+  - moveBase: {fileID: 11400000, guid: 5d7854d81d1669e458bcfef49107843d, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: d7e284b8b884bc340ae8b033ef861d47, type: 2}
+    level: 22
+  - moveBase: {fileID: 11400000, guid: ae9914eb3377bc347984d71f06757d6a, type: 2}
+    level: 26
+  - moveBase: {fileID: 11400000, guid: 1e107f2ef8dc04c439f8d93b42cf2e7e, type: 2}
+    level: 29
+  - moveBase: {fileID: 11400000, guid: 0b36e163fb5a62744932415882337a2c, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: 72b6e4ac8e8683a4086bac1bba7cd142, type: 2}
+    level: 35
+  - moveBase: {fileID: 11400000, guid: 004909bc0ec7abf4d84824d3976dc641, type: 2}
+    level: 39
+  - moveBase: {fileID: 11400000, guid: 699edcd9210796742845fc3f316600df, type: 2}
+    level: 42
+  - moveBase: {fileID: 11400000, guid: 273bbfde75426174385dc991c776e7cf, type: 2}
+    level: 47
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 9a3b03a63801beb40b6b7041fb374f67, type: 2}
+    requiredLevel: 35
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

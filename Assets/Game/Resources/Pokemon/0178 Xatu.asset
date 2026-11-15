@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0178 Xatu
+  m_EditorClassIdentifier: 
+  pokemonName: Xatu
+  pokemonDescription: "This odd Pok\xE9mon can see both the past and the future.
+    It eyes the sun's movement all day."
+  frontSprite: {fileID: 21300000, guid: 189417fa7700a9d4aba8a5b73bba49d8, type: 3}
+  battleOffsetY: 6
+  backSprite: {fileID: 21300000, guid: f76ef61f9b1ff2a459ca697b113c9ea4, type: 3}
+  iconSprite: {fileID: 21300000, guid: 1a6192e38c53507439f8862445785237, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 1a89b185e11d5cb4e970da1464910d19, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 9b455d218cd08ce4db480e61062007e2, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 14
+  pokemonType2: 3
+  ability1: 66
+  ability2: 14
+  hiddenAbility: 141
+  maxHP: 65
+  attack: 75
+  defense: 70
+  spAttack: 95
+  spDefense: 70
+  speed: 95
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 1
+  spDefenseEVYield: 0
+  speedEVYield: 1
+  expYield: 165
+  growthRate: 2
+  catchRate: 75
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 5cbe33111b749194e9472e43d77b5140, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: e82c9aa6c581cd14f8a3800400547e03, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 006cb1f0b35e01c4a87faced34f46920, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 81e21c577e069f54a9a6543b668f4ac6, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: c8f126278caf550448bee904a65dd571, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 12
+  - moveBase: {fileID: 11400000, guid: 10d9f56733f4dfc4e8960f44802f0c55, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 3b5a937544b2828489f1012a1bb05dce, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: 30e90e55fce413e43ae3f38945b08194, type: 2}
+    level: 23
+  - moveBase: {fileID: 11400000, guid: 9b3f4d0ff179a2b4d8d04d91fc2bbd2f, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: b785a5389ec42bd498f43b3002910412, type: 2}
+    level: 30
+  - moveBase: {fileID: 11400000, guid: 788b10408ac5639449945e72416e3f3f, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: eae96b657b521be4598511d5969ae235, type: 2}
+    level: 42
+  - moveBase: {fileID: 11400000, guid: 80bedd3e83410c54aa5bd738b6fbc47f, type: 2}
+    level: 47
+  - moveBase: {fileID: 11400000, guid: 672ed2da24ac9c943a50b5dcb4f5adfb, type: 2}
+    level: 54
+  - moveBase: {fileID: 11400000, guid: c52a1116f79bb0f4790ac4f9e9f3d9c9, type: 2}
+    level: 59
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

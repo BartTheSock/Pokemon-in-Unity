@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0598 Ferrothorn
+  m_EditorClassIdentifier: 
+  pokemonName: Ferrothorn
+  pokemonDescription: "This Pok\xE9mon scrapes its spikes across rocks, and then
+    uses the tips of its feelers to absorb the nutrients it finds within the stone."
+  frontSprite: {fileID: 21300000, guid: e7e6dec9ed74bdb4290917654083ca8a, type: 3}
+  battleOffsetY: 8
+  backSprite: {fileID: 21300000, guid: 232a7c2b5581b3c4b8317ba2ac618915, type: 3}
+  iconSprite: {fileID: 21300000, guid: 4283ebe0cfe505441afc5d1775514325, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 3ebe20ed79fd8954e8f80d99584a7590, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 7605e6a4495183649b54690794fd8b3d, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 12
+  pokemonType2: 9
+  ability1: 138
+  ability2: 138
+  hiddenAbility: 80
+  maxHP: 74
+  attack: 94
+  defense: 131
+  spAttack: 54
+  spDefense: 116
+  speed: 20
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 2
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 61
+  growthRate: 2
+  catchRate: 90
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: bffcd80745159bb418c8abc3d3485ece, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 35ea032e4fb54d34e991b2158d73f198, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 38965cc6552b4b948b8490cdc5008fa1, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e2e84a9c7637a694e9c53a16e06df1d8, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: aa9cb1499a4eaee4d8eb472d7514b354, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e2e84a9c7637a694e9c53a16e06df1d8, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: aa9cb1499a4eaee4d8eb472d7514b354, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: f8f2f247289f7b74099468f4238e7362, type: 2}
+    level: 14
+  - moveBase: {fileID: 11400000, guid: 1b1a21315cc720445be4e013f2827ca9, type: 2}
+    level: 18
+  - moveBase: {fileID: 11400000, guid: 412bddf0f9dcb7b4a9e9ea1b868c005d, type: 2}
+    level: 21
+  - moveBase: {fileID: 11400000, guid: 0b36e163fb5a62744932415882337a2c, type: 2}
+    level: 26
+  - moveBase: {fileID: 11400000, guid: 1f76bfe368633d243b0d160a9a06c567, type: 2}
+    level: 30
+  - moveBase: {fileID: 11400000, guid: 5269d90dd10eb394691878afaa467536, type: 2}
+    level: 35
+  - moveBase: {fileID: 11400000, guid: 77894fa3cad4a614c9fdc7e8d51eb441, type: 2}
+    level: 38
+  - moveBase: {fileID: 11400000, guid: 699edcd9210796742845fc3f316600df, type: 2}
+    level: 46
+  - moveBase: {fileID: 11400000, guid: 3e9b5f41dbc897541b2bb2d592f35c94, type: 2}
+    level: 53
+  - moveBase: {fileID: 11400000, guid: e711245e213de8c46a5436be9feb3fa2, type: 2}
+    level: 61
+  - moveBase: {fileID: 11400000, guid: 39cf006a0a2323c4cba89aaaa7a34e1e, type: 2}
+    level: 67
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: d7e284b8b884bc340ae8b033ef861d47, type: 2}
+  evolutions: []

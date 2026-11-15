@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0658 Greninja
+  m_EditorClassIdentifier: 
+  pokemonName: Greninja
+  pokemonDescription: "The movement of air against the long tongue Greninja keeps
+    wrapped around its neck allows it to sense enemies it can\u2019t see."
+  frontSprite: {fileID: 21300000, guid: 710c02b477d96274da9a4f47b9777f62, type: 3}
+  battleOffsetY: 11
+  backSprite: {fileID: 21300000, guid: 7d7b58eb9148be4479badc8e6bab74b4, type: 3}
+  iconSprite: {fileID: 21300000, guid: 990ce5259653d7a429fffb332dd0a7c7, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: bb869976a7df1a940972eb8c546979f1, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: f83d632af89e4a549a6497a74a9012b8, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 11
+  pokemonType2: 17
+  ability1: 68
+  ability2: 68
+  hiddenAbility: 185
+  maxHP: 72
+  attack: 95
+  defense: 67
+  spAttack: 103
+  spDefense: 71
+  speed: 122
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 3
+  expYield: 239
+  growthRate: 3
+  catchRate: 45
+  pokemonStatus: 2
+  genderRate: 2
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: d53fca6783659164386e0f0f4aa53746, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: e04721a68196017438cc68f20cd59b23, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2523d5b216f5a3f4383fad8f6f48b2ba, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 8d3e6d6e0e5986041bddd97d8c9786f8, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 0aed80ca2b175ae4eb92cdb7a15b3c98, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 8d3e6d6e0e5986041bddd97d8c9786f8, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: 0aed80ca2b175ae4eb92cdb7a15b3c98, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: 1dd60b9f9f4d3c14cb047e4e43a39560, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: caf657f6e408cb847892c3c2b479de29, type: 2}
+    level: 14
+  - moveBase: {fileID: 11400000, guid: 57ccd78ebe7edb447aadff44bebf8a02, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: 5d7854d81d1669e458bcfef49107843d, type: 2}
+    level: 23
+  - moveBase: {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: d7e284b8b884bc340ae8b033ef861d47, type: 2}
+    level: 33
+  - moveBase: {fileID: 11400000, guid: f9754b98b54142b48ad0bd185d7d741f, type: 2}
+    level: 42
+  - moveBase: {fileID: 11400000, guid: f50da39bc1a715742a170b45d434df06, type: 2}
+    level: 49
+  - moveBase: {fileID: 11400000, guid: b785a5389ec42bd498f43b3002910412, type: 2}
+    level: 56
+  - moveBase: {fileID: 11400000, guid: f792656126440ae4aa1f8703324c6dd2, type: 2}
+    level: 68
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 11400000, guid: 097b3746cabc52c428ac4c2303d4e9a5, type: 2}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

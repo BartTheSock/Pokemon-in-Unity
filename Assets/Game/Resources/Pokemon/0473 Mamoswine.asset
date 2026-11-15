@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0473 Mamoswine
+  m_EditorClassIdentifier: 
+  pokemonName: Mamoswine
+  pokemonDescription: "Its impressive tusks are made of ice. The ice age is over
+    and the climate has warmed, so this Pok\xE9mon's population has thinned."
+  frontSprite: {fileID: 21300000, guid: 9b381467aa2033f4285f505678b7409e, type: 3}
+  battleOffsetY: 6
+  backSprite: {fileID: 21300000, guid: 61fea61dec114b74a9d853e2cc7eb284, type: 3}
+  iconSprite: {fileID: 21300000, guid: b1c0e800c398e2f44b34a03aba4d975f, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 8ce7c323a05adb145af5cc13b8bab887, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: f438182771cb2e74f95df60886a2a44e, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 15
+  pokemonType2: 5
+  ability1: 38
+  ability2: 111
+  hiddenAbility: 67
+  maxHP: 110
+  attack: 130
+  defense: 80
+  spAttack: 70
+  spDefense: 60
+  speed: 80
+  HPEVYield: 0
+  attackEVYield: 3
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 265
+  growthRate: 4
+  catchRate: 50
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: 4e62cfed06a4bef44a9667d1fe01bdaf, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: e82c9aa6c581cd14f8a3800400547e03, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 1871e22a3da4d554a82a7d1d33db7c87, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 6149eab9d0fef0c4cb10bdc5041fb582, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 31540e49de4dd074981729fae4dab054, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 6149eab9d0fef0c4cb10bdc5041fb582, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 31540e49de4dd074981729fae4dab054, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: f15347f40225a3541916f0464a7aca5b, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: d58d615d25258854682b80cc7d823d42, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: ea627caaddcea5f40b64b5ad73b0e399, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: a846082cc4169d94e86fc21f2a5c3f50, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 13769e1b352836747a6291d6b3be9024, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: bf4780e00f962f74095dce363cb7bbf5, type: 2}
+    level: 33
+  - moveBase: {fileID: 11400000, guid: a142347348c64c34693f56489900fa7c, type: 2}
+    level: 40
+  - moveBase: {fileID: 11400000, guid: 699044c3bb514b341a472e2dc80d07ba, type: 2}
+    level: 48
+  - moveBase: {fileID: 11400000, guid: adc9de983e42a3c4caed8c2b27a864ca, type: 2}
+    level: 56
+  - moveBase: {fileID: 11400000, guid: c85b0fe3a6fad0247baf6e3ae00c605e, type: 2}
+    level: 60
+  - moveBase: {fileID: 11400000, guid: 7a7cc5fe208c841459298391ced14287, type: 2}
+    level: 65
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions: []

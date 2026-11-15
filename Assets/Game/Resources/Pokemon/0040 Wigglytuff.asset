@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0040 Wigglytuff
+  m_EditorClassIdentifier: 
+  pokemonName: Wigglytuff
+  pokemonDescription: Its fine fur feels sublime to the touch. It can expand its
+    body by inhaling air.
+  frontSprite: {fileID: 21300000, guid: 7d62ed465ce0e41408b73f1af1ff901f, type: 3}
+  battleOffsetY: 6
+  backSprite: {fileID: 21300000, guid: 6db94be945a2d784ea7fd161b9fd8373, type: 3}
+  iconSprite: {fileID: 21300000, guid: e63b3865399a2ec40b9c87ef6ebf2932, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 195f05217ce1ed640b4d39ffce0a5639, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: b97ea3c08b0319c49b4eff10dbc12be7, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 1
+  pokemonType2: 18
+  ability1: 10
+  ability2: 170
+  hiddenAbility: 87
+  maxHP: 140
+  attack: 70
+  defense: 45
+  spAttack: 85
+  spDefense: 50
+  speed: 45
+  HPEVYield: 3
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 218
+  growthRate: 1
+  catchRate: 50
+  pokemonStatus: 1
+  genderRate: 5
+  baseFriendship: 50
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 839f18effa8ef884bbb114b6be2880ad, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 69e5b2550809f774ab0be589cd080ead, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: b237bf6ded2821a478dd55d15a79ba1b, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 757cd6b987f8540439d7e0d9b42969fd, type: 2}
+    level: 1
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions: []

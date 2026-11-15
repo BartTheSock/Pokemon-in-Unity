@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0737 Charjabug
+  m_EditorClassIdentifier: 
+  pokemonName: Charjabug
+  pokemonDescription: While its durable shell protects it from attacks, Charjabug
+    strikes at enemies with jolts of electricity discharged from the tips of its
+    jaws.
+  frontSprite: {fileID: 21300000, guid: a75512173a72f724dbde8a967062d74f, type: 3}
+  battleOffsetY: 18
+  backSprite: {fileID: 21300000, guid: de68839854d00304e8c07412217af094, type: 3}
+  iconSprite: {fileID: 21300000, guid: bd90d5954903063439702b74d16f3d39, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 7323d3e2026766c4fbce1588b5c90b5c, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 26b8a6d60f39b1946899461f8da2a03a, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 7
+  pokemonType2: 13
+  ability1: 192
+  ability2: 192
+  hiddenAbility: 192
+  maxHP: 57
+  attack: 82
+  defense: 95
+  spAttack: 55
+  spDefense: 75
+  speed: 36
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 2
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 140
+  growthRate: 2
+  catchRate: 120
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: c3998be70d9e4fc4f95538cc4a36a8f3, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 3d7aa09f31ba7b94cbcdeda4f7c373d7, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: ef6e04d2c450be54fac0656768fb229d, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: ef6e04d2c450be54fac0656768fb229d, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: f47444127fa6ede4a9367dbaf9625448, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: 18f9843c19944124fa0dc8b3fe0501e4, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 34c6f8c667be5e148afdab9421e2ee11, type: 2}
+    level: 19
+  - moveBase: {fileID: 11400000, guid: 43eb4537295bb09449c147a0e7b70c62, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 18b51685563539845898b7e3e83392ad, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: d92179d1243053f448d57343c58589a4, type: 2}
+    level: 37
+  - moveBase: {fileID: 11400000, guid: 7913c2e12d2f4ab4ea46bc57e7ad7fa0, type: 2}
+    level: 43
+  - moveBase: {fileID: 11400000, guid: 0b36e163fb5a62744932415882337a2c, type: 2}
+    level: 49
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 22769e4f34c7a494585a0d873f914434, type: 2}
+    requiredLevel: 110
+    requiredItem: {fileID: 11400000, guid: 17e673a0c56bf31499980d8044f73241, type: 2}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

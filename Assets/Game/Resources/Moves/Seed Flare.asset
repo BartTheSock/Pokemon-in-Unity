@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 949a9766d2753df4d9b25a9bbb0b5435, type: 3}
+  m_Name: Seed Flare
+  m_EditorClassIdentifier: 
+  moveName: Seed Flare
+  moveDescription: The user emits a shock wave from its body to attack its target.
+    This may also harshly lower the target's Sp. Def stat.
+  moveType: 12
+  power: 120
+  accuracy: 85
+  alwaysHits: 0
+  pp: 5
+  priority: 0
+  highCriticalHitRatio: 0
+  alwaysCriticalHit: 0
+  recoilPercent: 0
+  damageType: 0
+  category: 1
+  effects:
+    boosts: []
+    status: 0
+    volatileStatus: 0
+    weather: 0
+    healUser: 0
+    recoil: 0
+  secondaryEffects:
+  - boosts:
+    - stat: 3
+      boost: -2
+    status: 0
+    volatileStatus: 0
+    weather: 0
+    healUser: 0
+    recoil: 0
+    chance: 40
+    target: 0
+  target: 0
+  hitRange: {x: 0, y: 0}
+  sound: {fileID: 0}
+  flags: 

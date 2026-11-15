@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0375 Metang
+  m_EditorClassIdentifier: 
+  pokemonName: Metang
+  pokemonDescription: It is formed by two Beldum joining together. Its steel body
+    won't be scratched if it collides with a jet.
+  frontSprite: {fileID: 21300000, guid: 2331bceb83bfaad469a8203957ff23d5, type: 3}
+  battleOffsetY: -8
+  backSprite: {fileID: 21300000, guid: e626b3eec8c77db4aafbac517eafc3f5, type: 3}
+  iconSprite: {fileID: 21300000, guid: 6bdb77eed40068c46bc0d977667f4b97, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 4ea9a349992c18e47924a2089e74704a, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 336c6b11ccf540c4ebed6515a068b42e, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 9
+  pokemonType2: 14
+  ability1: 6
+  ability2: 6
+  hiddenAbility: 140
+  maxHP: 60
+  attack: 75
+  defense: 100
+  spAttack: 55
+  spDefense: 80
+  speed: 50
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 2
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 147
+  growthRate: 4
+  catchRate: 30
+  pokemonStatus: 3
+  genderRate: 0
+  baseFriendship: 35
+  moveLearnedUponEvolution: {fileID: 11400000, guid: f8f2f247289f7b74099468f4238e7362, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 13769e1b352836747a6291d6b3be9024, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 10d9f56733f4dfc4e8960f44802f0c55, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: f8f2f247289f7b74099468f4238e7362, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 10d9f56733f4dfc4e8960f44802f0c55, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: 7a7cc5fe208c841459298391ced14287, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: 6dcd1ae88dcf03f4db2524065399cfb3, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 5cbb9147dc349894f9e563f7ba54bd21, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: c52a1116f79bb0f4790ac4f9e9f3d9c9, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 0b36e163fb5a62744932415882337a2c, type: 2}
+    level: 40
+  - moveBase: {fileID: 11400000, guid: eae96b657b521be4598511d5969ae235, type: 2}
+    level: 44
+  - moveBase: {fileID: 11400000, guid: e9d95cfe61f49af42becf5691d2ca4ab, type: 2}
+    level: 48
+  - moveBase: {fileID: 11400000, guid: 4bde7e52c6949354b8862ac339943819, type: 2}
+    level: 52
+  - moveBase: {fileID: 11400000, guid: 23229976a9e108640b678af201609a5a, type: 2}
+    level: 56
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 11400000, guid: 2f2d80b55cbf79640b84796f4b142d1e, type: 2}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 11400000, guid: d7e284b8b884bc340ae8b033ef861d47, type: 2}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: e670b762ffd48024383398c3275f7358, type: 2}
+    requiredLevel: 45
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0600 Klang
+  m_EditorClassIdentifier: 
+  pokemonName: Klang
+  pokemonDescription: A minigear and big gear comprise its body. If the minigear
+    it launches at a foe doesn't return, it will die.
+  frontSprite: {fileID: 21300000, guid: bd0ace5163eac014a890aed95af72bf9, type: 3}
+  battleOffsetY: -4
+  backSprite: {fileID: 21300000, guid: 4e3ccc85435ed0747b6dbd674c470e04, type: 3}
+  iconSprite: {fileID: 21300000, guid: 28265b96f213d2b4fa929590508884ea, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 923940069a6484e42b15c59a1aea4019, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: dfc0a0d1653bd5d419820b3cacbb7e90, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 9
+  pokemonType2: 0
+  ability1: 42
+  ability2: 36
+  hiddenAbility: 6
+  maxHP: 60
+  attack: 80
+  defense: 95
+  spAttack: 70
+  spDefense: 85
+  speed: 50
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 2
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 154
+  growthRate: 3
+  catchRate: 60
+  pokemonStatus: 0
+  genderRate: 0
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 3d7aa09f31ba7b94cbcdeda4f7c373d7, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: c3998be70d9e4fc4f95538cc4a36a8f3, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: a14dbb6d7f6b9a446bf31748a1106291, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 0bbc9cd645ef2964fb0871bfa999501e, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: c3998be70d9e4fc4f95538cc4a36a8f3, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: a14dbb6d7f6b9a446bf31748a1106291, type: 2}
+    level: 11
+  - moveBase: {fileID: 11400000, guid: 0bbc9cd645ef2964fb0871bfa999501e, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: fb3c884f86acce043a1527451c6374e4, type: 2}
+    level: 21
+  - moveBase: {fileID: 11400000, guid: 1ce3b19c21b12514f931bd44b59ac130, type: 2}
+    level: 26
+  - moveBase: {fileID: 11400000, guid: 258bb79961bc2d145ae6f3fd8880329e, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: 1f76bfe368633d243b0d160a9a06c567, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 058d2ea14181c284e957d6515d7ec0e8, type: 2}
+    level: 40
+  - moveBase: {fileID: 11400000, guid: 7913c2e12d2f4ab4ea46bc57e7ad7fa0, type: 2}
+    level: 44
+  - moveBase: {fileID: 11400000, guid: 5b6d4c59f07c31e479b4097956453437, type: 2}
+    level: 48
+  - moveBase: {fileID: 11400000, guid: decfa7f385184024686d102d503c12fa, type: 2}
+    level: 52
+  - moveBase: {fileID: 11400000, guid: 88297976916507d44a02f1fc60809167, type: 2}
+    level: 56
+  - moveBase: {fileID: 11400000, guid: 6971aacca6821f947a4bc12e7d09f51c, type: 2}
+    level: 60
+  - moveBase: {fileID: 11400000, guid: 23229976a9e108640b678af201609a5a, type: 2}
+    level: 64
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 8b04b62ad38cf694593a9fab8a554336, type: 2}
+    requiredLevel: 49
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0293 Whismur
+  m_EditorClassIdentifier: 
+  pokemonName: Whismur
+  pokemonDescription: Usually, its cries are like quiet murmurs. If frightened, it
+    shrieks at the same volume as a jet plane.
+  frontSprite: {fileID: 21300000, guid: 6f6825d20f8349b4a90b2204cd91d40b, type: 3}
+  battleOffsetY: 14
+  backSprite: {fileID: 21300000, guid: 7a2f97da0453dba4f969048ce9222b94, type: 3}
+  iconSprite: {fileID: 21300000, guid: 598d0a3308607664c9b7ae7a877f3b05, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: fe961b85184f1e54a96b027924099a03, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 8be4be33444a1354ab28b43b15665efa, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 1
+  pokemonType2: 0
+  ability1: 57
+  ability2: 57
+  hiddenAbility: 150
+  maxHP: 64
+  attack: 51
+  defense: 23
+  spAttack: 51
+  spDefense: 23
+  speed: 28
+  HPEVYield: 1
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 48
+  growthRate: 3
+  catchRate: 190
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 0}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: e04721a68196017438cc68f20cd59b23, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 7eed7dba9bf879745bd9b027ed6cabfc, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: afaa8be75500ef441a7a8dc94ec8ff60, type: 2}
+    level: 11
+  - moveBase: {fileID: 11400000, guid: 7365dc93dfad88548b3097486dd51785, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: ce1a0f1c44eb65e4584ca6a04aa1df6a, type: 2}
+    level: 21
+  - moveBase: {fileID: 11400000, guid: c787131ff7dc466459ec98cfe21e8e30, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 058d2ea14181c284e957d6515d7ec0e8, type: 2}
+    level: 31
+  - moveBase: {fileID: 11400000, guid: e9ca2f245ef2fcc409b477a0c3dd886f, type: 2}
+    level: 35
+  - moveBase: {fileID: 11400000, guid: cddc6d7096a2f4541b91e49e5e88447b, type: 2}
+    level: 41
+  - moveBase: {fileID: 11400000, guid: 4e4579ba7cf92714aafdd36dffbe08b3, type: 2}
+    level: 45
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 1bf3c9d8c022c6e4a88165e7af576f5f, type: 2}
+    requiredLevel: 20
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 0

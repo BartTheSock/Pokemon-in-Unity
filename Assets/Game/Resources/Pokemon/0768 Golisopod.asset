@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0768 Golisopod
+  m_EditorClassIdentifier: Assembly-CSharp::PokemonBase
+  pokemonName: Golisopod
+  pokemonDescription: It will do anything to win, taking advantage of every opening
+    and finishing opponents off with the small claws on its front legs.
+  frontSprite: {fileID: 21300000, guid: 71ff08de96b547449ac3c261aead4114, type: 3}
+  battleOffsetY: 4
+  backSprite: {fileID: 21300000, guid: 285ef954a49eaf14aa2eda2d644a2189, type: 3}
+  iconSprite: {fileID: 21300000, guid: 7b0abd41c4dec3e449b3e17bec072e9d, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 50ab81fc13f6b4b4dac07d33ab024ebd, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 86201fe567b565b48a9a6bdd04128eae, type: 3}
+  pokemonType1: 7
+  pokemonType2: 11
+  ability1: 202
+  ability2: 202
+  hiddenAbility: 202
+  maxHP: 75
+  attack: 125
+  defense: 140
+  spAttack: 60
+  spDefense: 90
+  speed: 40
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 2
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 0
+  expYield: 186
+  growthRate: 2
+  catchRate: 45
+  pokemonStatus: 1
+  genderRate: 4
+  baseFriendship: 50
+  moveLearnedUponEvolution: {fileID: 11400000, guid: f61d49a65b0235e449f94e30c871b3d8, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: fa003f39688f3844a9203e730ccb8874, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 486133dbc88798f488f17dfbcf05ec57, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: b237bf6ded2821a478dd55d15a79ba1b, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: d4f9a8efa3eb2a6468ff0f7f671ae932, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: accb39c7dc1e6e5419347282b01702db, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: 699044c3bb514b341a472e2dc80d07ba, type: 2}
+    level: 12
+  - moveBase: {fileID: 11400000, guid: f47444127fa6ede4a9367dbaf9625448, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 0b36e163fb5a62744932415882337a2c, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: 97a885dd37204df4b9ec8f9a87faa93c, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: 1e107f2ef8dc04c439f8d93b42cf2e7e, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 03a0f9a1cc6145043a288c7c1e66a2a7, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: 1b1a21315cc720445be4e013f2827ca9, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: db7b6f047370e554daffb908bbfbc576, type: 2}
+    level: 40
+  - moveBase: {fileID: 11400000, guid: 39d792f0b046cb34bb4f440bd4f0e639, type: 2}
+    level: 44
+  learnableByItems:
+  - {fileID: 11400000, guid: e1dcc24ec3466ed4cb427f89d2892dee, type: 2}
+  - {fileID: 11400000, guid: 097b3746cabc52c428ac4c2303d4e9a5, type: 2}
+  - {fileID: 11400000, guid: b55250e0302511b4f94b532c3a433d43, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 839f3edb5277e5c4b83ba6be7051e80e, type: 2}
+  - {fileID: 11400000, guid: a8d64fdc6af32d54a88920afac14ed6a, type: 2}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 11400000, guid: d7e284b8b884bc340ae8b033ef861d47, type: 2}
+  evolutions: []

@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4766610d4bd047ae186994c1add7a, type: 3}
+  m_Name: 0042 Golbat
+  m_EditorClassIdentifier: 
+  pokemonName: Golbat
+  pokemonDescription: "It loves the blood of humans and Pok\xE9mon. It flies around
+    at night in search of neck veins."
+  frontSprite: {fileID: 21300000, guid: 5f59bc841ba30754baf3d344685688b8, type: 3}
+  battleOffsetY: -8
+  backSprite: {fileID: 21300000, guid: 49f7e14ccf49f52489e9b0b0c5891634, type: 3}
+  iconSprite: {fileID: 21300000, guid: d2b8f7f1f904c6841b0a5583a12d359f, type: 3}
+  shinyFrontSprite: {fileID: 21300000, guid: 81e8891de0603f64f9fc89c8f8649933, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 08c498318529f2345af520ed5305a408, type: 3}
+  arachnid: 0
+  altFrontSprite: {fileID: 0}
+  altBattleOffsetY: 0
+  altBackSprite: {fileID: 0}
+  altIconSprite: {fileID: 0}
+  altShinyFrontSprite: {fileID: 0}
+  altShinyBackSprite: {fileID: 0}
+  pokemonType1: 4
+  pokemonType2: 3
+  ability1: 25
+  ability2: 25
+  hiddenAbility: 137
+  maxHP: 75
+  attack: 80
+  defense: 70
+  spAttack: 65
+  spDefense: 75
+  speed: 90
+  HPEVYield: 0
+  attackEVYield: 0
+  defenseEVYield: 0
+  spAttackEVYield: 0
+  spDefenseEVYield: 0
+  speedEVYield: 2
+  expYield: 159
+  growthRate: 2
+  catchRate: 90
+  pokemonStatus: 0
+  genderRate: 4
+  baseFriendship: 70
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 058d2ea14181c284e957d6515d7ec0e8, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: dfa8c6a33e3023349b0d66e6d2091c22, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: ce1a0f1c44eb65e4584ca6a04aa1df6a, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: afaa8be75500ef441a7a8dc94ec8ff60, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: ce1a0f1c44eb65e4584ca6a04aa1df6a, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: afaa8be75500ef441a7a8dc94ec8ff60, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: 6f643e6e9db5bcb49994623a54877a4f, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: 3b5a937544b2828489f1012a1bb05dce, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 30e90e55fce413e43ae3f38945b08194, type: 2}
+    level: 21
+  - moveBase: {fileID: 11400000, guid: ae9914eb3377bc347984d71f06757d6a, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: 44cb47f602ed4e940a2ad70816afebb6, type: 2}
+    level: 33
+  - moveBase: {fileID: 11400000, guid: 01be77afa4cde334ba5aa213be69b4b6, type: 2}
+    level: 39
+  - moveBase: {fileID: 11400000, guid: 058d2ea14181c284e957d6515d7ec0e8, type: 2}
+    level: 45
+  - moveBase: {fileID: 11400000, guid: 5cbe33111b749194e9472e43d77b5140, type: 2}
+    level: 51
+  learnableByItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 417de78c96aca004e97b75f9324c83d9, type: 2}
+  - {fileID: 0}
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: c7914ff50439e88439dfd3ba18b628d9, type: 2}
+    requiredLevel: 0
+    requiredItem: {fileID: 0}
+    requiredMove: {fileID: 0}
+    friendshipRequired: 1
