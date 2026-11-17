@@ -529,8 +529,6 @@
 "Assets/Scripts/Utilities/SpriteAnimator.cs"
 "Assets/Scripts/Utilities/StateMachine/State.cs"
 "Assets/Scripts/Utilities/StateMachine/StateMachine.cs"
-"Assets/Scripts/Utilities/Updater.cs"
-"Assets/Scripts/Utilities/Version_UI.cs"
 -langversion:9.0
 /deterministic
 /optimize+

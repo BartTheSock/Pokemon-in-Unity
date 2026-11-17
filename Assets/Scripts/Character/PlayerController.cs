@@ -30,6 +30,7 @@ public class PlayerController : MonoBehaviour, ISavable
     public int stepsUntilFriendshipBoost;
     [HideInInspector]
     public int pokemonLevelCap;
+    private int moveTimer;
 
     string playerName;
     Sprite playerSprite;
@@ -72,6 +73,7 @@ public class PlayerController : MonoBehaviour, ISavable
         repelStepsRemaining = -1;
         stepsUntilFriendshipBoost = 128;
         pokemonLevelCap = 16;
+        moveTimer = 0;
     }
 
     public void HandleUpdate()
@@ -96,8 +98,22 @@ public class PlayerController : MonoBehaviour, ISavable
         if (!character.IsMoving)
         {
             if (moveInput != Vector2.zero)
-                StartCoroutine(character.Move(moveInput, OnMoveOver));
+            {
+                moveTimer++;
+                if (moveTimer >= 60 || moveInput == new Vector2(character.Animator.MoveX, character.Animator.MoveY))
+                {
+                    if (moveTimer < 60)
+                        moveTimer = 60;
+                    StartCoroutine(character.Move(moveInput, OnMoveOver));
+                }
+                else
+                    character.LookTowards(new Vector2(transform.position.x, transform.position.y) + moveInput);
+            }
+            else
+                moveTimer = 0;
         }
+        else
+            moveTimer++;
 
         character.HandleUpdate();
 
@@ -142,7 +158,7 @@ public class PlayerController : MonoBehaviour, ISavable
         {
             var facingDirection = new Vector3(character.Animator.MoveX, character.Animator.MoveY);
             var interactPosition = transform.position + facingDirection;
-            var collider = Physics2D.OverlapCircle(interactPosition - new Vector3(0, character.npcOffsetY), 0.2f, GameLayers.i.StrengthBoulderLayer);
+            var collider = Physics2D.OverlapCircle(interactPosition - new Vector3(0, character.playerOffsetY), 0.2f, GameLayers.i.StrengthBoulderLayer);
             
             if (collider != null && !collider.GetComponent<Interactable>().IsMoving)
                 StartCoroutine(collider.GetComponent<Interactable>()?.Move(new Vector2(character.Animator.MoveX, character.Animator.MoveY), true));
@@ -238,6 +254,17 @@ public class PlayerController : MonoBehaviour, ISavable
     }
 
     public Character Character => character;
+
+    /*
+    private void OnGUI()
+    {
+        var style = new GUIStyle();
+        style.fontSize = 30;
+        style.normal.textColor = Color.white;
+
+        GUILayout.Label($"MoveTimer: {moveTimer}", style);
+    }
+    */
 }
 
 public enum SaveSlotID { SaveSlot1, SaveSlot2, SaveSlot3 }

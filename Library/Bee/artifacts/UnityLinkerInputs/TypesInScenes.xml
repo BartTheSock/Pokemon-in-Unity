@@ -114,9 +114,7 @@
 		<type fullname="TrainerFOV" preserve="nothing"/>
 		<type fullname="TreasureItem" preserve="nothing"/>
 		<type fullname="TroutbeckTownFountain" preserve="nothing"/>
-		<type fullname="Updater" preserve="nothing"/>
 		<type fullname="UseItemState" preserve="nothing"/>
-		<type fullname="Version_UI" preserve="nothing"/>
 		<type fullname="Wallet" preserve="nothing"/>
 		<type fullname="WalletUI" preserve="nothing"/>
 	</assembly>

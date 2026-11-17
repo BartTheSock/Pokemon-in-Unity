@@ -67,7 +67,6 @@
     <Compile Include="Assets\Scripts\Data\AbilitiesDB.cs" />
     <Compile Include="Assets\Scripts\Items\KeyItem.cs" />
     <Compile Include="Assets\Scripts\SceneManagement\SceneReference.cs" />
-    <Compile Include="Assets\Scripts\Utilities\Version_UI.cs" />
     <Compile Include="Assets\Scripts\UI\Camera\AspectRatioController.cs" />
     <Compile Include="Assets\MainGameControls.cs" />
     <Compile Include="Assets\Scripts\Gameplay\PokemonStaticEncounter.cs" />
@@ -135,7 +134,6 @@
     <Compile Include="Assets\Scripts\UI\MainMenuController.cs" />
     <Compile Include="Assets\Scripts\Pokemon\Pokemon.cs" />
     <Compile Include="Assets\Scripts\Pokemon\PokemonParty.cs" />
-    <Compile Include="Assets\Scripts\Utilities\Updater.cs" />
     <Compile Include="Assets\Scripts\Data\QuestDB.cs" />
     <Compile Include="Assets\Scripts\Data\MoveDB.cs" />
     <Compile Include="Assets\Scripts\GameStates\PartyState.cs" />
